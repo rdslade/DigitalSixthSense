@@ -69,8 +69,6 @@ Discarded input sections
                 0x00000000       0xb0 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_tx_complete
                 0x00000000       0x90 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .text.MSS_UART_get_rx
-                0x00000000       0xdc C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_enable_irq
                 0x00000000       0x7c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_disable_irq
@@ -149,7 +147,7 @@ END GROUP
                 0x20010000                PROVIDE (_estack, __main_stack_start)
                 0x00000000                PROVIDE (__mirrored_nvm, 0x0)
 
-.text           0x20000000      0xd54
+.text           0x20000000      0xe4c
  CREATE_OBJECT_SYMBOLS
                 0x20000000                __text_load = LOADADDR (.text)
                 0x20000000                __text_start = .
@@ -311,36 +309,39 @@ END GROUP
                 0x20000438                ACE_PPE_Flag31_IRQHandler
  *(.text .text.* .gnu.linkonce.t.*)
  .text          0x20000470       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
- .text.main     0x200004a0       0x48 ./uart_tfmini.o
+ .text.main     0x200004a0       0x64 ./uart_tfmini.o
                 0x200004a0                main
  .text.NVIC_ClearPendingIRQ
-                0x200004e8       0x3c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000504       0x3c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_init
-                0x20000524      0x204 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000524                MSS_UART_init
+                0x20000540      0x204 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000540                MSS_UART_init
  .text.MSS_UART_polled_tx
-                0x20000728       0xe4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000728                MSS_UART_polled_tx
+                0x20000744       0xe4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000744                MSS_UART_polled_tx
+ .text.MSS_UART_get_rx
+                0x20000828       0xdc C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000828                MSS_UART_get_rx
  .text.MSS_UART_isr
-                0x2000080c      0x11c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000904      0x11c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.default_tx_handler
-                0x20000928      0x108 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000a20      0x108 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.UART0_IRQHandler
-                0x20000a30       0x2c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000a30                UART0_IRQHandler
+                0x20000b28       0x2c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000b28                UART0_IRQHandler
  .text.UART1_IRQHandler
-                0x20000a5c       0x2c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000a5c                UART1_IRQHandler
+                0x20000b54       0x2c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000b54                UART1_IRQHandler
  .text.SystemInit
-                0x20000a88        0xc C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000a88                SystemInit
+                0x20000b80        0xc C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000b80                SystemInit
  .text.SystemCoreClockUpdate
-                0x20000a94      0x150 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000a94                SystemCoreClockUpdate
+                0x20000b8c      0x150 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000b8c                SystemCoreClockUpdate
  .text.GetSystemClock
-                0x20000be4       0xe8 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
- .text          0x20000ccc       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
-                0x20000ccc                __libc_init_array
+                0x20000cdc       0xe8 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x20000dc4       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x20000dc4                __libc_init_array
  *(.plt)
  *(.gnu.warning)
  *(.glue_7t)
@@ -349,7 +350,7 @@ END GROUP
  .glue_7        0x00000000        0x0 linker stubs
  *(.vfp11_veneer)
  .vfp11_veneer  0x00000000        0x0 linker stubs
-                0x20000d1c                . = ALIGN (0x4)
+                0x20000e14                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
@@ -359,106 +360,106 @@ END GROUP
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata.C.18.2633
-                0x20000d1c        0x8 ./uart_tfmini.o
+ .rodata.C.18.2635
+                0x20000e14        0x8 ./uart_tfmini.o
  .rodata.C.18.2576
-                0x20000d24       0x10 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000e1c       0x10 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  *(.gcc_except_table)
  *(.eh_frame_hdr)
  *(.eh_frame)
  *(.init)
- .init          0x20000d34        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
-                0x20000d34                _init
- .init          0x20000d38        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .init          0x20000e2c        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20000e2c                _init
+ .init          0x20000e30        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
  *(.fini)
- .fini          0x20000d40        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
-                0x20000d40                _fini
- .fini          0x20000d44        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
-                0x20000d4c                PROVIDE (__preinit_array_start, .)
+ .fini          0x20000e38        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20000e38                _fini
+ .fini          0x20000e3c        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x20000e44                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x20000d4c                PROVIDE (__preinit_array_end, .)
-                0x20000d4c                PROVIDE (__init_array_start, .)
+                0x20000e44                PROVIDE (__preinit_array_end, .)
+                0x20000e44                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x20000d4c        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
-                0x20000d50                PROVIDE (__init_array_end, .)
-                0x20000d50                PROVIDE (__fini_array_start, .)
+ .init_array    0x20000e44        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x20000e48                PROVIDE (__init_array_end, .)
+                0x20000e48                PROVIDE (__fini_array_start, .)
  *(.fini_array)
- .fini_array    0x20000d50        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .fini_array    0x20000e48        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
  *(SORT(.fini_array.*))
-                0x20000d54                PROVIDE (__fini_array_end, .)
-                0x20000d54                __exidx_start = .
+                0x20000e4c                PROVIDE (__fini_array_end, .)
+                0x20000e4c                __exidx_start = .
 
-.v4_bx          0x20000d54        0x0
+.v4_bx          0x20000e4c        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x20000d54                __exidx_end = .
-                0x20000d54                _etext = .
-                0x20000d54                PROVIDE (__text_end, .)
+                0x20000e4c                __exidx_end = .
+                0x20000e4c                _etext = .
+                0x20000e4c                PROVIDE (__text_end, .)
 
-.data           0x20000d54       0x1c
-                0x20000d54                __data_load = LOADADDR (.data)
-                0x20000d54                _sidata = LOADADDR (.data)
-                0x20000d54                __data_start = .
-                0x20000d54                _sdata = .
+.data           0x20000e4c       0x1c
+                0x20000e4c                __data_load = LOADADDR (.data)
+                0x20000e4c                _sidata = LOADADDR (.data)
+                0x20000e4c                __data_start = .
+                0x20000e4c                _sdata = .
  *(.jcr)
- .jcr           0x20000d54        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
- .jcr           0x20000d54        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .jcr           0x20000e4c        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20000e4c        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
  *(.got.plt)
  *(.got)
  *(.shdata)
  *(.data .data.* .gnu.linkonce.d.*)
  .data.SystemFrequency
-                0x20000d58        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000d58                SystemFrequency
+                0x20000e50        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000e50                SystemFrequency
  .data.SystemCoreClock
-                0x20000d5c        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000d5c                SystemCoreClock
+                0x20000e54        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000e54                SystemCoreClock
  .data.g_FrequencyPCLK0
-                0x20000d60        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000d60                g_FrequencyPCLK0
+                0x20000e58        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000e58                g_FrequencyPCLK0
  .data.g_FrequencyPCLK1
-                0x20000d64        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000d64                g_FrequencyPCLK1
+                0x20000e5c        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000e5c                g_FrequencyPCLK1
  .data.g_FrequencyACE
-                0x20000d68        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000d68                g_FrequencyACE
+                0x20000e60        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000e60                g_FrequencyACE
  .data.g_FrequencyFPGA
-                0x20000d6c        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000d6c                g_FrequencyFPGA
-                0x20000d70                . = ALIGN (0x4)
-                0x20000d70                _edata = .
+                0x20000e64        0x4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000e64                g_FrequencyFPGA
+                0x20000e68                . = ALIGN (0x4)
+                0x20000e68                _edata = .
 
-.bss            0x20000d70       0x58
-                0x20000d70                __bss_start__ = .
-                0x20000d70                _sbss = .
+.bss            0x20000e68       0x58
+                0x20000e68                __bss_start__ = .
+                0x20000e68                _sbss = .
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x20000d70        0x1 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .bss           0x20000e68        0x1 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
  *(COMMON)
- *fill*         0x20000d71        0x3 00
- COMMON         0x20000d74       0x50 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000d74                g_mss_uart1
-                0x20000d9c                g_mss_uart0
-                0x20000dc8                . = ALIGN (0x8)
- *fill*         0x20000dc4        0x4 00
-                0x20000dc8                __bss_end__ = .
-                0x20000dc8                _end = .
-                0x20000dc8                __end = _end
-                0x20000dc8                _ebss = .
-                0x20000dc8                PROVIDE (end, .)
+ *fill*         0x20000e69        0x3 00
+ COMMON         0x20000e6c       0x50 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000e6c                g_mss_uart1
+                0x20000e94                g_mss_uart0
+                0x20000ec0                . = ALIGN (0x8)
+ *fill*         0x20000ebc        0x4 00
+                0x20000ec0                __bss_end__ = .
+                0x20000ec0                _end = .
+                0x20000ec0                __end = _end
+                0x20000ec0                _ebss = .
+                0x20000ec0                PROVIDE (end, .)
 
-.stack          0x20000dc8     0x3000
-                0x20000dc8                . = ALIGN (0x4)
-                0x20001dc8                . = (. + PROCESS_STACK_SIZE)
- *fill*         0x20000dc8     0x1000 00
-                0x20001dc8                . = ALIGN (0x4)
-                0x20003dc8                . = (. + MAIN_STACK_SIZE)
- *fill*         0x20001dc8     0x2000 00
-                0x20003dc8                . = ALIGN (0x4)
+.stack          0x20000ec0     0x3000
+                0x20000ec0                . = ALIGN (0x4)
+                0x20001ec0                . = (. + PROCESS_STACK_SIZE)
+ *fill*         0x20000ec0     0x1000 00
+                0x20001ec0                . = ALIGN (0x4)
+                0x20003ec0                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x20001ec0     0x2000 00
+                0x20003ec0                . = ALIGN (0x4)
 
 .stab
  *(.stab)
@@ -507,12 +508,12 @@ END GROUP
  .debug_pubnames
                 0x00000322       0xb4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_info     0x00000000     0x2c71
+.debug_info     0x00000000     0x2c9d
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0xad2 ./uart_tfmini.o
- .debug_info    0x00000ad2      0x6bf C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_info    0x00001191     0x15a4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_info    0x00002735      0x53c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_info    0x00000000      0xafe ./uart_tfmini.o
+ .debug_info    0x00000afe      0x6bf C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x000011bd     0x15a4 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_info    0x00002761      0x53c C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_abbrev   0x00000000      0x5e5
  *(.debug_abbrev)
@@ -521,12 +522,12 @@ END GROUP
  .debug_abbrev  0x0000028f      0x245 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .debug_abbrev  0x000004d4      0x111 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_line     0x00000000      0xe97
+.debug_line     0x00000000      0xe98
  *(.debug_line)
- .debug_line    0x00000000      0x24f ./uart_tfmini.o
- .debug_line    0x0000024f      0x458 C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_line    0x000006a7      0x575 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_line    0x00000c1c      0x27b C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_line    0x00000000      0x250 ./uart_tfmini.o
+ .debug_line    0x00000250      0x458 C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x000006a8      0x575 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_line    0x00000c1d      0x27b C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_frame    0x00000000      0x5e0
  *(.debug_frame)
@@ -539,11 +540,11 @@ END GROUP
 
 .debug_str      0x00000000     0x1788
  *(.debug_str)
- .debug_str     0x00000000      0xe13 ./uart_tfmini.o
-                                0xe82 (size before relaxing)
- .debug_str     0x00000e13      0x256 C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_str     0x00000000      0xe23 ./uart_tfmini.o
+                                0xe92 (size before relaxing)
+ .debug_str     0x00000e23      0x256 C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
                                 0x327 (size before relaxing)
- .debug_str     0x00001069      0x628 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_str     0x00001079      0x618 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_uart.o)
                                0x14b8 (size before relaxing)
  .debug_str     0x00001691       0xf7 C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
                                 0x45b (size before relaxing)

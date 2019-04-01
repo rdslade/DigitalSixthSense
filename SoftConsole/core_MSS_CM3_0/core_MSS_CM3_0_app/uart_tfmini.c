@@ -14,4 +14,9 @@ int main()
     uint8_t setup_buffer[8] = {0x42, 0x57, 0x02, 0x00, 0x00, 0x00, 0x01, 0x06};
 
     MSS_UART_polled_tx( &g_mss_uart1, setup_buffer, sizeof(setup_buffer) );
+
+    uint8_t rx_buff[8];
+
+    int rx_size = MSS_UART_get_rx( &g_mss_uart1, rx_buff, sizeof(rx_buff) );
+
 }
