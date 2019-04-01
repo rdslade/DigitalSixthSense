@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Mon Apr 01 13:39:51 2019
+Project   :  C:\Users\rdslade\Desktop\DigitalSixthSense
+Component :  core
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/MSS_CCC_0/core_tmp_MSS_CCC_0_MSS_CCC.v
+    C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/core.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/rdslade/Desktop/DigitalSixthSense/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v
+    C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/mss_tshell.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/rdslade/Desktop/DigitalSixthSense/component/Actel/SmartFusionMSS/MSS/2.5.200/CompileDssBfm.tcl
+    C:/Users/rdslade/Desktop/DigitalSixthSense/component/Actel/SmartFusionMSS/MSS/2.5.200/bfmtovec.exe
+    C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/MSS_ENVM_0/test.bfm
+    C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/MSS_ENVM_0/user.bfm
+
