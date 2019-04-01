@@ -1,0 +1,12 @@
+#include "drivers/mss_i2c/mss_i2c.h"
+
+#define TFMINI_ADDR 0x10
+
+int main()
+{
+    MSS_I2C_init( &g_mss_i2c0, TFMINI_ADDR, MSS_I2C_PCLK_DIV_256 );
+
+    MSS_I2C_write( &g_mss_i2c0, TFMINI_ADDR, tx_buffer, write_length,
+                           MSS_I2C_RELEASE_BUS );
+
+}

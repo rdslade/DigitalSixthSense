@@ -1,6 +1,6 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
 
-Date      :  Mon Apr 01 13:39:51 2019
+Date      :  Mon Apr 01 13:46:39 2019
 Project   :  C:\Users\rdslade\Desktop\DigitalSixthSense
 Component :  core
 Family    :  SmartFusion
@@ -18,5 +18,4 @@ Stimulus files for all Simulation tools:
     C:/Users/rdslade/Desktop/DigitalSixthSense/component/Actel/SmartFusionMSS/MSS/2.5.200/CompileDssBfm.tcl
     C:/Users/rdslade/Desktop/DigitalSixthSense/component/Actel/SmartFusionMSS/MSS/2.5.200/bfmtovec.exe
     C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/MSS_ENVM_0/test.bfm
-    C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/MSS_ENVM_0/user.bfm
 

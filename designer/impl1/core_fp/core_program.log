@@ -1,9 +1,16 @@
+FlashPro
+Version: 11.9.0.4
+Release: v11.9
+
 Software Version: 11.9.0.4
-creating folder: C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp
+PDB file 'C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp\core.pdb' has been
+loaded successfully.
+DESIGN : core;  CHECKSUM : 7226;  PDB_VERSION : 1.9
 Driver : 3.0.0 build 1
 programmer '79945' : FlashPro3
-Created new project 'C:/Users/rdslade/Desktop/DigitalSixthSense/designer/impl1/core_fp\core.pro'
-The 'new_project' command succeeded.
+Opened 'C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp\core.pro'
+The 'open_project' command succeeded.
+The 'set_programming_file' command succeeded.
 The 'set_device_type' command succeeded.
 The 'set_device_package' command succeeded.
 Info: Adding Flash Memory data from file
@@ -29,13 +36,12 @@ programmer '79945' : Verifying FPGA Array
 programmer '79945' :         Verifying FPGA Array -- pass
 programmer '79945' : Program System Init and Boot Clients...
 programmer '79945' : Verify System Init and Boot Clients...
-programmer '79945' : Finished: Mon Apr 01 13:43:53 2019 (Elapsed time 00:00:34)
+programmer '79945' : Finished: Mon Apr 01 13:48:20 2019 (Elapsed time 00:00:34)
 programmer '79945' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o
 
 The 'run_selected_actions' command succeeded.
-creating folder: C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp\projectData
 Project saved.
 The 'save_project' command succeeded.
 Project closed.

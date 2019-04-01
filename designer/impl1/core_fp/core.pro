@@ -1,6 +1,6 @@
 <project name="core" version="1.1">
     <ProjectDirectory>
-        C:/Users/rdslade/Desktop/DigitalSixthSense/designer/impl1/core_fp
+        C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,7 +9,7 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:/Users/rdslade/Desktop/DigitalSixthSense/designer/impl1/core_fp\core.log
+        C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp\core.log
     </LogFile>
     <SerializationOption>
         Skip

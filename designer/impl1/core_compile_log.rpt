@@ -2,7 +2,8 @@ Microsemi Libero Software
 Version: 11.9.0.4
 Release: v11.9
 
-Created a new design.
+Info: The design core.adb was last modified by software version 11.9.0.4.
+Opened an existing Libero design core.adb.
 'BA_NAME' set to 'core_ba'
 'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
 'IDE_DESIGNERVIEW_COUNT' set to '1'
@@ -10,24 +11,12 @@ Created a new design.
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
 'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\rdslade\Desktop\DigitalSixthSense\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
-'DESDIR' set to 'C:/Users/rdslade/Desktop/DigitalSixthSense/designer/impl1'
-'BA_DIR' set to 'C:/Users/rdslade/Desktop/DigitalSixthSense/designer/impl1'
-'BA_NETLIST_ALSO' set to '1'
-'EDNINFLAVOR' set to 'GENERIC'
-'NETLIST_NAMING_STYLE' set to 'VERILOG'
-'EXPORT_STATUS_REPORT' set to '1'
-'EXPORT_STATUS_REPORT_FILENAME' set to 'core.rpt'
-'AUDIT_NETLIST_FILE' set to '1'
-'AUDIT_DCF_FILE' set to '1'
-'AUDIT_PIN_FILE' set to '1'
-'AUDIT_ADL_FILE' set to '1'
 
- Netlist Reading Time = 1.0 seconds
+ Netlist Reading Time = 0.0 seconds
 Imported the file:
    C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.edn
 
 The Import command succeeded ( 00:00:01 )
-Design saved to file core.adb.
 =====================================================================
 Parameters used to run compile:
 ===============================
@@ -407,6 +396,13 @@ Optimized macros:
 
 There were 0 error(s) and 330 warning(s) in this design.
 =====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
 Compile report:
 ===============
 
@@ -475,6 +471,6 @@ Wrote pin report to file: core_report_pin_bynumber.txt
 The Report command succeeded ( 00:00:01 )
 Design saved to file C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core.adb.
 
-The Execute Script command succeeded ( 00:00:05 )
+The Execute Script command succeeded ( 00:00:03 )
 Design closed.
 

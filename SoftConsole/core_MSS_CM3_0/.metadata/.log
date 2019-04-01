@@ -1,0 +1,32 @@
+!SESSION 2019-04-01 13:46:33.159 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\projects\core_MSS_CM3_0_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0 -import C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\projects\core_MSS_CM3_0_hw_platform
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-01 13:46:35.376
+!MESSAGE Indexed 'core_MSS_CM3_0_hw_platform' (27 sources, 67 headers) in 0.73 sec: 4,126 declarations; 13,020 references; 4 unresolved inclusions; 2 syntax errors; 1 unresolved names (0.01%)
+!SESSION 2019-04-01 13:46:36.032 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\projects\core_MSS_CM3_0_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0 -import C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole\core_MSS_CM3_0\projects\core_MSS_CM3_0_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-01 13:46:36.654
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-01 13:46:37.490
+!MESSAGE Indexed 'core_MSS_CM3_0_app' (1 sources, 8 headers) in 0.09 sec: 1 declarations; 0 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2019-04-01 13:48:26.197 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/rdslade/Desktop/DigitalSixthSense/SoftConsole/core_MSS_CM3_0
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-01 13:48:26.950
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
