@@ -16,6 +16,7 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\rdslade\Desktop\DigitalSixthSense\component\work\core\MSS_CCC_0\core_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
 @I::"C:\Users\rdslade\Desktop\DigitalSixthSense\component\work\core\core.v" (library work)
 Verilog syntax check successful!
+File C:\Users\rdslade\Desktop\DigitalSixthSense\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v changed - recompiling
 File C:\Users\rdslade\Desktop\DigitalSixthSense\component\work\core\mss_tshell.v changed - recompiling
 File C:\Users\rdslade\Desktop\DigitalSixthSense\component\work\core\MSS_CCC_0\core_tmp_MSS_CCC_0_MSS_CCC.v changed - recompiling
 File C:\Users\rdslade\Desktop\DigitalSixthSense\component\work\core\core.v changed - recompiling
@@ -64,7 +65,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr 01 13:46:53 2019
+# Tue Apr 02 13:24:05 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -75,7 +76,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr 01 13:46:53 2019
+# Tue Apr 02 13:24:05 2019
 
 ###########################################################]
 @END
@@ -85,6 +86,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr 01 13:46:53 2019
+# Tue Apr 02 13:24:05 2019
 
 ###########################################################]

@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
 #--  Project file C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\run_options.txt
-#--  Written on Mon Apr 01 13:46:53 2019
+#--  Written on Tue Apr 02 13:24:05 2019
 
 
 #project files

@@ -1,16 +1,16 @@
 C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\synlog\report\core_fpga_mapper.xml  -top_level_module  core  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.edn   -freq 100.000   C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\synwork\core_prem.srd  -sap  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.sap  -otap  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.tap  -omap  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.map  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.sap  -ologparam  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\syntmp\core.plg  -osyn  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.srm  -prjdir  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\  -prjname  core_syn  -log  C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\synlog\core_fpga_mapper.srr 
 relcom:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A2F200M3F -package FBGA484 -grade STD -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\core_fpga_mapper.xml -top_level_module core -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\core.edn -freq 100.000 ..\synwork\core_prem.srd -sap ..\core.sap -otap ..\core.tap -omap ..\core.map -devicelib ..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v -sap ..\core.sap -ologparam core.plg -osyn ..\core.srm -prjdir ..\ -prjname core_syn -log ..\synlog\core_fpga_mapper.srr
-rc:0 success:1 runtime:1
-file:..\scratchproject.prs|io:o|time:1554140429|size:2120|exec:0|csum:
-file:..\core.edn|io:o|time:1554140816|size:99475|exec:0|csum:
-file:..\synwork\core_prem.srd|io:i|time:1554140815|size:9356|exec:0|csum:18F0CFC5AB44B3354D7D2DA7E06ECBA3
-file:..\core.sap|io:o|time:1554140815|size:113|exec:0|csum:
+rc:0 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1554225747|size:2120|exec:0|csum:
+file:..\core.edn|io:o|time:1554225847|size:99474|exec:0|csum:
+file:..\synwork\core_prem.srd|io:i|time:1554225847|size:9357|exec:0|csum:18F0CFC5AB44B3354D7D2DA7E06ECBA3
+file:..\core.sap|io:o|time:1554225847|size:113|exec:0|csum:
 file:..\core.tap|io:o|time:0|size:0|exec:0|csum:
-file:..\core.map|io:o|time:1554140816|size:28|exec:0|csum:
+file:..\core.map|io:o|time:1554225847|size:28|exec:0|csum:
 file:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1509027488|size:72817|exec:0|csum:792D908376FAE59463CBCC67F19D1698
-file:..\core.sap|io:o|time:1554140815|size:113|exec:0|csum:
-file:core.plg|io:o|time:1554140816|size:327|exec:0|csum:
-file:..\core.srm|io:o|time:1554140815|size:71777|exec:0|csum:
-file:..\synlog\core_fpga_mapper.srr|io:o|time:1554140816|size:12876|exec:0|csum:
+file:..\core.sap|io:o|time:1554225847|size:113|exec:0|csum:
+file:core.plg|io:o|time:1554225847|size:327|exec:0|csum:
+file:..\core.srm|io:o|time:1554225847|size:71776|exec:0|csum:
+file:..\synlog\core_fpga_mapper.srr|io:o|time:1554225847|size:12876|exec:0|csum:
 file:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509373872|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
 file:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509375286|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2
