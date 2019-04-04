@@ -1,14 +1,14 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\run_options.txt
-#--  Written on Tue Apr 02 13:24:05 2019
+#--  Project file C:\Users\sradha\Desktop\final_proj\synthesis\run_options.txt
+#--  Written on Thu Apr 04 13:50:14 2019
 
 
 #project files
-add_file -verilog "C:/Users/rdslade/Desktop/DigitalSixthSense/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
-add_file -verilog "C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/mss_tshell.v"
-add_file -verilog "C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/MSS_CCC_0/core_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core/core.v"
+add_file -verilog "C:/Users/sradha/Desktop/final_proj/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
+add_file -verilog "C:/Users/sradha/Desktop/final_proj/component/work/core/mss_tshell.v"
+add_file -verilog "C:/Users/sradha/Desktop/final_proj/component/work/core/MSS_CCC_0/core_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/sradha/Desktop/final_proj/component/work/core/core.v"
 
 
 

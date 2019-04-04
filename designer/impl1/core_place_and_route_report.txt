@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Tue Apr 02 13:24:24 2019 ***************************************************************************
+                          Thu Apr 04 13:50:33 2019 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
-File Name: C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core.adb
+File Name: C:\Users\sradha\Desktop\final_proj\designer\impl1\core.adb
 Design Name: core  Design State: layout
-Last Saved: Tue Apr 02 13:24:14 2019
+Last Saved: Thu Apr 04 13:50:23 2019
 
 ***** Device Data **************************************************
 
@@ -22,8 +22,8 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Tue Apr 02 13:24:11 2019:
-        C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.edn
+Source File(s) Imported on Thu Apr 04 13:50:20 2019:
+        C:\Users\sradha\Desktop\final_proj\synthesis\core.edn
 
 
 ***** CAE Variables ************************************************
@@ -49,7 +49,7 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\rdslade\Desktop\DigitalSixthSense\synthesis\core.edn
+Source      : C:\Users\sradha\Desktop\final_proj\synthesis\core.edn
 Format      : EDIF
 Topcell     : core
 Speed grade : STD
@@ -508,25 +508,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Tue Apr 02 13:24:17 2019
+Timing-driven Placer Started: Thu Apr 04 13:50:26 2019
 
-Placer Finished: Tue Apr 02 13:24:18 2019
+Placer Finished: Thu Apr 04 13:50:27 2019
 Total Placer CPU Time:     00:00:01
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: core                            Started: Tue Apr 02 13:24:19 2019
+Design: core                            Started: Thu Apr 04 13:50:28 2019
 
  
 
 Timing-driven Router completed successfully.
 
 Design: core                            
-Finished: Tue Apr 02 13:24:22 2019
+Finished: Thu Apr 04 13:50:31 2019
 Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:03
-Total Memory Usage: 160.9 Mbytes
+Total Memory Usage: 161.1 Mbytes
                         o - o - o - o - o - o
 
 

@@ -1,6 +1,6 @@
 <project name="core" version="1.1">
     <ProjectDirectory>
-        C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp
+        C:\Users\sradha\Desktop\final_proj\designer\impl1\core_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,7 +9,7 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp\core.log
+        C:\Users\sradha\Desktop\final_proj\designer\impl1\core_fp\core.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -74,7 +74,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                C:\Users\rdslade\Desktop\DigitalSixthSense\designer\impl1\core_fp\core.pdb
+                C:\Users\sradha\Desktop\final_proj\designer\impl1\core_fp\core.pdb
             </filename>
             <local>
                 projectData\core.pdb

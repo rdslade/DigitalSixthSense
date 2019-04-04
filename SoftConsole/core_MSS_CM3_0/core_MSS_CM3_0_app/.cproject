@@ -86,7 +86,7 @@
 </toolChain>
 </folderInfo>
 <sourceEntries>
-<entry excluding="i2c_tfmini.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+<entry excluding="tfmini.c|i2c_tfmini.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 </sourceEntries>
 </configuration>
 </storageModule>
@@ -538,7 +538,7 @@
 </toolChain>
 </folderInfo>
 <sourceEntries>
-<entry excluding="i2c_tfmini.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+<entry excluding="tfmini.c|i2c_tfmini.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 </sourceEntries>
 </configuration>
 </storageModule>

@@ -1038,3 +1038,21 @@ org.eclipse.cdt.debug.mi.core.MIException: The program is not being run.
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:952)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2019-04-04 13:52:43.673 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2019-04-04 13:53:00.271
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2019-04-04 13:53:00.334
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2019-04-04 13:53:00.381
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-04 13:53:00.646
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
