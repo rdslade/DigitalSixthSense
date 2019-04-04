@@ -1,25 +1,25 @@
 Archive member included because of file (symbol)
 
-C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
                               ./motor_control.o (g_mss_i2c0)
-C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
-                              C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o) (__get_PRIMASK)
-C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                              C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (SystemInit)
+C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                              C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o) (__get_PRIMASK)
+C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                              C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (SystemInit)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
-                              C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (__errno)
+                              C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (__errno)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
                               c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
-                              C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (__libc_init_array)
+                              C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (__libc_init_array)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
-                              C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o) (memset)
+                              C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o) (memset)
 
 Allocating common symbols
 Common symbol       size              file
 
-g_mss_i2c0          0x74              C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
-g_mss_i2c1          0x74              C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+g_mss_i2c0          0x74              C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+g_mss_i2c1          0x74              C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
 
 Discarded input sections
 
@@ -35,143 +35,143 @@ Discarded input sections
                 0x00000000       0x20 ./motor_control.o
  .text.useERM   0x00000000       0x20 ./motor_control.o
  .text.useLRA   0x00000000       0x24 ./motor_control.o
- .text          0x00000000        0x0 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
- .data          0x00000000        0x0 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
- .bss           0x00000000        0x0 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
- .text          0x00000000        0x0 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .data          0x00000000        0x0 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .bss           0x00000000        0x0 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .bss.__env     0x00000000        0x4 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .data.environ  0x00000000        0x4 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._close   0x00000000       0x18 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._execve  0x00000000       0x28 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._exit    0x00000000        0xc C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._fork    0x00000000       0x18 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._fstat   0x00000000       0x24 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._getpid  0x00000000       0x10 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._isatty  0x00000000       0x18 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._kill    0x00000000       0x24 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._link    0x00000000       0x24 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._lseek   0x00000000       0x1c C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._open    0x00000000       0x1c C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._read    0x00000000       0x1c C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .data          0x00000000        0x0 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .bss           0x00000000        0x0 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .text          0x00000000        0x0 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data          0x00000000        0x0 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x00000000        0x0 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.__env     0x00000000        0x4 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data.environ  0x00000000        0x4 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._close   0x00000000       0x18 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._execve  0x00000000       0x28 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._exit    0x00000000        0xc C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fork    0x00000000       0x18 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fstat   0x00000000       0x24 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._getpid  0x00000000       0x10 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._isatty  0x00000000       0x18 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._kill    0x00000000       0x24 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._link    0x00000000       0x24 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._lseek   0x00000000       0x1c C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._open    0x00000000       0x1c C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._read    0x00000000       0x1c C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .text._write_r
-                0x00000000       0x20 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .rodata        0x00000000       0x1c C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._sbrk    0x00000000       0x94 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._stat    0x00000000       0x24 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._times   0x00000000       0x18 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._unlink  0x00000000       0x24 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._wait    0x00000000       0x24 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000000       0x20 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .rodata        0x00000000       0x1c C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._sbrk    0x00000000       0x94 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._stat    0x00000000       0x24 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._times   0x00000000       0x18 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._unlink  0x00000000       0x24 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._wait    0x00000000       0x24 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .bss.heap_end.2220
-                0x00000000        0x4 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text          0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .data          0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .bss           0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000        0x4 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .data          0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .bss           0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_read
+                0x00000000       0xf4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_write_read
-                0x00000000      0x134 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000      0x134 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_get_status
-                0x00000000       0x3c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .text.MSS_I2C_wait_complete
-                0x00000000       0x4c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x3c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_system_tick
-                0x00000000       0x5c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x5c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_set_slave_tx_buffer
-                0x00000000       0x58 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x58 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_set_slave_rx_buffer
-                0x00000000       0x58 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x58 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_set_slave_mem_offset_length
-                0x00000000       0x54 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x54 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_register_write_handler
-                0x00000000       0x38 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x38 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_enable_slave
-                0x00000000       0x5c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x5c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_disable_slave
-                0x00000000       0x50 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x50 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_smbus_init
-                0x00000000       0x28 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x28 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_enable_smbus_irq
-                0x00000000       0xe4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0xe4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_disable_smbus_irq
-                0x00000000       0xc4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0xc4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_suspend_smbus_slave
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_resume_smbus_slave
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_reset_smbus
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_set_smbus_alert
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_clear_smbus_alert
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_set_gca
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_clear_gca
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_set_user_data
-                0x00000000       0x1c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000000       0x1c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_get_user_data
-                0x00000000       0x18 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .text          0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .data          0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .bss           0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x18 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .text          0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .data          0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .bss           0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__get_PSP
-                0x00000000       0x10 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x10 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__set_PSP
-                0x00000000        0x8 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000        0x8 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__get_MSP
-                0x00000000       0x10 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x10 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__set_MSP
-                0x00000000        0x8 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000        0x8 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__get_BASEPRI
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__set_BASEPRI
-                0x00000000       0x18 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x18 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__get_FAULTMASK
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__set_FAULTMASK
-                0x00000000       0x18 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x18 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__get_CONTROL
-                0x00000000       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__set_CONTROL
-                0x00000000       0x18 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .text.__REV    0x00000000       0x24 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .text.__REV16  0x00000000       0x24 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .text.__REVSH  0x00000000       0x24 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .text.__RBIT   0x00000000       0x24 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x18 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .text.__REV    0x00000000       0x24 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .text.__REV16  0x00000000       0x24 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .text.__REVSH  0x00000000       0x24 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .text.__RBIT   0x00000000       0x24 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__LDREXB
-                0x00000000       0x24 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x24 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__LDREXH
-                0x00000000       0x24 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x24 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__LDREXW
-                0x00000000       0x24 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x24 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__STREXB
-                0x00000000       0x2c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x2c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__STREXH
-                0x00000000       0x2c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000000       0x2c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .text.__STREXW
-                0x00000000       0x28 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .text          0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
- .data          0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
- .bss           0x00000000        0x0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000       0x28 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .text          0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .data          0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .bss           0x00000000        0x0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .data.SystemFrequency
-                0x00000000        0x4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000        0x4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .data.SystemCoreClock
-                0x00000000        0x4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000        0x4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .data.g_FrequencyPCLK0
-                0x00000000        0x4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000        0x4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .data.g_FrequencyPCLK1
-                0x00000000        0x4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000        0x4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .data.g_FrequencyACE
-                0x00000000        0x4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000        0x4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .data.g_FrequencyFPGA
-                0x00000000        0x4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000        0x4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .text.SystemCoreClockUpdate
-                0x00000000      0x150 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000      0x150 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .text.GetSystemClock
-                0x00000000       0xe8 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000       0xe8 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .rodata.C.18.2576
-                0x00000000       0x10 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000       0x10 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .text          0x00000000        0xc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
  .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
@@ -203,9 +203,9 @@ Linker script and memory map
 LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
 LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
 LOAD ./motor_control.o
-LOAD C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
-LOAD C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-LOAD C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a
+LOAD C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+LOAD C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+LOAD C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a
 START GROUP
 LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
 LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
@@ -227,13 +227,13 @@ END GROUP
                 0x20010000                PROVIDE (_estack, __main_stack_start)
                 0x00000000                PROVIDE (__mirrored_nvm, 0x0)
 
-.text           0x20000000     0x15d4
+.text           0x20000000     0x1568
  CREATE_OBJECT_SYMBOLS
                 0x20000000                __text_load = LOADADDR (.text)
                 0x20000000                __text_start = .
                 0x20000000                __vector_table_vma_base_address = .
  *(.isr_vector)
- .isr_vector    0x20000000      0x470 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .isr_vector    0x20000000      0x470 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
                 0x20000000                g_pfnVectors
                 0x20000298                Reset_Handler
                 0x20000308                NMI_Handler
@@ -390,67 +390,67 @@ END GROUP
  *(.text .text.* .gnu.linkonce.t.*)
  .text          0x20000470       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
  .text.readRegister8
-                0x200004a0       0x30 ./motor_control.o
+                0x200004a0       0x6c ./motor_control.o
                 0x200004a0                readRegister8
  .text.writeRegister8
-                0x200004d0       0x54 ./motor_control.o
-                0x200004d0                writeRegister8
- .text.init     0x20000524       0xac ./motor_control.o
-                0x20000524                init
+                0x2000050c       0x54 ./motor_control.o
+                0x2000050c                writeRegister8
+ .text.init     0x20000560       0xac ./motor_control.o
+                0x20000560                init
  .text.setWaveform
-                0x200005d0       0x28 ./motor_control.o
-                0x200005d0                setWaveform
+                0x2000060c       0x28 ./motor_control.o
+                0x2000060c                setWaveform
  .text.selectLibrary
-                0x200005f8       0x20 ./motor_control.o
-                0x200005f8                selectLibrary
- .text.go       0x20000618       0x14 ./motor_control.o
-                0x20000618                go
- .text.setMode  0x2000062c       0x20 ./motor_control.o
-                0x2000062c                setMode
- .text.main     0x2000064c       0x4c ./motor_control.o
-                0x2000064c                main
+                0x20000634       0x20 ./motor_control.o
+                0x20000634                selectLibrary
+ .text.go       0x20000654       0x14 ./motor_control.o
+                0x20000654                go
+ .text.setMode  0x20000668       0x20 ./motor_control.o
+                0x20000668                setMode
+ .text.main     0x20000688       0x4c ./motor_control.o
+                0x20000688                main
  .text.NVIC_EnableIRQ
-                0x20000698       0x38 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x200006d4       0x38 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.NVIC_DisableIRQ
-                0x200006d0       0x3c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x2000070c       0x3c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.NVIC_ClearPendingIRQ
-                0x2000070c       0x3c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x20000748       0x3c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.MSS_I2C_init
-                0x20000748      0x16c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
-                0x20000748                MSS_I2C_init
+                0x20000784      0x16c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x20000784                MSS_I2C_init
  .text.MSS_I2C_write
-                0x200008b4       0xf4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
-                0x200008b4                MSS_I2C_write
- .text.MSS_I2C_read
-                0x200009a8       0xf4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
-                0x200009a8                MSS_I2C_read
+                0x200008f0       0xf4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x200008f0                MSS_I2C_write
+ .text.MSS_I2C_wait_complete
+                0x200009e4       0x4c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x200009e4                MSS_I2C_wait_complete
  .text.enable_slave_if_required
-                0x20000a9c       0x28 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x20000a30       0x28 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.mss_i2c_isr
-                0x20000ac4      0x8f4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x20000a58      0x8f4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.disable_interrupts
-                0x200013b8       0x24 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x2000134c       0x24 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.restore_interrupts
-                0x200013dc       0x18 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x20001370       0x18 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .text.I2C0_IRQHandler
-                0x200013f4       0x2c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
-                0x200013f4                I2C0_IRQHandler
+                0x20001388       0x2c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x20001388                I2C0_IRQHandler
  .text.I2C1_IRQHandler
-                0x20001420       0x2c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
-                0x20001420                I2C1_IRQHandler
+                0x200013b4       0x2c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x200013b4                I2C1_IRQHandler
  .text.__get_PRIMASK
-                0x2000144c       0x20 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
-                0x2000144c                __get_PRIMASK
+                0x200013e0       0x20 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x200013e0                __get_PRIMASK
  .text.__set_PRIMASK
-                0x2000146c       0x18 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
-                0x2000146c                __set_PRIMASK
+                0x20001400       0x18 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x20001400                __set_PRIMASK
  .text.SystemInit
-                0x20001484        0xc C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20001484                SystemInit
- .text          0x20001490       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
-                0x20001490                __libc_init_array
- .text          0x200014e0       0xd4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
-                0x200014e0                memset
+                0x20001418        0xc C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20001418                SystemInit
+ .text          0x20001424       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x20001424                __libc_init_array
+ .text          0x20001474       0xd4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                0x20001474                memset
  *(.plt)
  *(.gnu.warning)
  *(.glue_7t)
@@ -459,7 +459,7 @@ END GROUP
  .glue_7        0x00000000        0x0 linker stubs
  *(.vfp11_veneer)
  .vfp11_veneer  0x00000000        0x0 linker stubs
-                0x200015b4                . = ALIGN (0x4)
+                0x20001548                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
@@ -474,79 +474,78 @@ END GROUP
  *(.eh_frame_hdr)
  *(.eh_frame)
  *(.init)
- .init          0x200015b4        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
-                0x200015b4                _init
- .init          0x200015b8        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .init          0x20001548        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20001548                _init
+ .init          0x2000154c        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
  *(.fini)
- .fini          0x200015c0        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
-                0x200015c0                _fini
- .fini          0x200015c4        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
-                0x200015cc                PROVIDE (__preinit_array_start, .)
+ .fini          0x20001554        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20001554                _fini
+ .fini          0x20001558        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x20001560                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x200015cc                PROVIDE (__preinit_array_end, .)
-                0x200015cc                PROVIDE (__init_array_start, .)
+                0x20001560                PROVIDE (__preinit_array_end, .)
+                0x20001560                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x200015cc        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
-                0x200015d0                PROVIDE (__init_array_end, .)
-                0x200015d0                PROVIDE (__fini_array_start, .)
+ .init_array    0x20001560        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x20001564                PROVIDE (__init_array_end, .)
+                0x20001564                PROVIDE (__fini_array_start, .)
  *(.fini_array)
- .fini_array    0x200015d0        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .fini_array    0x20001564        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
  *(SORT(.fini_array.*))
-                0x200015d4                PROVIDE (__fini_array_end, .)
-                0x200015d4                __exidx_start = .
+                0x20001568                PROVIDE (__fini_array_end, .)
+                0x20001568                __exidx_start = .
 
-.v4_bx          0x200015d4        0x0
+.v4_bx          0x20001568        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x200015d4                __exidx_end = .
-                0x200015d4                _etext = .
-                0x200015d4                PROVIDE (__text_end, .)
+                0x20001568                __exidx_end = .
+                0x20001568                _etext = .
+                0x20001568                PROVIDE (__text_end, .)
 
-.data           0x200015d4        0x4
-                0x200015d4                __data_load = LOADADDR (.data)
-                0x200015d4                _sidata = LOADADDR (.data)
-                0x200015d4                __data_start = .
-                0x200015d4                _sdata = .
+.data           0x20001568        0x4
+                0x20001568                __data_load = LOADADDR (.data)
+                0x20001568                _sidata = LOADADDR (.data)
+                0x20001568                __data_start = .
+                0x20001568                _sdata = .
  *(.jcr)
- .jcr           0x200015d4        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
- .jcr           0x200015d4        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .jcr           0x20001568        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20001568        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
  *(.got.plt)
  *(.got)
  *(.shdata)
  *(.data .data.* .gnu.linkonce.d.*)
-                0x200015d8                . = ALIGN (0x4)
-                0x200015d8                _edata = .
+                0x2000156c                . = ALIGN (0x4)
+                0x2000156c                _edata = .
 
-.bss            0x200015d8       0xf0
-                0x200015d8                __bss_start__ = .
-                0x200015d8                _sbss = .
+.bss            0x2000156c       0xec
+                0x2000156c                __bss_start__ = .
+                0x2000156c                _sbss = .
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x200015d8        0x1 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .bss           0x2000156c        0x1 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
  *(COMMON)
- *fill*         0x200015d9        0x3 00
- COMMON         0x200015dc       0xe8 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
-                0x200015dc                g_mss_i2c0
-                0x20001650                g_mss_i2c1
-                0x200016c8                . = ALIGN (0x8)
- *fill*         0x200016c4        0x4 00
-                0x200016c8                __bss_end__ = .
-                0x200016c8                _end = .
-                0x200016c8                __end = _end
-                0x200016c8                _ebss = .
-                0x200016c8                PROVIDE (end, .)
+ *fill*         0x2000156d        0x3 00
+ COMMON         0x20001570       0xe8 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x20001570                g_mss_i2c0
+                0x200015e4                g_mss_i2c1
+                0x20001658                . = ALIGN (0x8)
+                0x20001658                __bss_end__ = .
+                0x20001658                _end = .
+                0x20001658                __end = _end
+                0x20001658                _ebss = .
+                0x20001658                PROVIDE (end, .)
 
-.stack          0x200016c8     0x3000
-                0x200016c8                . = ALIGN (0x4)
-                0x200026c8                . = (. + PROCESS_STACK_SIZE)
- *fill*         0x200016c8     0x1000 00
-                0x200026c8                . = ALIGN (0x4)
-                0x200046c8                . = (. + MAIN_STACK_SIZE)
- *fill*         0x200026c8     0x2000 00
-                0x200046c8                . = ALIGN (0x4)
+.stack          0x20001658     0x3000
+                0x20001658                . = ALIGN (0x4)
+                0x20002658                . = (. + PROCESS_STACK_SIZE)
+ *fill*         0x20001658     0x1000 00
+                0x20002658                . = ALIGN (0x4)
+                0x20004658                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x20002658     0x2000 00
+                0x20004658                . = ALIGN (0x4)
 
 .stab
  *(.stab)
@@ -568,23 +567,23 @@ END GROUP
 
 .comment        0x00000000       0xd7
  .comment       0x00000000       0x2b ./motor_control.o
- .comment       0x0000002b       0x2b C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .comment       0x00000056       0x2b C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .comment       0x00000081       0x2b C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .comment       0x000000ac       0x2b C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .comment       0x0000002b       0x2b C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .comment       0x00000056       0x2b C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .comment       0x00000081       0x2b C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .comment       0x000000ac       0x2b C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_aranges  0x00000000      0x340
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x78 ./motor_control.o
  .debug_aranges
-                0x00000078       0xa8 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000078       0xa8 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .debug_aranges
-                0x00000120      0x128 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000120      0x128 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .debug_aranges
-                0x00000248       0xc8 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000248       0xc8 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .debug_aranges
-                0x00000310       0x30 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000310       0x30 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_pubnames
                 0x00000000      0x695
@@ -592,82 +591,82 @@ END GROUP
  .debug_pubnames
                 0x00000000       0xb2 ./motor_control.o
  .debug_pubnames
-                0x000000b2       0xeb C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x000000b2       0xeb C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .debug_pubnames
-                0x0000019d      0x2eb C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x0000019d      0x2eb C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .debug_pubnames
-                0x00000488      0x159 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x00000488      0x159 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .debug_pubnames
-                0x000005e1       0xb4 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x000005e1       0xb4 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_info     0x00000000     0x3478
+.debug_info     0x00000000     0x34ae
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0xc4a ./motor_control.o
- .debug_info    0x00000c4a      0x6bf C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_info    0x00001309     0x16e7 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_info    0x000029f0      0x54c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_info    0x00002f3c      0x53c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_info    0x00000000      0xc80 ./motor_control.o
+ .debug_info    0x00000c80      0x6bf C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x0000133f     0x16e7 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_info    0x00002a26      0x54c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_info    0x00002f72      0x53c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_abbrev   0x00000000      0x6e0
+.debug_abbrev   0x00000000      0x6fe
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x19b ./motor_control.o
- .debug_abbrev  0x0000019b      0x130 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_abbrev  0x000002cb      0x22b C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_abbrev  0x000004f6       0xd9 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_abbrev  0x000005cf      0x111 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_abbrev  0x00000000      0x1b9 ./motor_control.o
+ .debug_abbrev  0x000001b9      0x130 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_abbrev  0x000002e9      0x22b C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_abbrev  0x00000514       0xd9 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_abbrev  0x000005ed      0x111 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_line     0x00000000     0x12ec
+.debug_line     0x00000000     0x12ea
  *(.debug_line)
- .debug_line    0x00000000      0x2c7 ./motor_control.o
- .debug_line    0x000002c7      0x458 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_line    0x0000071f      0x6f2 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_line    0x00000e11      0x260 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_line    0x00001071      0x27b C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_line    0x00000000      0x2c5 ./motor_control.o
+ .debug_line    0x000002c5      0x458 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x0000071d      0x6f2 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_line    0x00000e0f      0x260 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_line    0x0000106f      0x27b C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_frame    0x00000000      0xac0
  *(.debug_frame)
  .debug_frame   0x00000000      0x178 ./motor_control.o
- .debug_frame   0x00000178      0x21c C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_frame   0x00000394      0x40c C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_frame   0x000007a0      0x248 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_frame   0x000009e8       0x64 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_frame   0x00000178      0x21c C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x00000394      0x40c C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_frame   0x000007a0      0x248 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_frame   0x000009e8       0x64 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .debug_frame   0x00000a4c       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
  .debug_frame   0x00000a6c       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
  .debug_frame   0x00000a98       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
 
-.debug_str      0x00000000     0x1b88
+.debug_str      0x00000000     0x1b84
  *(.debug_str)
- .debug_str     0x00000000     0x10de ./motor_control.o
-                               0x1165 (size before relaxing)
- .debug_str     0x000010de      0x250 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_str     0x00000000     0x10da ./motor_control.o
+                               0x116f (size before relaxing)
+ .debug_str     0x000010da      0x250 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
                                 0x327 (size before relaxing)
- .debug_str     0x0000132e      0x5f9 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_str     0x0000132a      0x5f9 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
                                0x1758 (size before relaxing)
- .debug_str     0x00001927      0x148 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_str     0x00001923      0x148 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
                                 0x26e (size before relaxing)
- .debug_str     0x00001a6f      0x119 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_str     0x00001a6b      0x119 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
                                 0x45b (size before relaxing)
 
 .debug_loc      0x00000000     0x11bf
  *(.debug_loc)
  .debug_loc     0x00000000      0x24c ./motor_control.o
- .debug_loc     0x0000024c      0x3c6 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_loc     0x00000612      0x736 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_loc     0x00000d48      0x3de C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_loc     0x00001126       0x99 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_loc     0x0000024c      0x3c6 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x00000612      0x736 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_loc     0x00000d48      0x3de C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_loc     0x00001126       0x99 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_macinfo  0x00000000    0x1887b
  *(.debug_macinfo)
  .debug_macinfo
                 0x00000000     0x57fb ./motor_control.o
  .debug_macinfo
-                0x000057fb     0x4bf0 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x000057fb     0x4bf0 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .debug_macinfo
-                0x0000a3eb     0x74ff C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x0000a3eb     0x74ff C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .debug_macinfo
-                0x000118ea     0x1512 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x000118ea     0x1512 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .debug_macinfo
-                0x00012dfc     0x5a7f C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00012dfc     0x5a7f C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_weaknames
  *(.debug_weaknames)
@@ -694,15 +693,15 @@ END GROUP
  .ARM.attributes
                 0x00000042       0x31 ./motor_control.o
  .ARM.attributes
-                0x00000073       0x21 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+                0x00000073       0x21 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
  .ARM.attributes
-                0x00000094       0x31 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000094       0x31 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .ARM.attributes
-                0x000000c5       0x31 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x000000c5       0x31 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .ARM.attributes
-                0x000000f6       0x31 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x000000f6       0x31 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .ARM.attributes
-                0x00000127       0x31 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000127       0x31 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .ARM.attributes
                 0x00000158       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
  .ARM.attributes
@@ -723,7 +722,7 @@ OUTPUT(core_MSS_CM3_0_app elf32-littlearm)
 
 .debug_ranges   0x00000000      0x330
  .debug_ranges  0x00000000       0x70 ./motor_control.o
- .debug_ranges  0x00000070       0xa0 C:/Users/sradha/Desktop/final_proj/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_ranges  0x00000110      0x138 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_ranges  0x00000248       0xc0 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_ranges  0x00000308       0x28 C:\Users\sradha\Desktop\final_proj\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_ranges  0x00000070       0xa0 C:/Users/rdslade/Desktop/final/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x00000110      0x138 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_ranges  0x00000248       0xc0 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_ranges  0x00000308       0x28 C:\Users\rdslade\Desktop\final\SoftConsole\core_MSS_CM3_0\core_MSS_CM3_0_hw_platform\Debug\libcore_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)

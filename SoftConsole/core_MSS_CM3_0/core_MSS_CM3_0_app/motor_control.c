@@ -19,15 +19,21 @@
 //}
 
 uint8_t readRegister8(uint8_t reg){
-	MSS_I2C_read( &g_mss_i2c0, DRV2605_ADDR, reg, 1,
+	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, &reg, 1,
 	                      MSS_I2C_RELEASE_BUS );
+	MSS_I2C_wait_complete( &g_mss_i2c0, MSS_I2C_NO_TIMEOUT );
+	uint8_t * ret = 0;
+	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, ret, 1,
+		                      MSS_I2C_RELEASE_BUS );
+	return *ret;
 }
 
-uint8_t writeRegister8(uint8_t reg, uint8_t val){
-	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, reg, 1,
-	                      MSS_I2C_RELEASE_BUS );
-	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, val, 1,
-		                      MSS_I2C_RELEASE_BUS );
+
+void writeRegister8(uint8_t reg, uint8_t val){
+	uint8_t status;
+	uint8_t buffer[2] = {reg, val};
+	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, buffer, 2, MSS_I2C_RELEASE_BUS );
+	status = MSS_I2C_wait_complete( &g_mss_i2c0, MSS_I2C_NO_TIMEOUT );
 }
 
 int init() {
