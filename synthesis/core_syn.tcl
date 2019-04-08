@@ -1,3 +1,3 @@
-project -load "C:/Users/rdslade/Desktop/final/synthesis/core_syn.prj"
+project -load "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/synthesis/core_syn.prj"
 project -run -clean
 project -save

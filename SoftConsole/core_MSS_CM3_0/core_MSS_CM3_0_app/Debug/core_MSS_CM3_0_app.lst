@@ -3,37 +3,37 @@ core_MSS_CM3_0_app:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         00001568  20000000  20000000  00008000  2**4
+  0 .text         0000168c  20000000  20000000  00008000  2**4
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         00000004  20001568  20001568  00009568  2**2
+  1 .data         00000004  2000168c  2000168c  0000968c  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  2 .bss          000000ec  2000156c  2000156c  0000956c  2**2
+  2 .bss          000000f0  20001690  20001690  00009690  2**2
                   ALLOC
-  3 .stack        00003000  20001658  20001658  0000956c  2**0
+  3 .stack        00003000  20001780  20001780  00009690  2**0
                   ALLOC
-  4 .comment      000000d7  00000000  00000000  0000956c  2**0
+  4 .comment      000000d7  00000000  00000000  00009690  2**0
                   CONTENTS, READONLY
-  5 .debug_aranges 00000340  00000000  00000000  00009643  2**0
+  5 .debug_aranges 00000340  00000000  00000000  00009767  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_pubnames 00000695  00000000  00000000  00009983  2**0
+  6 .debug_pubnames 00000695  00000000  00000000  00009aa7  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_info   000034ae  00000000  00000000  0000a018  2**0
+  7 .debug_info   000034b5  00000000  00000000  0000a13c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_abbrev 000006fe  00000000  00000000  0000d4c6  2**0
+  8 .debug_abbrev 000006fe  00000000  00000000  0000d5f1  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_line   000012ea  00000000  00000000  0000dbc4  2**0
+  9 .debug_line   00001540  00000000  00000000  0000dcef  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_frame  00000ac0  00000000  00000000  0000eeb0  2**2
+ 10 .debug_frame  00000ac0  00000000  00000000  0000f230  2**2
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_str    00001b84  00000000  00000000  0000f970  2**0
+ 11 .debug_str    00001ba4  00000000  00000000  0000fcf0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_loc    000011bf  00000000  00000000  000114f4  2**0
+ 12 .debug_loc    000011bf  00000000  00000000  00011894  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_macinfo 0001887b  00000000  00000000  000126b3  2**0
+ 13 .debug_macinfo 0001b3fd  00000000  00000000  00012a53  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .ARM.attributes 00000025  00000000  00000000  0002af2e  2**0
+ 14 .ARM.attributes 00000025  00000000  00000000  0002de50  2**0
                   CONTENTS, READONLY
- 15 .debug_ranges 00000330  00000000  00000000  0002af53  2**0
+ 15 .debug_ranges 00000330  00000000  00000000  0002de75  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -66,10 +66,10 @@ Disassembly of section .text:
 2000006c:	20000331 	.word	0x20000331
 20000070:	20000333 	.word	0x20000333
 20000074:	20000335 	.word	0x20000335
-20000078:	20001389 	.word	0x20001389
+20000078:	200014ad 	.word	0x200014ad
 2000007c:	20000339 	.word	0x20000339
 20000080:	2000033b 	.word	0x2000033b
-20000084:	200013b5 	.word	0x200013b5
+20000084:	200014d9 	.word	0x200014d9
 20000088:	2000033f 	.word	0x2000033f
 2000008c:	20000341 	.word	0x20000341
 20000090:	20000343 	.word	0x20000343
@@ -711,22 +711,22 @@ Disassembly of section .text:
 20000438 <ACE_PPE_Flag31_IRQHandler>:
 20000438:	e7fe      	b.n	20000438 <ACE_PPE_Flag31_IRQHandler>
 2000043a:	0000      	.short	0x0000
-2000043c:	20001419 	.word	0x20001419
+2000043c:	2000153d 	.word	0x2000153d
 20000440:	00000000 	.word	0x00000000
 20000444:	20000000 	.word	0x20000000
 20000448:	20000000 	.word	0x20000000
-2000044c:	20001568 	.word	0x20001568
-20000450:	20001568 	.word	0x20001568
-20000454:	20001568 	.word	0x20001568
-20000458:	2000156c 	.word	0x2000156c
+2000044c:	2000168c 	.word	0x2000168c
+20000450:	2000168c 	.word	0x2000168c
+20000454:	2000168c 	.word	0x2000168c
+20000458:	20001690 	.word	0x20001690
 2000045c:	00000000 	.word	0x00000000
-20000460:	2000156c 	.word	0x2000156c
-20000464:	20001658 	.word	0x20001658
-20000468:	20001425 	.word	0x20001425
-2000046c:	20000689 	.word	0x20000689
+20000460:	20001690 	.word	0x20001690
+20000464:	20001780 	.word	0x20001780
+20000468:	20001549 	.word	0x20001549
+2000046c:	200006a9 	.word	0x200006a9
 
 20000470 <__do_global_dtors_aux>:
-20000470:	f241 536c 	movw	r3, #5484	; 0x156c
+20000470:	f241 6390 	movw	r3, #5776	; 0x1690
 20000474:	f2c2 0300 	movt	r3, #8192	; 0x2000
 20000478:	781a      	ldrb	r2, [r3, #0]
 2000047a:	b90a      	cbnz	r2, 20000480 <__do_global_dtors_aux+0x10>
@@ -736,7 +736,7 @@ Disassembly of section .text:
 20000482:	bf00      	nop
 
 20000484 <frame_dummy>:
-20000484:	f241 5068 	movw	r0, #5480	; 0x1568
+20000484:	f241 608c 	movw	r0, #5772	; 0x168c
 20000488:	f2c2 0000 	movt	r0, #8192	; 0x2000
 2000048c:	b508      	push	{r3, lr}
 2000048e:	6803      	ldr	r3, [r0, #0]
@@ -759,34 +759,34 @@ uint8_t readRegister8(uint8_t reg){
 200004a4:	af02      	add	r7, sp, #8
 200004a6:	4603      	mov	r3, r0
 200004a8:	71fb      	strb	r3, [r7, #7]
-	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, &reg, 1,
+	MSS_I2C_write( &g_mss_i2c1, DRV2605_ADDR, &reg, 1,
 200004aa:	f107 0307 	add.w	r3, r7, #7
 200004ae:	f04f 0200 	mov.w	r2, #0
 200004b2:	9200      	str	r2, [sp, #0]
-200004b4:	f241 5070 	movw	r0, #5488	; 0x1570
+200004b4:	f241 7008 	movw	r0, #5896	; 0x1708
 200004b8:	f2c2 0000 	movt	r0, #8192	; 0x2000
 200004bc:	f04f 015a 	mov.w	r1, #90	; 0x5a
 200004c0:	461a      	mov	r2, r3
 200004c2:	f04f 0301 	mov.w	r3, #1
-200004c6:	f000 fa13 	bl	200008f0 <MSS_I2C_write>
+200004c6:	f000 fa2b 	bl	20000920 <MSS_I2C_write>
 	                      MSS_I2C_RELEASE_BUS );
-	MSS_I2C_wait_complete( &g_mss_i2c0, MSS_I2C_NO_TIMEOUT );
-200004ca:	f241 5070 	movw	r0, #5488	; 0x1570
+	MSS_I2C_wait_complete( &g_mss_i2c1, MSS_I2C_NO_TIMEOUT );
+200004ca:	f241 7008 	movw	r0, #5896	; 0x1708
 200004ce:	f2c2 0000 	movt	r0, #8192	; 0x2000
 200004d2:	f04f 0100 	mov.w	r1, #0
-200004d6:	f000 fa85 	bl	200009e4 <MSS_I2C_wait_complete>
+200004d6:	f000 fb17 	bl	20000b08 <MSS_I2C_wait_complete>
 	uint8_t * ret = 0;
 200004da:	f04f 0300 	mov.w	r3, #0
 200004de:	60fb      	str	r3, [r7, #12]
-	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, ret, 1,
+	MSS_I2C_read( &g_mss_i2c1, DRV2605_ADDR, ret, 1,
 200004e0:	f04f 0300 	mov.w	r3, #0
 200004e4:	9300      	str	r3, [sp, #0]
-200004e6:	f241 5070 	movw	r0, #5488	; 0x1570
+200004e6:	f241 7008 	movw	r0, #5896	; 0x1708
 200004ea:	f2c2 0000 	movt	r0, #8192	; 0x2000
 200004ee:	f04f 015a 	mov.w	r1, #90	; 0x5a
 200004f2:	68fa      	ldr	r2, [r7, #12]
 200004f4:	f04f 0301 	mov.w	r3, #1
-200004f8:	f000 f9fa 	bl	200008f0 <MSS_I2C_write>
+200004f8:	f000 fa8c 	bl	20000a14 <MSS_I2C_read>
 		                      MSS_I2C_RELEASE_BUS );
 	return *ret;
 200004fc:	68fb      	ldr	r3, [r7, #12]
@@ -815,21 +815,21 @@ void writeRegister8(uint8_t reg, uint8_t val){
 2000051c:	733b      	strb	r3, [r7, #12]
 2000051e:	79bb      	ldrb	r3, [r7, #6]
 20000520:	737b      	strb	r3, [r7, #13]
-	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, buffer, 2, MSS_I2C_RELEASE_BUS );
+	MSS_I2C_write( &g_mss_i2c1, DRV2605_ADDR, buffer, 2, MSS_I2C_RELEASE_BUS );
 20000522:	f107 030c 	add.w	r3, r7, #12
 20000526:	f04f 0200 	mov.w	r2, #0
 2000052a:	9200      	str	r2, [sp, #0]
-2000052c:	f241 5070 	movw	r0, #5488	; 0x1570
+2000052c:	f241 7008 	movw	r0, #5896	; 0x1708
 20000530:	f2c2 0000 	movt	r0, #8192	; 0x2000
 20000534:	f04f 015a 	mov.w	r1, #90	; 0x5a
 20000538:	461a      	mov	r2, r3
 2000053a:	f04f 0302 	mov.w	r3, #2
-2000053e:	f000 f9d7 	bl	200008f0 <MSS_I2C_write>
-	status = MSS_I2C_wait_complete( &g_mss_i2c0, MSS_I2C_NO_TIMEOUT );
-20000542:	f241 5070 	movw	r0, #5488	; 0x1570
+2000053e:	f000 f9ef 	bl	20000920 <MSS_I2C_write>
+	status = MSS_I2C_wait_complete( &g_mss_i2c1, MSS_I2C_NO_TIMEOUT );
+20000542:	f241 7008 	movw	r0, #5896	; 0x1708
 20000546:	f2c2 0000 	movt	r0, #8192	; 0x2000
 2000054a:	f04f 0100 	mov.w	r1, #0
-2000054e:	f000 fa49 	bl	200009e4 <MSS_I2C_wait_complete>
+2000054e:	f000 fadb 	bl	20000b08 <MSS_I2C_wait_complete>
 20000552:	4603      	mov	r3, r0
 20000554:	73fb      	strb	r3, [r7, #15]
 }
@@ -998,1427 +998,2383 @@ void setMode(uint8_t mode) {
 20000684:	bd80      	pop	{r7, pc}
 20000686:	bf00      	nop
 
-20000688 <main>:
+20000688 <useERM>:
+/**************************************************************************/
+/*!
+  @brief Use ERM (Eccentric Rotating Mass) mode.
+*/
+/**************************************************************************/
+void useERM () {
+20000688:	b580      	push	{r7, lr}
+2000068a:	af00      	add	r7, sp, #0
+  writeRegister8(DRV2605_REG_FEEDBACK, readRegister8(DRV2605_REG_FEEDBACK) & 0x7F);
+2000068c:	f04f 001a 	mov.w	r0, #26
+20000690:	f7ff ff06 	bl	200004a0 <readRegister8>
+20000694:	4603      	mov	r3, r0
+20000696:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+2000069a:	f04f 001a 	mov.w	r0, #26
+2000069e:	4619      	mov	r1, r3
+200006a0:	f7ff ff34 	bl	2000050c <writeRegister8>
+}
+200006a4:	bd80      	pop	{r7, pc}
+200006a6:	bf00      	nop
+
+200006a8 <main>:
 /**************************************************************************/
 void useLRA () {
   writeRegister8(DRV2605_REG_FEEDBACK, readRegister8(DRV2605_REG_FEEDBACK) | 0x80);
 }
 
 int main(){
-20000688:	b580      	push	{r7, lr}
-2000068a:	af00      	add	r7, sp, #0
+200006a8:	b580      	push	{r7, lr}
+200006aa:	af00      	add	r7, sp, #0
 	// set the effect to play
-	  MSS_I2C_init( &g_mss_i2c0, DRV2605_ADDR, MSS_I2C_PCLK_DIV_256 );
-2000068c:	f241 5070 	movw	r0, #5488	; 0x1570
-20000690:	f2c2 0000 	movt	r0, #8192	; 0x2000
-20000694:	f04f 015a 	mov.w	r1, #90	; 0x5a
-20000698:	f04f 0200 	mov.w	r2, #0
-2000069c:	f000 f872 	bl	20000784 <MSS_I2C_init>
+	  MSS_I2C_init( &g_mss_i2c1, DRV2605_ADDR, MSS_I2C_PCLK_DIV_256 );
+200006ac:	f241 7008 	movw	r0, #5896	; 0x1708
+200006b0:	f2c2 0000 	movt	r0, #8192	; 0x2000
+200006b4:	f04f 015a 	mov.w	r1, #90	; 0x5a
+200006b8:	f04f 0200 	mov.w	r2, #0
+200006bc:	f000 f87a 	bl	200007b4 <MSS_I2C_init>
 
 	  init();
-200006a0:	f7ff ff5e 	bl	20000560 <init>
-
-	  selectLibrary(1);
-200006a4:	f04f 0001 	mov.w	r0, #1
-200006a8:	f7ff ffc4 	bl	20000634 <selectLibrary>
+200006c0:	f7ff ff4e 	bl	20000560 <init>
+	  useERM();
+200006c4:	f7ff ffe0 	bl	20000688 <useERM>
+	  selectLibrary(5);
+200006c8:	f04f 0005 	mov.w	r0, #5
+200006cc:	f7ff ffb2 	bl	20000634 <selectLibrary>
 
 	  // I2C trigger by sending 'go' command
 	  // default, internal trigger when sending GO command
 	  setMode(DRV2605_MODE_INTTRIG);
-200006ac:	f04f 0000 	mov.w	r0, #0
-200006b0:	f7ff ffda 	bl	20000668 <setMode>
+200006d0:	f04f 0000 	mov.w	r0, #0
+200006d4:	f7ff ffc8 	bl	20000668 <setMode>
 
-
-	  setWaveform(0, 102);  // play effect
-200006b4:	f04f 0000 	mov.w	r0, #0
-200006b8:	f04f 0166 	mov.w	r1, #102	; 0x66
-200006bc:	f7ff ffa6 	bl	2000060c <setWaveform>
-	  setWaveform(1, 0);       // end waveform
-200006c0:	f04f 0001 	mov.w	r0, #1
-200006c4:	f04f 0100 	mov.w	r1, #0
-200006c8:	f7ff ffa0 	bl	2000060c <setWaveform>
+	  setWaveform(0, 84);
+200006d8:	f04f 0000 	mov.w	r0, #0
+200006dc:	f04f 0154 	mov.w	r1, #84	; 0x54
+200006e0:	f7ff ff94 	bl	2000060c <setWaveform>
+	  setWaveform(1, 1);  // play effect
+200006e4:	f04f 0001 	mov.w	r0, #1
+200006e8:	f04f 0101 	mov.w	r1, #1
+200006ec:	f7ff ff8e 	bl	2000060c <setWaveform>
+	  setWaveform(2, 0);       // end waveform
+200006f0:	f04f 0002 	mov.w	r0, #2
+200006f4:	f04f 0100 	mov.w	r1, #0
+200006f8:	f7ff ff88 	bl	2000060c <setWaveform>
 
 	  // play the effect!
-	  go();
-200006cc:	f7ff ffc2 	bl	20000654 <go>
+	  while(1){
+		  go();
+200006fc:	f7ff ffaa 	bl	20000654 <go>
+		  //delay(1000);
+	  }
+20000700:	e7fc      	b.n	200006fc <main+0x54>
+20000702:	bf00      	nop
+
+20000704 <NVIC_EnableIRQ>:
+ *
+ * Enable a device specific interupt in the NVIC interrupt controller.
+ * The interrupt number cannot be a negative value.
+ */
+static __INLINE void NVIC_EnableIRQ(IRQn_Type IRQn)
+{
+20000704:	b480      	push	{r7}
+20000706:	b083      	sub	sp, #12
+20000708:	af00      	add	r7, sp, #0
+2000070a:	4603      	mov	r3, r0
+2000070c:	80fb      	strh	r3, [r7, #6]
+  NVIC->ISER[((uint32_t)(IRQn) >> 5)] = (1 << ((uint32_t)(IRQn) & 0x1F)); /* enable interrupt */
+2000070e:	f24e 1300 	movw	r3, #57600	; 0xe100
+20000712:	f2ce 0300 	movt	r3, #57344	; 0xe000
+20000716:	f9b7 2006 	ldrsh.w	r2, [r7, #6]
+2000071a:	ea4f 1252 	mov.w	r2, r2, lsr #5
+2000071e:	88f9      	ldrh	r1, [r7, #6]
+20000720:	f001 011f 	and.w	r1, r1, #31
+20000724:	f04f 0001 	mov.w	r0, #1
+20000728:	fa00 f101 	lsl.w	r1, r0, r1
+2000072c:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
 }
-200006d0:	bd80      	pop	{r7, pc}
-200006d2:	bf00      	nop
+20000730:	f107 070c 	add.w	r7, r7, #12
+20000734:	46bd      	mov	sp, r7
+20000736:	bc80      	pop	{r7}
+20000738:	4770      	bx	lr
+2000073a:	bf00      	nop
 
-200006d4 <NVIC_EnableIRQ>:
-200006d4:	b480      	push	{r7}
-200006d6:	b083      	sub	sp, #12
-200006d8:	af00      	add	r7, sp, #0
-200006da:	4603      	mov	r3, r0
-200006dc:	80fb      	strh	r3, [r7, #6]
-200006de:	f24e 1300 	movw	r3, #57600	; 0xe100
-200006e2:	f2ce 0300 	movt	r3, #57344	; 0xe000
-200006e6:	f9b7 2006 	ldrsh.w	r2, [r7, #6]
-200006ea:	ea4f 1252 	mov.w	r2, r2, lsr #5
-200006ee:	88f9      	ldrh	r1, [r7, #6]
-200006f0:	f001 011f 	and.w	r1, r1, #31
-200006f4:	f04f 0001 	mov.w	r0, #1
-200006f8:	fa00 f101 	lsl.w	r1, r0, r1
-200006fc:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
-20000700:	f107 070c 	add.w	r7, r7, #12
-20000704:	46bd      	mov	sp, r7
-20000706:	bc80      	pop	{r7}
-20000708:	4770      	bx	lr
-2000070a:	bf00      	nop
+2000073c <NVIC_DisableIRQ>:
+ * 
+ * Disable a device specific interupt in the NVIC interrupt controller.
+ * The interrupt number cannot be a negative value.
+ */
+static __INLINE void NVIC_DisableIRQ(IRQn_Type IRQn)
+{
+2000073c:	b480      	push	{r7}
+2000073e:	b083      	sub	sp, #12
+20000740:	af00      	add	r7, sp, #0
+20000742:	4603      	mov	r3, r0
+20000744:	80fb      	strh	r3, [r7, #6]
+  NVIC->ICER[((uint32_t)(IRQn) >> 5)] = (1 << ((uint32_t)(IRQn) & 0x1F)); /* disable interrupt */
+20000746:	f24e 1300 	movw	r3, #57600	; 0xe100
+2000074a:	f2ce 0300 	movt	r3, #57344	; 0xe000
+2000074e:	f9b7 2006 	ldrsh.w	r2, [r7, #6]
+20000752:	ea4f 1252 	mov.w	r2, r2, lsr #5
+20000756:	88f9      	ldrh	r1, [r7, #6]
+20000758:	f001 011f 	and.w	r1, r1, #31
+2000075c:	f04f 0001 	mov.w	r0, #1
+20000760:	fa00 f101 	lsl.w	r1, r0, r1
+20000764:	f102 0220 	add.w	r2, r2, #32
+20000768:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
+}
+2000076c:	f107 070c 	add.w	r7, r7, #12
+20000770:	46bd      	mov	sp, r7
+20000772:	bc80      	pop	{r7}
+20000774:	4770      	bx	lr
+20000776:	bf00      	nop
 
-2000070c <NVIC_DisableIRQ>:
-2000070c:	b480      	push	{r7}
-2000070e:	b083      	sub	sp, #12
-20000710:	af00      	add	r7, sp, #0
-20000712:	4603      	mov	r3, r0
-20000714:	80fb      	strh	r3, [r7, #6]
-20000716:	f24e 1300 	movw	r3, #57600	; 0xe100
-2000071a:	f2ce 0300 	movt	r3, #57344	; 0xe000
-2000071e:	f9b7 2006 	ldrsh.w	r2, [r7, #6]
-20000722:	ea4f 1252 	mov.w	r2, r2, lsr #5
-20000726:	88f9      	ldrh	r1, [r7, #6]
-20000728:	f001 011f 	and.w	r1, r1, #31
-2000072c:	f04f 0001 	mov.w	r0, #1
-20000730:	fa00 f101 	lsl.w	r1, r0, r1
-20000734:	f102 0220 	add.w	r2, r2, #32
-20000738:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
-2000073c:	f107 070c 	add.w	r7, r7, #12
-20000740:	46bd      	mov	sp, r7
-20000742:	bc80      	pop	{r7}
-20000744:	4770      	bx	lr
-20000746:	bf00      	nop
+20000778 <NVIC_ClearPendingIRQ>:
+ *
+ * Clear the pending bit for the specified interrupt. 
+ * The interrupt number cannot be a negative value.
+ */
+static __INLINE void NVIC_ClearPendingIRQ(IRQn_Type IRQn)
+{
+20000778:	b480      	push	{r7}
+2000077a:	b083      	sub	sp, #12
+2000077c:	af00      	add	r7, sp, #0
+2000077e:	4603      	mov	r3, r0
+20000780:	80fb      	strh	r3, [r7, #6]
+  NVIC->ICPR[((uint32_t)(IRQn) >> 5)] = (1 << ((uint32_t)(IRQn) & 0x1F)); /* Clear pending interrupt */
+20000782:	f24e 1300 	movw	r3, #57600	; 0xe100
+20000786:	f2ce 0300 	movt	r3, #57344	; 0xe000
+2000078a:	f9b7 2006 	ldrsh.w	r2, [r7, #6]
+2000078e:	ea4f 1252 	mov.w	r2, r2, lsr #5
+20000792:	88f9      	ldrh	r1, [r7, #6]
+20000794:	f001 011f 	and.w	r1, r1, #31
+20000798:	f04f 0001 	mov.w	r0, #1
+2000079c:	fa00 f101 	lsl.w	r1, r0, r1
+200007a0:	f102 0260 	add.w	r2, r2, #96	; 0x60
+200007a4:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
+}
+200007a8:	f107 070c 	add.w	r7, r7, #12
+200007ac:	46bd      	mov	sp, r7
+200007ae:	bc80      	pop	{r7}
+200007b0:	4770      	bx	lr
+200007b2:	bf00      	nop
 
-20000748 <NVIC_ClearPendingIRQ>:
-20000748:	b480      	push	{r7}
-2000074a:	b083      	sub	sp, #12
-2000074c:	af00      	add	r7, sp, #0
-2000074e:	4603      	mov	r3, r0
-20000750:	80fb      	strh	r3, [r7, #6]
-20000752:	f24e 1300 	movw	r3, #57600	; 0xe100
-20000756:	f2ce 0300 	movt	r3, #57344	; 0xe000
-2000075a:	f9b7 2006 	ldrsh.w	r2, [r7, #6]
-2000075e:	ea4f 1252 	mov.w	r2, r2, lsr #5
-20000762:	88f9      	ldrh	r1, [r7, #6]
-20000764:	f001 011f 	and.w	r1, r1, #31
-20000768:	f04f 0001 	mov.w	r0, #1
-2000076c:	fa00 f101 	lsl.w	r1, r0, r1
-20000770:	f102 0260 	add.w	r2, r2, #96	; 0x60
-20000774:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
-20000778:	f107 070c 	add.w	r7, r7, #12
-2000077c:	46bd      	mov	sp, r7
-2000077e:	bc80      	pop	{r7}
-20000780:	4770      	bx	lr
-20000782:	bf00      	nop
+200007b4 <MSS_I2C_init>:
+(
+    mss_i2c_instance_t * this_i2c,
+    uint8_t ser_address,
+    mss_i2c_clock_divider_t ser_clock_speed
+)
+{
+200007b4:	b580      	push	{r7, lr}
+200007b6:	b084      	sub	sp, #16
+200007b8:	af00      	add	r7, sp, #0
+200007ba:	6078      	str	r0, [r7, #4]
+200007bc:	4613      	mov	r3, r2
+200007be:	460a      	mov	r2, r1
+200007c0:	70fa      	strb	r2, [r7, #3]
+200007c2:	70bb      	strb	r3, [r7, #2]
+    uint32_t primask;
+    uint_fast16_t clock_speed = (uint_fast16_t)ser_clock_speed;
+200007c4:	78bb      	ldrb	r3, [r7, #2]
+200007c6:	60fb      	str	r3, [r7, #12]
+    
+    ASSERT( (this_i2c == &g_mss_i2c0) || (this_i2c == &g_mss_i2c1) );
+200007c8:	687a      	ldr	r2, [r7, #4]
+200007ca:	f241 6394 	movw	r3, #5780	; 0x1694
+200007ce:	f2c2 0300 	movt	r3, #8192	; 0x2000
+200007d2:	429a      	cmp	r2, r3
+200007d4:	d007      	beq.n	200007e6 <MSS_I2C_init+0x32>
+200007d6:	687a      	ldr	r2, [r7, #4]
+200007d8:	f241 7308 	movw	r3, #5896	; 0x1708
+200007dc:	f2c2 0300 	movt	r3, #8192	; 0x2000
+200007e0:	429a      	cmp	r2, r3
+200007e2:	d000      	beq.n	200007e6 <MSS_I2C_init+0x32>
+200007e4:	be00      	bkpt	0x0000
+     * Initialize all items of the this_i2c data structure to zero. This
+     * initializes all state variables to their init value. It relies on
+     * the fact that NO_TRANSACTION, I2C_SUCCESS and I2C_RELEASE_BUS all
+     * have an actual value of zero.
+     */
+    primask = disable_interrupts();
+200007e6:	f000 fe43 	bl	20001470 <disable_interrupts>
+200007ea:	4603      	mov	r3, r0
+200007ec:	60bb      	str	r3, [r7, #8]
+    memset(this_i2c, 0, sizeof(mss_i2c_instance_t));
+200007ee:	6878      	ldr	r0, [r7, #4]
+200007f0:	f04f 0100 	mov.w	r1, #0
+200007f4:	f04f 0274 	mov.w	r2, #116	; 0x74
+200007f8:	f000 fece 	bl	20001598 <memset>
+    
+    if ( this_i2c == &g_mss_i2c0 )
+200007fc:	687a      	ldr	r2, [r7, #4]
+200007fe:	f241 6394 	movw	r3, #5780	; 0x1694
+20000802:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000806:	429a      	cmp	r2, r3
+20000808:	d12c      	bne.n	20000864 <MSS_I2C_init+0xb0>
+    {
+        this_i2c->irqn = I2C0_IRQn;
+2000080a:	687b      	ldr	r3, [r7, #4]
+2000080c:	f04f 020e 	mov.w	r2, #14
+20000810:	825a      	strh	r2, [r3, #18]
+        this_i2c->hw_reg = I2C0;
+20000812:	687a      	ldr	r2, [r7, #4]
+20000814:	f242 0300 	movw	r3, #8192	; 0x2000
+20000818:	f2c4 0300 	movt	r3, #16384	; 0x4000
+2000081c:	6153      	str	r3, [r2, #20]
+        this_i2c->hw_reg_bit = I2C0_BITBAND;
+2000081e:	687a      	ldr	r2, [r7, #4]
+20000820:	f240 0300 	movw	r3, #0
+20000824:	f2c4 2304 	movt	r3, #16900	; 0x4204
+20000828:	6193      	str	r3, [r2, #24]
+        
+        /* reset I2C0 */
+        SYSREG->SOFT_RST_CR |= SYSREG_I2C0_SOFTRESET_MASK;
+2000082a:	f242 0300 	movw	r3, #8192	; 0x2000
+2000082e:	f2ce 0304 	movt	r3, #57348	; 0xe004
+20000832:	f242 0200 	movw	r2, #8192	; 0x2000
+20000836:	f2ce 0204 	movt	r2, #57348	; 0xe004
+2000083a:	6b12      	ldr	r2, [r2, #48]	; 0x30
+2000083c:	f442 6200 	orr.w	r2, r2, #2048	; 0x800
+20000840:	631a      	str	r2, [r3, #48]	; 0x30
+        /* Clear any previously pended I2C0 interrupt */
+        NVIC_ClearPendingIRQ( I2C0_IRQn );
+20000842:	f04f 000e 	mov.w	r0, #14
+20000846:	f7ff ff97 	bl	20000778 <NVIC_ClearPendingIRQ>
+        /* Take I2C0 out of reset. */
+        SYSREG->SOFT_RST_CR &= ~SYSREG_I2C0_SOFTRESET_MASK;
+2000084a:	f242 0300 	movw	r3, #8192	; 0x2000
+2000084e:	f2ce 0304 	movt	r3, #57348	; 0xe004
+20000852:	f242 0200 	movw	r2, #8192	; 0x2000
+20000856:	f2ce 0204 	movt	r2, #57348	; 0xe004
+2000085a:	6b12      	ldr	r2, [r2, #48]	; 0x30
+2000085c:	f422 6200 	bic.w	r2, r2, #2048	; 0x800
+20000860:	631a      	str	r2, [r3, #48]	; 0x30
+20000862:	e02b      	b.n	200008bc <MSS_I2C_init+0x108>
+    }
+    else
+    {
+        this_i2c->irqn = I2C1_IRQn;
+20000864:	687b      	ldr	r3, [r7, #4]
+20000866:	f04f 0211 	mov.w	r2, #17
+2000086a:	825a      	strh	r2, [r3, #18]
+        this_i2c->hw_reg = I2C1;
+2000086c:	687a      	ldr	r2, [r7, #4]
+2000086e:	f242 0300 	movw	r3, #8192	; 0x2000
+20000872:	f2c4 0301 	movt	r3, #16385	; 0x4001
+20000876:	6153      	str	r3, [r2, #20]
+        this_i2c->hw_reg_bit = I2C1_BITBAND;
+20000878:	687a      	ldr	r2, [r7, #4]
+2000087a:	f240 0300 	movw	r3, #0
+2000087e:	f2c4 2324 	movt	r3, #16932	; 0x4224
+20000882:	6193      	str	r3, [r2, #24]
+        
+        /* reset I2C1 */
+        SYSREG->SOFT_RST_CR |= SYSREG_I2C1_SOFTRESET_MASK;
+20000884:	f242 0300 	movw	r3, #8192	; 0x2000
+20000888:	f2ce 0304 	movt	r3, #57348	; 0xe004
+2000088c:	f242 0200 	movw	r2, #8192	; 0x2000
+20000890:	f2ce 0204 	movt	r2, #57348	; 0xe004
+20000894:	6b12      	ldr	r2, [r2, #48]	; 0x30
+20000896:	f442 5280 	orr.w	r2, r2, #4096	; 0x1000
+2000089a:	631a      	str	r2, [r3, #48]	; 0x30
+        /* Clear any previously pended I2C1 interrupt */
+        NVIC_ClearPendingIRQ( I2C1_IRQn );
+2000089c:	f04f 0011 	mov.w	r0, #17
+200008a0:	f7ff ff6a 	bl	20000778 <NVIC_ClearPendingIRQ>
+        /* Take I2C1 out of reset. */
+        SYSREG->SOFT_RST_CR &= ~SYSREG_I2C1_SOFTRESET_MASK;
+200008a4:	f242 0300 	movw	r3, #8192	; 0x2000
+200008a8:	f2ce 0304 	movt	r3, #57348	; 0xe004
+200008ac:	f242 0200 	movw	r2, #8192	; 0x2000
+200008b0:	f2ce 0204 	movt	r2, #57348	; 0xe004
+200008b4:	6b12      	ldr	r2, [r2, #48]	; 0x30
+200008b6:	f422 5280 	bic.w	r2, r2, #4096	; 0x1000
+200008ba:	631a      	str	r2, [r3, #48]	; 0x30
+    }
+    
+    /* Use same base address for SMBus bitband access */
+    this_i2c->hw_smb_reg_bit = (I2C_SMBus_BitBand_TypeDef *)this_i2c->hw_reg_bit;
+200008bc:	687b      	ldr	r3, [r7, #4]
+200008be:	699b      	ldr	r3, [r3, #24]
+200008c0:	461a      	mov	r2, r3
+200008c2:	687b      	ldr	r3, [r7, #4]
+200008c4:	61da      	str	r2, [r3, #28]
 
-20000784 <MSS_I2C_init>:
-20000784:	b580      	push	{r7, lr}
-20000786:	b084      	sub	sp, #16
-20000788:	af00      	add	r7, sp, #0
-2000078a:	6078      	str	r0, [r7, #4]
-2000078c:	4613      	mov	r3, r2
-2000078e:	460a      	mov	r2, r1
-20000790:	70fa      	strb	r2, [r7, #3]
-20000792:	70bb      	strb	r3, [r7, #2]
-20000794:	78bb      	ldrb	r3, [r7, #2]
-20000796:	60fb      	str	r3, [r7, #12]
-20000798:	687a      	ldr	r2, [r7, #4]
-2000079a:	f241 5370 	movw	r3, #5488	; 0x1570
-2000079e:	f2c2 0300 	movt	r3, #8192	; 0x2000
-200007a2:	429a      	cmp	r2, r3
-200007a4:	d007      	beq.n	200007b6 <MSS_I2C_init+0x32>
-200007a6:	687a      	ldr	r2, [r7, #4]
-200007a8:	f241 53e4 	movw	r3, #5604	; 0x15e4
-200007ac:	f2c2 0300 	movt	r3, #8192	; 0x2000
-200007b0:	429a      	cmp	r2, r3
-200007b2:	d000      	beq.n	200007b6 <MSS_I2C_init+0x32>
-200007b4:	be00      	bkpt	0x0000
-200007b6:	f000 fdc9 	bl	2000134c <disable_interrupts>
-200007ba:	4603      	mov	r3, r0
-200007bc:	60bb      	str	r3, [r7, #8]
-200007be:	6878      	ldr	r0, [r7, #4]
-200007c0:	f04f 0100 	mov.w	r1, #0
-200007c4:	f04f 0274 	mov.w	r2, #116	; 0x74
-200007c8:	f000 fe54 	bl	20001474 <memset>
-200007cc:	687a      	ldr	r2, [r7, #4]
-200007ce:	f241 5370 	movw	r3, #5488	; 0x1570
-200007d2:	f2c2 0300 	movt	r3, #8192	; 0x2000
-200007d6:	429a      	cmp	r2, r3
-200007d8:	d12c      	bne.n	20000834 <MSS_I2C_init+0xb0>
-200007da:	687b      	ldr	r3, [r7, #4]
-200007dc:	f04f 020e 	mov.w	r2, #14
-200007e0:	825a      	strh	r2, [r3, #18]
-200007e2:	687a      	ldr	r2, [r7, #4]
-200007e4:	f242 0300 	movw	r3, #8192	; 0x2000
-200007e8:	f2c4 0300 	movt	r3, #16384	; 0x4000
-200007ec:	6153      	str	r3, [r2, #20]
-200007ee:	687a      	ldr	r2, [r7, #4]
-200007f0:	f240 0300 	movw	r3, #0
-200007f4:	f2c4 2304 	movt	r3, #16900	; 0x4204
-200007f8:	6193      	str	r3, [r2, #24]
-200007fa:	f242 0300 	movw	r3, #8192	; 0x2000
-200007fe:	f2ce 0304 	movt	r3, #57348	; 0xe004
-20000802:	f242 0200 	movw	r2, #8192	; 0x2000
-20000806:	f2ce 0204 	movt	r2, #57348	; 0xe004
-2000080a:	6b12      	ldr	r2, [r2, #48]	; 0x30
-2000080c:	f442 6200 	orr.w	r2, r2, #2048	; 0x800
-20000810:	631a      	str	r2, [r3, #48]	; 0x30
-20000812:	f04f 000e 	mov.w	r0, #14
-20000816:	f7ff ff97 	bl	20000748 <NVIC_ClearPendingIRQ>
-2000081a:	f242 0300 	movw	r3, #8192	; 0x2000
-2000081e:	f2ce 0304 	movt	r3, #57348	; 0xe004
-20000822:	f242 0200 	movw	r2, #8192	; 0x2000
-20000826:	f2ce 0204 	movt	r2, #57348	; 0xe004
-2000082a:	6b12      	ldr	r2, [r2, #48]	; 0x30
-2000082c:	f422 6200 	bic.w	r2, r2, #2048	; 0x800
-20000830:	631a      	str	r2, [r3, #48]	; 0x30
-20000832:	e02b      	b.n	2000088c <MSS_I2C_init+0x108>
-20000834:	687b      	ldr	r3, [r7, #4]
-20000836:	f04f 0211 	mov.w	r2, #17
-2000083a:	825a      	strh	r2, [r3, #18]
-2000083c:	687a      	ldr	r2, [r7, #4]
-2000083e:	f242 0300 	movw	r3, #8192	; 0x2000
-20000842:	f2c4 0301 	movt	r3, #16385	; 0x4001
-20000846:	6153      	str	r3, [r2, #20]
-20000848:	687a      	ldr	r2, [r7, #4]
-2000084a:	f240 0300 	movw	r3, #0
-2000084e:	f2c4 2324 	movt	r3, #16932	; 0x4224
-20000852:	6193      	str	r3, [r2, #24]
-20000854:	f242 0300 	movw	r3, #8192	; 0x2000
-20000858:	f2ce 0304 	movt	r3, #57348	; 0xe004
-2000085c:	f242 0200 	movw	r2, #8192	; 0x2000
-20000860:	f2ce 0204 	movt	r2, #57348	; 0xe004
-20000864:	6b12      	ldr	r2, [r2, #48]	; 0x30
-20000866:	f442 5280 	orr.w	r2, r2, #4096	; 0x1000
-2000086a:	631a      	str	r2, [r3, #48]	; 0x30
-2000086c:	f04f 0011 	mov.w	r0, #17
-20000870:	f7ff ff6a 	bl	20000748 <NVIC_ClearPendingIRQ>
-20000874:	f242 0300 	movw	r3, #8192	; 0x2000
-20000878:	f2ce 0304 	movt	r3, #57348	; 0xe004
-2000087c:	f242 0200 	movw	r2, #8192	; 0x2000
-20000880:	f2ce 0204 	movt	r2, #57348	; 0xe004
-20000884:	6b12      	ldr	r2, [r2, #48]	; 0x30
-20000886:	f422 5280 	bic.w	r2, r2, #4096	; 0x1000
-2000088a:	631a      	str	r2, [r3, #48]	; 0x30
-2000088c:	687b      	ldr	r3, [r7, #4]
-2000088e:	699b      	ldr	r3, [r3, #24]
-20000890:	461a      	mov	r2, r3
-20000892:	687b      	ldr	r3, [r7, #4]
-20000894:	61da      	str	r2, [r3, #28]
-20000896:	78fb      	ldrb	r3, [r7, #3]
-20000898:	ea4f 0243 	mov.w	r2, r3, lsl #1
-2000089c:	687b      	ldr	r3, [r7, #4]
-2000089e:	601a      	str	r2, [r3, #0]
-200008a0:	687b      	ldr	r3, [r7, #4]
-200008a2:	699b      	ldr	r3, [r3, #24]
-200008a4:	68fa      	ldr	r2, [r7, #12]
-200008a6:	ea4f 0292 	mov.w	r2, r2, lsr #2
-200008aa:	f002 0201 	and.w	r2, r2, #1
-200008ae:	61da      	str	r2, [r3, #28]
-200008b0:	687b      	ldr	r3, [r7, #4]
-200008b2:	699b      	ldr	r3, [r3, #24]
-200008b4:	68fa      	ldr	r2, [r7, #12]
-200008b6:	ea4f 0252 	mov.w	r2, r2, lsr #1
-200008ba:	f002 0201 	and.w	r2, r2, #1
-200008be:	605a      	str	r2, [r3, #4]
-200008c0:	687b      	ldr	r3, [r7, #4]
-200008c2:	699b      	ldr	r3, [r3, #24]
-200008c4:	68fa      	ldr	r2, [r7, #12]
-200008c6:	f002 0201 	and.w	r2, r2, #1
-200008ca:	601a      	str	r2, [r3, #0]
+    /* Update Serial address of the device */
+    this_i2c->ser_address = (uint_fast8_t)ser_address << 1u;
+200008c6:	78fb      	ldrb	r3, [r7, #3]
+200008c8:	ea4f 0243 	mov.w	r2, r3, lsl #1
 200008cc:	687b      	ldr	r3, [r7, #4]
-200008ce:	695b      	ldr	r3, [r3, #20]
-200008d0:	687a      	ldr	r2, [r7, #4]
-200008d2:	6812      	ldr	r2, [r2, #0]
-200008d4:	b2d2      	uxtb	r2, r2
-200008d6:	731a      	strb	r2, [r3, #12]
-200008d8:	687b      	ldr	r3, [r7, #4]
-200008da:	699b      	ldr	r3, [r3, #24]
-200008dc:	f04f 0201 	mov.w	r2, #1
-200008e0:	619a      	str	r2, [r3, #24]
-200008e2:	68b8      	ldr	r0, [r7, #8]
-200008e4:	f000 fd44 	bl	20001370 <restore_interrupts>
-200008e8:	f107 0710 	add.w	r7, r7, #16
-200008ec:	46bd      	mov	sp, r7
-200008ee:	bd80      	pop	{r7, pc}
+200008ce:	601a      	str	r2, [r3, #0]
 
-200008f0 <MSS_I2C_write>:
-200008f0:	b580      	push	{r7, lr}
-200008f2:	b086      	sub	sp, #24
-200008f4:	af00      	add	r7, sp, #0
-200008f6:	60f8      	str	r0, [r7, #12]
-200008f8:	607a      	str	r2, [r7, #4]
-200008fa:	460a      	mov	r2, r1
-200008fc:	72fa      	strb	r2, [r7, #11]
-200008fe:	807b      	strh	r3, [r7, #2]
-20000900:	68fa      	ldr	r2, [r7, #12]
-20000902:	f241 5370 	movw	r3, #5488	; 0x1570
-20000906:	f2c2 0300 	movt	r3, #8192	; 0x2000
-2000090a:	429a      	cmp	r2, r3
-2000090c:	d007      	beq.n	2000091e <MSS_I2C_write+0x2e>
-2000090e:	68fa      	ldr	r2, [r7, #12]
-20000910:	f241 53e4 	movw	r3, #5604	; 0x15e4
-20000914:	f2c2 0300 	movt	r3, #8192	; 0x2000
-20000918:	429a      	cmp	r2, r3
-2000091a:	d000      	beq.n	2000091e <MSS_I2C_write+0x2e>
-2000091c:	be00      	bkpt	0x0000
-2000091e:	f000 fd15 	bl	2000134c <disable_interrupts>
-20000922:	4603      	mov	r3, r0
-20000924:	617b      	str	r3, [r7, #20]
-20000926:	68fb      	ldr	r3, [r7, #12]
-20000928:	7a1b      	ldrb	r3, [r3, #8]
-2000092a:	2b00      	cmp	r3, #0
-2000092c:	d103      	bne.n	20000936 <MSS_I2C_write+0x46>
-2000092e:	68fb      	ldr	r3, [r7, #12]
-20000930:	f04f 0201 	mov.w	r2, #1
-20000934:	721a      	strb	r2, [r3, #8]
-20000936:	68fb      	ldr	r3, [r7, #12]
-20000938:	f04f 0201 	mov.w	r2, #1
-2000093c:	f883 2072 	strb.w	r2, [r3, #114]	; 0x72
-20000940:	7afb      	ldrb	r3, [r7, #11]
-20000942:	ea4f 0243 	mov.w	r2, r3, lsl #1
-20000946:	68fb      	ldr	r3, [r7, #12]
-20000948:	605a      	str	r2, [r3, #4]
-2000094a:	68fb      	ldr	r3, [r7, #12]
-2000094c:	f04f 0200 	mov.w	r2, #0
-20000950:	62da      	str	r2, [r3, #44]	; 0x2c
-20000952:	68fb      	ldr	r3, [r7, #12]
-20000954:	687a      	ldr	r2, [r7, #4]
-20000956:	621a      	str	r2, [r3, #32]
-20000958:	887a      	ldrh	r2, [r7, #2]
-2000095a:	68fb      	ldr	r3, [r7, #12]
-2000095c:	625a      	str	r2, [r3, #36]	; 0x24
+    this_i2c->hw_reg_bit->CTRL_CR2 = (uint32_t)((clock_speed >> 2u) & 0x01u);
+200008d0:	687b      	ldr	r3, [r7, #4]
+200008d2:	699b      	ldr	r3, [r3, #24]
+200008d4:	68fa      	ldr	r2, [r7, #12]
+200008d6:	ea4f 0292 	mov.w	r2, r2, lsr #2
+200008da:	f002 0201 	and.w	r2, r2, #1
+200008de:	61da      	str	r2, [r3, #28]
+    this_i2c->hw_reg_bit->CTRL_CR1 = (uint32_t)((clock_speed >> 1u) & 0x01u);
+200008e0:	687b      	ldr	r3, [r7, #4]
+200008e2:	699b      	ldr	r3, [r3, #24]
+200008e4:	68fa      	ldr	r2, [r7, #12]
+200008e6:	ea4f 0252 	mov.w	r2, r2, lsr #1
+200008ea:	f002 0201 	and.w	r2, r2, #1
+200008ee:	605a      	str	r2, [r3, #4]
+    this_i2c->hw_reg_bit->CTRL_CR0 = (uint32_t)(clock_speed & 0x01u);
+200008f0:	687b      	ldr	r3, [r7, #4]
+200008f2:	699b      	ldr	r3, [r3, #24]
+200008f4:	68fa      	ldr	r2, [r7, #12]
+200008f6:	f002 0201 	and.w	r2, r2, #1
+200008fa:	601a      	str	r2, [r3, #0]
+    this_i2c->hw_reg->ADDR = (uint8_t)this_i2c->ser_address;
+200008fc:	687b      	ldr	r3, [r7, #4]
+200008fe:	695b      	ldr	r3, [r3, #20]
+20000900:	687a      	ldr	r2, [r7, #4]
+20000902:	6812      	ldr	r2, [r2, #0]
+20000904:	b2d2      	uxtb	r2, r2
+20000906:	731a      	strb	r2, [r3, #12]
+    this_i2c->hw_reg_bit->CTRL_ENS1 = 0x01u; /* set enable bit */
+20000908:	687b      	ldr	r3, [r7, #4]
+2000090a:	699b      	ldr	r3, [r3, #24]
+2000090c:	f04f 0201 	mov.w	r2, #1
+20000910:	619a      	str	r2, [r3, #24]
+    restore_interrupts( primask );
+20000912:	68b8      	ldr	r0, [r7, #8]
+20000914:	f000 fdbe 	bl	20001494 <restore_interrupts>
+}
+20000918:	f107 0710 	add.w	r7, r7, #16
+2000091c:	46bd      	mov	sp, r7
+2000091e:	bd80      	pop	{r7, pc}
+
+20000920 <MSS_I2C_write>:
+    uint8_t serial_addr,
+    const uint8_t * write_buffer,
+    uint16_t write_size,
+    uint8_t options
+)
+{
+20000920:	b580      	push	{r7, lr}
+20000922:	b086      	sub	sp, #24
+20000924:	af00      	add	r7, sp, #0
+20000926:	60f8      	str	r0, [r7, #12]
+20000928:	607a      	str	r2, [r7, #4]
+2000092a:	460a      	mov	r2, r1
+2000092c:	72fa      	strb	r2, [r7, #11]
+2000092e:	807b      	strh	r3, [r7, #2]
+    uint32_t primask;
+    volatile uint8_t stat_ctrl;
+
+    ASSERT((this_i2c == &g_mss_i2c0) || (this_i2c == &g_mss_i2c1));
+20000930:	68fa      	ldr	r2, [r7, #12]
+20000932:	f241 6394 	movw	r3, #5780	; 0x1694
+20000936:	f2c2 0300 	movt	r3, #8192	; 0x2000
+2000093a:	429a      	cmp	r2, r3
+2000093c:	d007      	beq.n	2000094e <MSS_I2C_write+0x2e>
+2000093e:	68fa      	ldr	r2, [r7, #12]
+20000940:	f241 7308 	movw	r3, #5896	; 0x1708
+20000944:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000948:	429a      	cmp	r2, r3
+2000094a:	d000      	beq.n	2000094e <MSS_I2C_write+0x2e>
+2000094c:	be00      	bkpt	0x0000
+
+    primask = disable_interrupts();
+2000094e:	f000 fd8f 	bl	20001470 <disable_interrupts>
+20000952:	4603      	mov	r3, r0
+20000954:	617b      	str	r3, [r7, #20]
+
+    /* Update the transaction only when there is no transaction going on I2C */
+    if( this_i2c->transaction == NO_TRANSACTION)
+20000956:	68fb      	ldr	r3, [r7, #12]
+20000958:	7a1b      	ldrb	r3, [r3, #8]
+2000095a:	2b00      	cmp	r3, #0
+2000095c:	d103      	bne.n	20000966 <MSS_I2C_write+0x46>
+    {
+      this_i2c->transaction = MASTER_WRITE_TRANSACTION;
 2000095e:	68fb      	ldr	r3, [r7, #12]
-20000960:	f04f 0200 	mov.w	r2, #0
-20000964:	629a      	str	r2, [r3, #40]	; 0x28
+20000960:	f04f 0201 	mov.w	r2, #1
+20000964:	721a      	strb	r2, [r3, #8]
+    }
+
+    /* Update the Pending transaction information so that transaction can restarted */
+    this_i2c->pending_transaction = MASTER_WRITE_TRANSACTION ;
 20000966:	68fb      	ldr	r3, [r7, #12]
 20000968:	f04f 0201 	mov.w	r2, #1
-2000096c:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
-20000970:	68fb      	ldr	r3, [r7, #12]
-20000972:	f897 2020 	ldrb.w	r2, [r7, #32]
-20000976:	741a      	strb	r2, [r3, #16]
-20000978:	68fb      	ldr	r3, [r7, #12]
-2000097a:	f893 305c 	ldrb.w	r3, [r3, #92]	; 0x5c
-2000097e:	b2db      	uxtb	r3, r3
-20000980:	2b01      	cmp	r3, #1
-20000982:	d105      	bne.n	20000990 <MSS_I2C_write+0xa0>
-20000984:	68fb      	ldr	r3, [r7, #12]
-20000986:	f04f 0201 	mov.w	r2, #1
-2000098a:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
-2000098e:	e004      	b.n	2000099a <MSS_I2C_write+0xaa>
-20000990:	68fb      	ldr	r3, [r7, #12]
-20000992:	699b      	ldr	r3, [r3, #24]
-20000994:	f04f 0201 	mov.w	r2, #1
-20000998:	615a      	str	r2, [r3, #20]
-2000099a:	68fb      	ldr	r3, [r7, #12]
-2000099c:	f893 3070 	ldrb.w	r3, [r3, #112]	; 0x70
-200009a0:	2b01      	cmp	r3, #1
-200009a2:	d111      	bne.n	200009c8 <MSS_I2C_write+0xd8>
-200009a4:	68fb      	ldr	r3, [r7, #12]
-200009a6:	699b      	ldr	r3, [r3, #24]
-200009a8:	f04f 0200 	mov.w	r2, #0
-200009ac:	60da      	str	r2, [r3, #12]
-200009ae:	68fb      	ldr	r3, [r7, #12]
-200009b0:	695b      	ldr	r3, [r3, #20]
-200009b2:	791b      	ldrb	r3, [r3, #4]
-200009b4:	74fb      	strb	r3, [r7, #19]
-200009b6:	7cfb      	ldrb	r3, [r7, #19]
-200009b8:	b2db      	uxtb	r3, r3
-200009ba:	74fb      	strb	r3, [r7, #19]
-200009bc:	68fb      	ldr	r3, [r7, #12]
-200009be:	8a5b      	ldrh	r3, [r3, #18]
-200009c0:	b21b      	sxth	r3, r3
-200009c2:	4618      	mov	r0, r3
-200009c4:	f7ff fec0 	bl	20000748 <NVIC_ClearPendingIRQ>
-200009c8:	68fb      	ldr	r3, [r7, #12]
-200009ca:	8a5b      	ldrh	r3, [r3, #18]
-200009cc:	b21b      	sxth	r3, r3
-200009ce:	4618      	mov	r0, r3
-200009d0:	f7ff fe80 	bl	200006d4 <NVIC_EnableIRQ>
-200009d4:	6978      	ldr	r0, [r7, #20]
-200009d6:	f000 fccb 	bl	20001370 <restore_interrupts>
-200009da:	f107 0718 	add.w	r7, r7, #24
-200009de:	46bd      	mov	sp, r7
-200009e0:	bd80      	pop	{r7, pc}
-200009e2:	bf00      	nop
+2000096c:	f883 2072 	strb.w	r2, [r3, #114]	; 0x72
 
-200009e4 <MSS_I2C_wait_complete>:
-200009e4:	b480      	push	{r7}
-200009e6:	b085      	sub	sp, #20
-200009e8:	af00      	add	r7, sp, #0
-200009ea:	6078      	str	r0, [r7, #4]
-200009ec:	6039      	str	r1, [r7, #0]
-200009ee:	687a      	ldr	r2, [r7, #4]
-200009f0:	f241 5370 	movw	r3, #5488	; 0x1570
-200009f4:	f2c2 0300 	movt	r3, #8192	; 0x2000
-200009f8:	429a      	cmp	r2, r3
-200009fa:	d007      	beq.n	20000a0c <MSS_I2C_wait_complete+0x28>
-200009fc:	687a      	ldr	r2, [r7, #4]
-200009fe:	f241 53e4 	movw	r3, #5604	; 0x15e4
-20000a02:	f2c2 0300 	movt	r3, #8192	; 0x2000
-20000a06:	429a      	cmp	r2, r3
-20000a08:	d000      	beq.n	20000a0c <MSS_I2C_wait_complete+0x28>
-20000a0a:	be00      	bkpt	0x0000
-20000a0c:	687b      	ldr	r3, [r7, #4]
-20000a0e:	683a      	ldr	r2, [r7, #0]
-20000a10:	641a      	str	r2, [r3, #64]	; 0x40
-20000a12:	687b      	ldr	r3, [r7, #4]
-20000a14:	f893 303c 	ldrb.w	r3, [r3, #60]	; 0x3c
-20000a18:	73fb      	strb	r3, [r7, #15]
-20000a1a:	7bfb      	ldrb	r3, [r7, #15]
-20000a1c:	2b01      	cmp	r3, #1
-20000a1e:	d0f8      	beq.n	20000a12 <MSS_I2C_wait_complete+0x2e>
-20000a20:	7bfb      	ldrb	r3, [r7, #15]
-20000a22:	4618      	mov	r0, r3
-20000a24:	f107 0714 	add.w	r7, r7, #20
-20000a28:	46bd      	mov	sp, r7
-20000a2a:	bc80      	pop	{r7}
-20000a2c:	4770      	bx	lr
-20000a2e:	bf00      	nop
+    /* Update target address */
+    this_i2c->target_addr = (uint_fast8_t)serial_addr << 1u;
+20000970:	7afb      	ldrb	r3, [r7, #11]
+20000972:	ea4f 0243 	mov.w	r2, r3, lsl #1
+20000976:	68fb      	ldr	r3, [r7, #12]
+20000978:	605a      	str	r2, [r3, #4]
 
-20000a30 <enable_slave_if_required>:
-20000a30:	b480      	push	{r7}
-20000a32:	b083      	sub	sp, #12
-20000a34:	af00      	add	r7, sp, #0
-20000a36:	6078      	str	r0, [r7, #4]
-20000a38:	687b      	ldr	r3, [r7, #4]
-20000a3a:	f893 3068 	ldrb.w	r3, [r3, #104]	; 0x68
-20000a3e:	2b00      	cmp	r3, #0
-20000a40:	d004      	beq.n	20000a4c <enable_slave_if_required+0x1c>
-20000a42:	687b      	ldr	r3, [r7, #4]
-20000a44:	699b      	ldr	r3, [r3, #24]
-20000a46:	f04f 0201 	mov.w	r2, #1
-20000a4a:	609a      	str	r2, [r3, #8]
-20000a4c:	f107 070c 	add.w	r7, r7, #12
-20000a50:	46bd      	mov	sp, r7
-20000a52:	bc80      	pop	{r7}
-20000a54:	4770      	bx	lr
-20000a56:	bf00      	nop
+    this_i2c->dir = WRITE_DIR;
+2000097a:	68fb      	ldr	r3, [r7, #12]
+2000097c:	f04f 0200 	mov.w	r2, #0
+20000980:	62da      	str	r2, [r3, #44]	; 0x2c
 
-20000a58 <mss_i2c_isr>:
-20000a58:	b580      	push	{r7, lr}
-20000a5a:	b084      	sub	sp, #16
-20000a5c:	af00      	add	r7, sp, #0
-20000a5e:	6078      	str	r0, [r7, #4]
-20000a60:	f04f 0301 	mov.w	r3, #1
-20000a64:	73bb      	strb	r3, [r7, #14]
-20000a66:	687a      	ldr	r2, [r7, #4]
-20000a68:	f241 5370 	movw	r3, #5488	; 0x1570
-20000a6c:	f2c2 0300 	movt	r3, #8192	; 0x2000
-20000a70:	429a      	cmp	r2, r3
-20000a72:	d007      	beq.n	20000a84 <mss_i2c_isr+0x2c>
-20000a74:	687a      	ldr	r2, [r7, #4]
-20000a76:	f241 53e4 	movw	r3, #5604	; 0x15e4
-20000a7a:	f2c2 0300 	movt	r3, #8192	; 0x2000
-20000a7e:	429a      	cmp	r2, r3
-20000a80:	d000      	beq.n	20000a84 <mss_i2c_isr+0x2c>
-20000a82:	be00      	bkpt	0x0000
-20000a84:	687b      	ldr	r3, [r7, #4]
-20000a86:	695b      	ldr	r3, [r3, #20]
-20000a88:	791b      	ldrb	r3, [r3, #4]
-20000a8a:	72fb      	strb	r3, [r7, #11]
-20000a8c:	7afb      	ldrb	r3, [r7, #11]
-20000a8e:	b2db      	uxtb	r3, r3
-20000a90:	f1a3 0308 	sub.w	r3, r3, #8
-20000a94:	2bd0      	cmp	r3, #208	; 0xd0
-20000a96:	f200 841c 	bhi.w	200012d2 <mss_i2c_isr+0x87a>
-20000a9a:	a201      	add	r2, pc, #4	; (adr r2, 20000aa0 <mss_i2c_isr+0x48>)
-20000a9c:	f852 f023 	ldr.w	pc, [r2, r3, lsl #2]
-20000aa0:	20000de5 	.word	0x20000de5
-20000aa4:	200012d3 	.word	0x200012d3
-20000aa8:	200012d3 	.word	0x200012d3
-20000aac:	200012d3 	.word	0x200012d3
-20000ab0:	200012d3 	.word	0x200012d3
-20000ab4:	200012d3 	.word	0x200012d3
-20000ab8:	200012d3 	.word	0x200012d3
-20000abc:	200012d3 	.word	0x200012d3
-20000ac0:	20000de5 	.word	0x20000de5
-20000ac4:	200012d3 	.word	0x200012d3
-20000ac8:	200012d3 	.word	0x200012d3
-20000acc:	200012d3 	.word	0x200012d3
-20000ad0:	200012d3 	.word	0x200012d3
-20000ad4:	200012d3 	.word	0x200012d3
-20000ad8:	200012d3 	.word	0x200012d3
-20000adc:	200012d3 	.word	0x200012d3
-20000ae0:	20000e89 	.word	0x20000e89
-20000ae4:	200012d3 	.word	0x200012d3
-20000ae8:	200012d3 	.word	0x200012d3
-20000aec:	200012d3 	.word	0x200012d3
-20000af0:	200012d3 	.word	0x200012d3
-20000af4:	200012d3 	.word	0x200012d3
-20000af8:	200012d3 	.word	0x200012d3
-20000afc:	200012d3 	.word	0x200012d3
-20000b00:	20000e65 	.word	0x20000e65
-20000b04:	200012d3 	.word	0x200012d3
-20000b08:	200012d3 	.word	0x200012d3
-20000b0c:	200012d3 	.word	0x200012d3
-20000b10:	200012d3 	.word	0x200012d3
-20000b14:	200012d3 	.word	0x200012d3
-20000b18:	200012d3 	.word	0x200012d3
-20000b1c:	200012d3 	.word	0x200012d3
-20000b20:	20000e89 	.word	0x20000e89
-20000b24:	200012d3 	.word	0x200012d3
-20000b28:	200012d3 	.word	0x200012d3
-20000b2c:	200012d3 	.word	0x200012d3
-20000b30:	200012d3 	.word	0x200012d3
-20000b34:	200012d3 	.word	0x200012d3
-20000b38:	200012d3 	.word	0x200012d3
-20000b3c:	200012d3 	.word	0x200012d3
-20000b40:	20000f1d 	.word	0x20000f1d
-20000b44:	200012d3 	.word	0x200012d3
-20000b48:	200012d3 	.word	0x200012d3
-20000b4c:	200012d3 	.word	0x200012d3
-20000b50:	200012d3 	.word	0x200012d3
-20000b54:	200012d3 	.word	0x200012d3
-20000b58:	200012d3 	.word	0x200012d3
-20000b5c:	200012d3 	.word	0x200012d3
-20000b60:	20000e59 	.word	0x20000e59
-20000b64:	200012d3 	.word	0x200012d3
-20000b68:	200012d3 	.word	0x200012d3
-20000b6c:	200012d3 	.word	0x200012d3
-20000b70:	200012d3 	.word	0x200012d3
-20000b74:	200012d3 	.word	0x200012d3
-20000b78:	200012d3 	.word	0x200012d3
-20000b7c:	200012d3 	.word	0x200012d3
-20000b80:	20000f41 	.word	0x20000f41
-20000b84:	200012d3 	.word	0x200012d3
-20000b88:	200012d3 	.word	0x200012d3
-20000b8c:	200012d3 	.word	0x200012d3
-20000b90:	200012d3 	.word	0x200012d3
-20000b94:	200012d3 	.word	0x200012d3
-20000b98:	200012d3 	.word	0x200012d3
-20000b9c:	200012d3 	.word	0x200012d3
-20000ba0:	20000f91 	.word	0x20000f91
-20000ba4:	200012d3 	.word	0x200012d3
-20000ba8:	200012d3 	.word	0x200012d3
-20000bac:	200012d3 	.word	0x200012d3
-20000bb0:	200012d3 	.word	0x200012d3
-20000bb4:	200012d3 	.word	0x200012d3
-20000bb8:	200012d3 	.word	0x200012d3
-20000bbc:	200012d3 	.word	0x200012d3
-20000bc0:	20000fb5 	.word	0x20000fb5
-20000bc4:	200012d3 	.word	0x200012d3
-20000bc8:	200012d3 	.word	0x200012d3
-20000bcc:	200012d3 	.word	0x200012d3
-20000bd0:	200012d3 	.word	0x200012d3
-20000bd4:	200012d3 	.word	0x200012d3
-20000bd8:	200012d3 	.word	0x200012d3
-20000bdc:	200012d3 	.word	0x200012d3
-20000be0:	20000fef 	.word	0x20000fef
-20000be4:	200012d3 	.word	0x200012d3
-20000be8:	200012d3 	.word	0x200012d3
-20000bec:	200012d3 	.word	0x200012d3
-20000bf0:	200012d3 	.word	0x200012d3
-20000bf4:	200012d3 	.word	0x200012d3
-20000bf8:	200012d3 	.word	0x200012d3
-20000bfc:	200012d3 	.word	0x200012d3
-20000c00:	20001091 	.word	0x20001091
-20000c04:	200012d3 	.word	0x200012d3
-20000c08:	200012d3 	.word	0x200012d3
-20000c0c:	200012d3 	.word	0x200012d3
-20000c10:	200012d3 	.word	0x200012d3
-20000c14:	200012d3 	.word	0x200012d3
-20000c18:	200012d3 	.word	0x200012d3
-20000c1c:	200012d3 	.word	0x200012d3
-20000c20:	20001087 	.word	0x20001087
-20000c24:	200012d3 	.word	0x200012d3
-20000c28:	200012d3 	.word	0x200012d3
-20000c2c:	200012d3 	.word	0x200012d3
-20000c30:	200012d3 	.word	0x200012d3
-20000c34:	200012d3 	.word	0x200012d3
-20000c38:	200012d3 	.word	0x200012d3
-20000c3c:	200012d3 	.word	0x200012d3
-20000c40:	20001091 	.word	0x20001091
-20000c44:	200012d3 	.word	0x200012d3
-20000c48:	200012d3 	.word	0x200012d3
-20000c4c:	200012d3 	.word	0x200012d3
-20000c50:	200012d3 	.word	0x200012d3
-20000c54:	200012d3 	.word	0x200012d3
-20000c58:	200012d3 	.word	0x200012d3
-20000c5c:	200012d3 	.word	0x200012d3
-20000c60:	20001087 	.word	0x20001087
-20000c64:	200012d3 	.word	0x200012d3
-20000c68:	200012d3 	.word	0x200012d3
-20000c6c:	200012d3 	.word	0x200012d3
-20000c70:	200012d3 	.word	0x200012d3
-20000c74:	200012d3 	.word	0x200012d3
-20000c78:	200012d3 	.word	0x200012d3
-20000c7c:	200012d3 	.word	0x200012d3
-20000c80:	200010d3 	.word	0x200010d3
-20000c84:	200012d3 	.word	0x200012d3
-20000c88:	200012d3 	.word	0x200012d3
-20000c8c:	200012d3 	.word	0x200012d3
-20000c90:	200012d3 	.word	0x200012d3
-20000c94:	200012d3 	.word	0x200012d3
-20000c98:	200012d3 	.word	0x200012d3
-20000c9c:	200012d3 	.word	0x200012d3
-20000ca0:	20001053 	.word	0x20001053
-20000ca4:	200012d3 	.word	0x200012d3
-20000ca8:	200012d3 	.word	0x200012d3
-20000cac:	200012d3 	.word	0x200012d3
-20000cb0:	200012d3 	.word	0x200012d3
-20000cb4:	200012d3 	.word	0x200012d3
-20000cb8:	200012d3 	.word	0x200012d3
-20000cbc:	200012d3 	.word	0x200012d3
-20000cc0:	200010d3 	.word	0x200010d3
-20000cc4:	200012d3 	.word	0x200012d3
-20000cc8:	200012d3 	.word	0x200012d3
-20000ccc:	200012d3 	.word	0x200012d3
-20000cd0:	200012d3 	.word	0x200012d3
-20000cd4:	200012d3 	.word	0x200012d3
-20000cd8:	200012d3 	.word	0x200012d3
-20000cdc:	200012d3 	.word	0x200012d3
-20000ce0:	20001053 	.word	0x20001053
-20000ce4:	200012d3 	.word	0x200012d3
-20000ce8:	200012d3 	.word	0x200012d3
-20000cec:	200012d3 	.word	0x200012d3
-20000cf0:	200012d3 	.word	0x200012d3
-20000cf4:	200012d3 	.word	0x200012d3
-20000cf8:	200012d3 	.word	0x200012d3
-20000cfc:	200012d3 	.word	0x200012d3
-20000d00:	2000112f 	.word	0x2000112f
-20000d04:	200012d3 	.word	0x200012d3
-20000d08:	200012d3 	.word	0x200012d3
-20000d0c:	200012d3 	.word	0x200012d3
-20000d10:	200012d3 	.word	0x200012d3
-20000d14:	200012d3 	.word	0x200012d3
-20000d18:	200012d3 	.word	0x200012d3
-20000d1c:	200012d3 	.word	0x200012d3
-20000d20:	20001207 	.word	0x20001207
-20000d24:	200012d3 	.word	0x200012d3
-20000d28:	200012d3 	.word	0x200012d3
-20000d2c:	200012d3 	.word	0x200012d3
-20000d30:	200012d3 	.word	0x200012d3
-20000d34:	200012d3 	.word	0x200012d3
-20000d38:	200012d3 	.word	0x200012d3
-20000d3c:	200012d3 	.word	0x200012d3
-20000d40:	20001207 	.word	0x20001207
-20000d44:	200012d3 	.word	0x200012d3
-20000d48:	200012d3 	.word	0x200012d3
-20000d4c:	200012d3 	.word	0x200012d3
-20000d50:	200012d3 	.word	0x200012d3
-20000d54:	200012d3 	.word	0x200012d3
-20000d58:	200012d3 	.word	0x200012d3
-20000d5c:	200012d3 	.word	0x200012d3
-20000d60:	20001207 	.word	0x20001207
-20000d64:	200012d3 	.word	0x200012d3
-20000d68:	200012d3 	.word	0x200012d3
-20000d6c:	200012d3 	.word	0x200012d3
-20000d70:	200012d3 	.word	0x200012d3
-20000d74:	200012d3 	.word	0x200012d3
-20000d78:	200012d3 	.word	0x200012d3
-20000d7c:	200012d3 	.word	0x200012d3
-20000d80:	20001299 	.word	0x20001299
-20000d84:	200012d3 	.word	0x200012d3
-20000d88:	200012d3 	.word	0x200012d3
-20000d8c:	200012d3 	.word	0x200012d3
-20000d90:	200012d3 	.word	0x200012d3
-20000d94:	200012d3 	.word	0x200012d3
-20000d98:	200012d3 	.word	0x200012d3
-20000d9c:	200012d3 	.word	0x200012d3
-20000da0:	20001299 	.word	0x20001299
-20000da4:	200012d3 	.word	0x200012d3
-20000da8:	200012d3 	.word	0x200012d3
-20000dac:	200012d3 	.word	0x200012d3
-20000db0:	200012d3 	.word	0x200012d3
-20000db4:	200012d3 	.word	0x200012d3
-20000db8:	200012d3 	.word	0x200012d3
-20000dbc:	200012d3 	.word	0x200012d3
-20000dc0:	200012d3 	.word	0x200012d3
-20000dc4:	200012d3 	.word	0x200012d3
-20000dc8:	200012d3 	.word	0x200012d3
-20000dcc:	200012d3 	.word	0x200012d3
-20000dd0:	200012d3 	.word	0x200012d3
-20000dd4:	200012d3 	.word	0x200012d3
-20000dd8:	200012d3 	.word	0x200012d3
-20000ddc:	200012d3 	.word	0x200012d3
-20000de0:	200011d9 	.word	0x200011d9
-20000de4:	687b      	ldr	r3, [r7, #4]
-20000de6:	699b      	ldr	r3, [r3, #24]
-20000de8:	f04f 0200 	mov.w	r2, #0
-20000dec:	615a      	str	r2, [r3, #20]
-20000dee:	687b      	ldr	r3, [r7, #4]
-20000df0:	695b      	ldr	r3, [r3, #20]
-20000df2:	687a      	ldr	r2, [r7, #4]
-20000df4:	6852      	ldr	r2, [r2, #4]
-20000df6:	b2d2      	uxtb	r2, r2
-20000df8:	721a      	strb	r2, [r3, #8]
-20000dfa:	687b      	ldr	r3, [r7, #4]
-20000dfc:	699b      	ldr	r3, [r3, #24]
-20000dfe:	687a      	ldr	r2, [r7, #4]
-20000e00:	6ad2      	ldr	r2, [r2, #44]	; 0x2c
-20000e02:	f8c3 2100 	str.w	r2, [r3, #256]	; 0x100
-20000e06:	687b      	ldr	r3, [r7, #4]
-20000e08:	6adb      	ldr	r3, [r3, #44]	; 0x2c
-20000e0a:	2b00      	cmp	r3, #0
-20000e0c:	d104      	bne.n	20000e18 <mss_i2c_isr+0x3c0>
-20000e0e:	687b      	ldr	r3, [r7, #4]
-20000e10:	f04f 0200 	mov.w	r2, #0
-20000e14:	629a      	str	r2, [r3, #40]	; 0x28
-20000e16:	e007      	b.n	20000e28 <mss_i2c_isr+0x3d0>
-20000e18:	687b      	ldr	r3, [r7, #4]
-20000e1a:	6adb      	ldr	r3, [r3, #44]	; 0x2c
-20000e1c:	2b01      	cmp	r3, #1
-20000e1e:	d103      	bne.n	20000e28 <mss_i2c_isr+0x3d0>
-20000e20:	687b      	ldr	r3, [r7, #4]
-20000e22:	f04f 0200 	mov.w	r2, #0
-20000e26:	639a      	str	r2, [r3, #56]	; 0x38
-20000e28:	687b      	ldr	r3, [r7, #4]
-20000e2a:	f893 3071 	ldrb.w	r3, [r3, #113]	; 0x71
-20000e2e:	2b00      	cmp	r3, #0
-20000e30:	d004      	beq.n	20000e3c <mss_i2c_isr+0x3e4>
-20000e32:	687b      	ldr	r3, [r7, #4]
-20000e34:	f04f 0200 	mov.w	r2, #0
-20000e38:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
-20000e3c:	687b      	ldr	r3, [r7, #4]
-20000e3e:	7a1a      	ldrb	r2, [r3, #8]
-20000e40:	687b      	ldr	r3, [r7, #4]
-20000e42:	f893 3072 	ldrb.w	r3, [r3, #114]	; 0x72
-20000e46:	429a      	cmp	r2, r3
-20000e48:	f000 8267 	beq.w	2000131a <mss_i2c_isr+0x8c2>
-20000e4c:	687b      	ldr	r3, [r7, #4]
-20000e4e:	f893 2072 	ldrb.w	r2, [r3, #114]	; 0x72
-20000e52:	687b      	ldr	r3, [r7, #4]
-20000e54:	721a      	strb	r2, [r3, #8]
-20000e56:	e269      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000e58:	687b      	ldr	r3, [r7, #4]
-20000e5a:	699b      	ldr	r3, [r3, #24]
-20000e5c:	f04f 0201 	mov.w	r2, #1
-20000e60:	615a      	str	r2, [r3, #20]
-20000e62:	e263      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000e64:	687b      	ldr	r3, [r7, #4]
-20000e66:	699b      	ldr	r3, [r3, #24]
-20000e68:	f04f 0201 	mov.w	r2, #1
-20000e6c:	611a      	str	r2, [r3, #16]
-20000e6e:	687b      	ldr	r3, [r7, #4]
-20000e70:	f04f 0202 	mov.w	r2, #2
-20000e74:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
-20000e78:	687b      	ldr	r3, [r7, #4]
-20000e7a:	f04f 0200 	mov.w	r2, #0
-20000e7e:	721a      	strb	r2, [r3, #8]
-20000e80:	6878      	ldr	r0, [r7, #4]
-20000e82:	f7ff fdd5 	bl	20000a30 <enable_slave_if_required>
-20000e86:	e251      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000e88:	687b      	ldr	r3, [r7, #4]
-20000e8a:	6a9a      	ldr	r2, [r3, #40]	; 0x28
-20000e8c:	687b      	ldr	r3, [r7, #4]
-20000e8e:	6a5b      	ldr	r3, [r3, #36]	; 0x24
-20000e90:	429a      	cmp	r2, r3
-20000e92:	d20d      	bcs.n	20000eb0 <mss_i2c_isr+0x458>
-20000e94:	687b      	ldr	r3, [r7, #4]
-20000e96:	695a      	ldr	r2, [r3, #20]
-20000e98:	687b      	ldr	r3, [r7, #4]
-20000e9a:	6a19      	ldr	r1, [r3, #32]
-20000e9c:	687b      	ldr	r3, [r7, #4]
-20000e9e:	6a9b      	ldr	r3, [r3, #40]	; 0x28
-20000ea0:	4419      	add	r1, r3
-20000ea2:	7809      	ldrb	r1, [r1, #0]
-20000ea4:	7211      	strb	r1, [r2, #8]
-20000ea6:	f103 0201 	add.w	r2, r3, #1
-20000eaa:	687b      	ldr	r3, [r7, #4]
-20000eac:	629a      	str	r2, [r3, #40]	; 0x28
-20000eae:	e23d      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000eb0:	687b      	ldr	r3, [r7, #4]
-20000eb2:	7a1b      	ldrb	r3, [r3, #8]
-20000eb4:	2b03      	cmp	r3, #3
-20000eb6:	d109      	bne.n	20000ecc <mss_i2c_isr+0x474>
-20000eb8:	687b      	ldr	r3, [r7, #4]
-20000eba:	f04f 0201 	mov.w	r2, #1
-20000ebe:	62da      	str	r2, [r3, #44]	; 0x2c
-20000ec0:	687b      	ldr	r3, [r7, #4]
-20000ec2:	699b      	ldr	r3, [r3, #24]
-20000ec4:	f04f 0201 	mov.w	r2, #1
-20000ec8:	615a      	str	r2, [r3, #20]
-20000eca:	e22f      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000ecc:	687b      	ldr	r3, [r7, #4]
-20000ece:	f04f 0200 	mov.w	r2, #0
-20000ed2:	721a      	strb	r2, [r3, #8]
-20000ed4:	687b      	ldr	r3, [r7, #4]
-20000ed6:	7c1b      	ldrb	r3, [r3, #16]
-20000ed8:	f003 0301 	and.w	r3, r3, #1
-20000edc:	737b      	strb	r3, [r7, #13]
-20000ede:	687b      	ldr	r3, [r7, #4]
-20000ee0:	7b7a      	ldrb	r2, [r7, #13]
-20000ee2:	f883 2070 	strb.w	r2, [r3, #112]	; 0x70
-20000ee6:	7b7b      	ldrb	r3, [r7, #13]
-20000ee8:	2b00      	cmp	r3, #0
-20000eea:	d108      	bne.n	20000efe <mss_i2c_isr+0x4a6>
-20000eec:	687b      	ldr	r3, [r7, #4]
-20000eee:	699b      	ldr	r3, [r3, #24]
-20000ef0:	f04f 0201 	mov.w	r2, #1
-20000ef4:	611a      	str	r2, [r3, #16]
-20000ef6:	6878      	ldr	r0, [r7, #4]
-20000ef8:	f7ff fd9a 	bl	20000a30 <enable_slave_if_required>
-20000efc:	e008      	b.n	20000f10 <mss_i2c_isr+0x4b8>
-20000efe:	687b      	ldr	r3, [r7, #4]
-20000f00:	8a5b      	ldrh	r3, [r3, #18]
-20000f02:	b21b      	sxth	r3, r3
-20000f04:	4618      	mov	r0, r3
-20000f06:	f7ff fc01 	bl	2000070c <NVIC_DisableIRQ>
-20000f0a:	f04f 0300 	mov.w	r3, #0
-20000f0e:	73bb      	strb	r3, [r7, #14]
-20000f10:	687b      	ldr	r3, [r7, #4]
-20000f12:	f04f 0200 	mov.w	r2, #0
-20000f16:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
-20000f1a:	e207      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000f1c:	687b      	ldr	r3, [r7, #4]
-20000f1e:	699b      	ldr	r3, [r3, #24]
-20000f20:	f04f 0201 	mov.w	r2, #1
-20000f24:	611a      	str	r2, [r3, #16]
-20000f26:	687b      	ldr	r3, [r7, #4]
-20000f28:	f04f 0202 	mov.w	r2, #2
-20000f2c:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
-20000f30:	687b      	ldr	r3, [r7, #4]
-20000f32:	f04f 0200 	mov.w	r2, #0
-20000f36:	721a      	strb	r2, [r3, #8]
-20000f38:	6878      	ldr	r0, [r7, #4]
-20000f3a:	f7ff fd79 	bl	20000a30 <enable_slave_if_required>
-20000f3e:	e1f5      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000f40:	687b      	ldr	r3, [r7, #4]
-20000f42:	6b5b      	ldr	r3, [r3, #52]	; 0x34
-20000f44:	2b01      	cmp	r3, #1
-20000f46:	d905      	bls.n	20000f54 <mss_i2c_isr+0x4fc>
-20000f48:	687b      	ldr	r3, [r7, #4]
-20000f4a:	699b      	ldr	r3, [r3, #24]
-20000f4c:	f04f 0201 	mov.w	r2, #1
-20000f50:	609a      	str	r2, [r3, #8]
-20000f52:	e1eb      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000f54:	687b      	ldr	r3, [r7, #4]
-20000f56:	6b5b      	ldr	r3, [r3, #52]	; 0x34
-20000f58:	2b01      	cmp	r3, #1
-20000f5a:	d105      	bne.n	20000f68 <mss_i2c_isr+0x510>
-20000f5c:	687b      	ldr	r3, [r7, #4]
-20000f5e:	699b      	ldr	r3, [r3, #24]
-20000f60:	f04f 0200 	mov.w	r2, #0
-20000f64:	609a      	str	r2, [r3, #8]
-20000f66:	e1e1      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000f68:	687b      	ldr	r3, [r7, #4]
-20000f6a:	699b      	ldr	r3, [r3, #24]
-20000f6c:	f04f 0201 	mov.w	r2, #1
-20000f70:	609a      	str	r2, [r3, #8]
-20000f72:	687b      	ldr	r3, [r7, #4]
-20000f74:	699b      	ldr	r3, [r3, #24]
-20000f76:	f04f 0201 	mov.w	r2, #1
-20000f7a:	611a      	str	r2, [r3, #16]
+    this_i2c->master_tx_buffer = write_buffer;
+20000982:	68fb      	ldr	r3, [r7, #12]
+20000984:	687a      	ldr	r2, [r7, #4]
+20000986:	621a      	str	r2, [r3, #32]
+    this_i2c->master_tx_size = write_size;
+20000988:	887a      	ldrh	r2, [r7, #2]
+2000098a:	68fb      	ldr	r3, [r7, #12]
+2000098c:	625a      	str	r2, [r3, #36]	; 0x24
+    this_i2c->master_tx_idx = 0u;
+2000098e:	68fb      	ldr	r3, [r7, #12]
+20000990:	f04f 0200 	mov.w	r2, #0
+20000994:	629a      	str	r2, [r3, #40]	; 0x28
+
+    /* Set I2C status in progress */
+    this_i2c->master_status = MSS_I2C_IN_PROGRESS;
+20000996:	68fb      	ldr	r3, [r7, #12]
+20000998:	f04f 0201 	mov.w	r2, #1
+2000099c:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+    this_i2c->options = options;
+200009a0:	68fb      	ldr	r3, [r7, #12]
+200009a2:	f897 2020 	ldrb.w	r2, [r7, #32]
+200009a6:	741a      	strb	r2, [r3, #16]
+
+    if(MSS_I2C_IN_PROGRESS == this_i2c->slave_status)
+200009a8:	68fb      	ldr	r3, [r7, #12]
+200009aa:	f893 305c 	ldrb.w	r3, [r3, #92]	; 0x5c
+200009ae:	b2db      	uxtb	r3, r3
+200009b0:	2b01      	cmp	r3, #1
+200009b2:	d105      	bne.n	200009c0 <MSS_I2C_write+0xa0>
+    {
+        this_i2c->is_transaction_pending = 1u;
+200009b4:	68fb      	ldr	r3, [r7, #12]
+200009b6:	f04f 0201 	mov.w	r2, #1
+200009ba:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
+200009be:	e004      	b.n	200009ca <MSS_I2C_write+0xaa>
+    }
+    else
+    {
+        this_i2c->hw_reg_bit->CTRL_STA = 0x01u;
+200009c0:	68fb      	ldr	r3, [r7, #12]
+200009c2:	699b      	ldr	r3, [r3, #24]
+200009c4:	f04f 0201 	mov.w	r2, #1
+200009c8:	615a      	str	r2, [r3, #20]
+    /*
+     * Clear interrupts if required (depends on repeated starts).
+     * Since the Bus is on hold, only then prior status needs to
+     * be cleared.
+     */
+    if ( MSS_I2C_HOLD_BUS == this_i2c->bus_status )
+200009ca:	68fb      	ldr	r3, [r7, #12]
+200009cc:	f893 3070 	ldrb.w	r3, [r3, #112]	; 0x70
+200009d0:	2b01      	cmp	r3, #1
+200009d2:	d111      	bne.n	200009f8 <MSS_I2C_write+0xd8>
+    {
+        this_i2c->hw_reg_bit->CTRL_SI = 0u;
+200009d4:	68fb      	ldr	r3, [r7, #12]
+200009d6:	699b      	ldr	r3, [r3, #24]
+200009d8:	f04f 0200 	mov.w	r2, #0
+200009dc:	60da      	str	r2, [r3, #12]
+        stat_ctrl = this_i2c->hw_reg->STATUS;
+200009de:	68fb      	ldr	r3, [r7, #12]
+200009e0:	695b      	ldr	r3, [r3, #20]
+200009e2:	791b      	ldrb	r3, [r3, #4]
+200009e4:	74fb      	strb	r3, [r7, #19]
+        stat_ctrl = stat_ctrl;  /* Avoids Lint warning */
+200009e6:	7cfb      	ldrb	r3, [r7, #19]
+200009e8:	b2db      	uxtb	r3, r3
+200009ea:	74fb      	strb	r3, [r7, #19]
+        NVIC_ClearPendingIRQ( this_i2c->irqn );
+200009ec:	68fb      	ldr	r3, [r7, #12]
+200009ee:	8a5b      	ldrh	r3, [r3, #18]
+200009f0:	b21b      	sxth	r3, r3
+200009f2:	4618      	mov	r0, r3
+200009f4:	f7ff fec0 	bl	20000778 <NVIC_ClearPendingIRQ>
+    }
+
+    /* Enable the interrupt. ( Re-enable) */
+    NVIC_EnableIRQ( this_i2c->irqn );
+200009f8:	68fb      	ldr	r3, [r7, #12]
+200009fa:	8a5b      	ldrh	r3, [r3, #18]
+200009fc:	b21b      	sxth	r3, r3
+200009fe:	4618      	mov	r0, r3
+20000a00:	f7ff fe80 	bl	20000704 <NVIC_EnableIRQ>
+
+    restore_interrupts( primask );
+20000a04:	6978      	ldr	r0, [r7, #20]
+20000a06:	f000 fd45 	bl	20001494 <restore_interrupts>
+}
+20000a0a:	f107 0718 	add.w	r7, r7, #24
+20000a0e:	46bd      	mov	sp, r7
+20000a10:	bd80      	pop	{r7, pc}
+20000a12:	bf00      	nop
+
+20000a14 <MSS_I2C_read>:
+    uint8_t serial_addr,
+    uint8_t * read_buffer,
+    uint16_t read_size,
+    uint8_t options
+)
+{
+20000a14:	b580      	push	{r7, lr}
+20000a16:	b086      	sub	sp, #24
+20000a18:	af00      	add	r7, sp, #0
+20000a1a:	60f8      	str	r0, [r7, #12]
+20000a1c:	607a      	str	r2, [r7, #4]
+20000a1e:	460a      	mov	r2, r1
+20000a20:	72fa      	strb	r2, [r7, #11]
+20000a22:	807b      	strh	r3, [r7, #2]
+    uint32_t primask;
+    volatile uint8_t stat_ctrl;
+
+    ASSERT((this_i2c == &g_mss_i2c0) || (this_i2c == &g_mss_i2c1));
+20000a24:	68fa      	ldr	r2, [r7, #12]
+20000a26:	f241 6394 	movw	r3, #5780	; 0x1694
+20000a2a:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000a2e:	429a      	cmp	r2, r3
+20000a30:	d007      	beq.n	20000a42 <MSS_I2C_read+0x2e>
+20000a32:	68fa      	ldr	r2, [r7, #12]
+20000a34:	f241 7308 	movw	r3, #5896	; 0x1708
+20000a38:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000a3c:	429a      	cmp	r2, r3
+20000a3e:	d000      	beq.n	20000a42 <MSS_I2C_read+0x2e>
+20000a40:	be00      	bkpt	0x0000
+
+    primask = disable_interrupts();
+20000a42:	f000 fd15 	bl	20001470 <disable_interrupts>
+20000a46:	4603      	mov	r3, r0
+20000a48:	617b      	str	r3, [r7, #20]
+    
+    /* Update the transaction only when there is no transaction going on I2C */
+    if( this_i2c->transaction == NO_TRANSACTION)
+20000a4a:	68fb      	ldr	r3, [r7, #12]
+20000a4c:	7a1b      	ldrb	r3, [r3, #8]
+20000a4e:	2b00      	cmp	r3, #0
+20000a50:	d103      	bne.n	20000a5a <MSS_I2C_read+0x46>
+    {
+      this_i2c->transaction = MASTER_READ_TRANSACTION;
+20000a52:	68fb      	ldr	r3, [r7, #12]
+20000a54:	f04f 0202 	mov.w	r2, #2
+20000a58:	721a      	strb	r2, [r3, #8]
+    }
+
+    /* Update the Pending transaction information so that transaction can restarted */
+    this_i2c->pending_transaction = MASTER_READ_TRANSACTION ;
+20000a5a:	68fb      	ldr	r3, [r7, #12]
+20000a5c:	f04f 0202 	mov.w	r2, #2
+20000a60:	f883 2072 	strb.w	r2, [r3, #114]	; 0x72
+
+    /* Update target address */
+    this_i2c->target_addr = (uint_fast8_t)serial_addr << 1u;
+20000a64:	7afb      	ldrb	r3, [r7, #11]
+20000a66:	ea4f 0243 	mov.w	r2, r3, lsl #1
+20000a6a:	68fb      	ldr	r3, [r7, #12]
+20000a6c:	605a      	str	r2, [r3, #4]
+
+    this_i2c->dir = READ_DIR;
+20000a6e:	68fb      	ldr	r3, [r7, #12]
+20000a70:	f04f 0201 	mov.w	r2, #1
+20000a74:	62da      	str	r2, [r3, #44]	; 0x2c
+
+    this_i2c->master_rx_buffer = read_buffer;
+20000a76:	68fb      	ldr	r3, [r7, #12]
+20000a78:	687a      	ldr	r2, [r7, #4]
+20000a7a:	631a      	str	r2, [r3, #48]	; 0x30
+    this_i2c->master_rx_size = read_size;
+20000a7c:	887a      	ldrh	r2, [r7, #2]
+20000a7e:	68fb      	ldr	r3, [r7, #12]
+20000a80:	635a      	str	r2, [r3, #52]	; 0x34
+    this_i2c->master_rx_idx = 0u;
+20000a82:	68fb      	ldr	r3, [r7, #12]
+20000a84:	f04f 0200 	mov.w	r2, #0
+20000a88:	639a      	str	r2, [r3, #56]	; 0x38
+    
+    /* Set I2C status in progress */
+    this_i2c->master_status = MSS_I2C_IN_PROGRESS;
+20000a8a:	68fb      	ldr	r3, [r7, #12]
+20000a8c:	f04f 0201 	mov.w	r2, #1
+20000a90:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+    this_i2c->options = options;
+20000a94:	68fb      	ldr	r3, [r7, #12]
+20000a96:	f897 2020 	ldrb.w	r2, [r7, #32]
+20000a9a:	741a      	strb	r2, [r3, #16]
+
+    if(MSS_I2C_IN_PROGRESS == this_i2c->slave_status)
+20000a9c:	68fb      	ldr	r3, [r7, #12]
+20000a9e:	f893 305c 	ldrb.w	r3, [r3, #92]	; 0x5c
+20000aa2:	b2db      	uxtb	r3, r3
+20000aa4:	2b01      	cmp	r3, #1
+20000aa6:	d105      	bne.n	20000ab4 <MSS_I2C_read+0xa0>
+    {
+        this_i2c->is_transaction_pending = 1u;
+20000aa8:	68fb      	ldr	r3, [r7, #12]
+20000aaa:	f04f 0201 	mov.w	r2, #1
+20000aae:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
+20000ab2:	e004      	b.n	20000abe <MSS_I2C_read+0xaa>
+    }
+    else
+    {
+        this_i2c->hw_reg_bit->CTRL_STA = 0x01u;
+20000ab4:	68fb      	ldr	r3, [r7, #12]
+20000ab6:	699b      	ldr	r3, [r3, #24]
+20000ab8:	f04f 0201 	mov.w	r2, #1
+20000abc:	615a      	str	r2, [r3, #20]
+    /*
+     * Clear interrupts if required (depends on repeated starts).
+     * Since the Bus is on hold, only then prior status needs to
+     * be cleared.
+     */
+    if ( MSS_I2C_HOLD_BUS == this_i2c->bus_status )
+20000abe:	68fb      	ldr	r3, [r7, #12]
+20000ac0:	f893 3070 	ldrb.w	r3, [r3, #112]	; 0x70
+20000ac4:	2b01      	cmp	r3, #1
+20000ac6:	d111      	bne.n	20000aec <MSS_I2C_read+0xd8>
+    {
+        this_i2c->hw_reg_bit->CTRL_SI = 0u;
+20000ac8:	68fb      	ldr	r3, [r7, #12]
+20000aca:	699b      	ldr	r3, [r3, #24]
+20000acc:	f04f 0200 	mov.w	r2, #0
+20000ad0:	60da      	str	r2, [r3, #12]
+        stat_ctrl = this_i2c->hw_reg->STATUS;
+20000ad2:	68fb      	ldr	r3, [r7, #12]
+20000ad4:	695b      	ldr	r3, [r3, #20]
+20000ad6:	791b      	ldrb	r3, [r3, #4]
+20000ad8:	74fb      	strb	r3, [r7, #19]
+        stat_ctrl = stat_ctrl;  /* Avoids Lint warning */
+20000ada:	7cfb      	ldrb	r3, [r7, #19]
+20000adc:	b2db      	uxtb	r3, r3
+20000ade:	74fb      	strb	r3, [r7, #19]
+        NVIC_ClearPendingIRQ( this_i2c->irqn );
+20000ae0:	68fb      	ldr	r3, [r7, #12]
+20000ae2:	8a5b      	ldrh	r3, [r3, #18]
+20000ae4:	b21b      	sxth	r3, r3
+20000ae6:	4618      	mov	r0, r3
+20000ae8:	f7ff fe46 	bl	20000778 <NVIC_ClearPendingIRQ>
+    }
+    
+    /* Enable the interrupt. ( Re-enable) */
+    NVIC_EnableIRQ( this_i2c->irqn );
+20000aec:	68fb      	ldr	r3, [r7, #12]
+20000aee:	8a5b      	ldrh	r3, [r3, #18]
+20000af0:	b21b      	sxth	r3, r3
+20000af2:	4618      	mov	r0, r3
+20000af4:	f7ff fe06 	bl	20000704 <NVIC_EnableIRQ>
+    restore_interrupts( primask );
+20000af8:	6978      	ldr	r0, [r7, #20]
+20000afa:	f000 fccb 	bl	20001494 <restore_interrupts>
+}
+20000afe:	f107 0718 	add.w	r7, r7, #24
+20000b02:	46bd      	mov	sp, r7
+20000b04:	bd80      	pop	{r7, pc}
+20000b06:	bf00      	nop
+
+20000b08 <MSS_I2C_wait_complete>:
+mss_i2c_status_t MSS_I2C_wait_complete
+(
+    mss_i2c_instance_t * this_i2c,
+    uint32_t timeout_ms
+)
+{
+20000b08:	b480      	push	{r7}
+20000b0a:	b085      	sub	sp, #20
+20000b0c:	af00      	add	r7, sp, #0
+20000b0e:	6078      	str	r0, [r7, #4]
+20000b10:	6039      	str	r1, [r7, #0]
+	mss_i2c_status_t i2c_status;
+    
+    ASSERT( (this_i2c == &g_mss_i2c0) || (this_i2c == &g_mss_i2c1) );
+20000b12:	687a      	ldr	r2, [r7, #4]
+20000b14:	f241 6394 	movw	r3, #5780	; 0x1694
+20000b18:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000b1c:	429a      	cmp	r2, r3
+20000b1e:	d007      	beq.n	20000b30 <MSS_I2C_wait_complete+0x28>
+20000b20:	687a      	ldr	r2, [r7, #4]
+20000b22:	f241 7308 	movw	r3, #5896	; 0x1708
+20000b26:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000b2a:	429a      	cmp	r2, r3
+20000b2c:	d000      	beq.n	20000b30 <MSS_I2C_wait_complete+0x28>
+20000b2e:	be00      	bkpt	0x0000
+    
+    this_i2c->master_timeout_ms = timeout_ms;
+20000b30:	687b      	ldr	r3, [r7, #4]
+20000b32:	683a      	ldr	r2, [r7, #0]
+20000b34:	641a      	str	r2, [r3, #64]	; 0x40
+
+    /* Run the loop until state returns I2C_FAILED  or I2C_SUCESS*/
+    do {
+        i2c_status = this_i2c->master_status;
+20000b36:	687b      	ldr	r3, [r7, #4]
+20000b38:	f893 303c 	ldrb.w	r3, [r3, #60]	; 0x3c
+20000b3c:	73fb      	strb	r3, [r7, #15]
+    } while(MSS_I2C_IN_PROGRESS == i2c_status);
+20000b3e:	7bfb      	ldrb	r3, [r7, #15]
+20000b40:	2b01      	cmp	r3, #1
+20000b42:	d0f8      	beq.n	20000b36 <MSS_I2C_wait_complete+0x2e>
+
+    return i2c_status;
+20000b44:	7bfb      	ldrb	r3, [r7, #15]
+}
+20000b46:	4618      	mov	r0, r3
+20000b48:	f107 0714 	add.w	r7, r7, #20
+20000b4c:	46bd      	mov	sp, r7
+20000b4e:	bc80      	pop	{r7}
+20000b50:	4770      	bx	lr
+20000b52:	bf00      	nop
+
+20000b54 <enable_slave_if_required>:
+ */
+static void enable_slave_if_required
+(
+    mss_i2c_instance_t * this_i2c
+)
+{
+20000b54:	b480      	push	{r7}
+20000b56:	b083      	sub	sp, #12
+20000b58:	af00      	add	r7, sp, #0
+20000b5a:	6078      	str	r0, [r7, #4]
+    if( this_i2c->is_slave_enabled )
+20000b5c:	687b      	ldr	r3, [r7, #4]
+20000b5e:	f893 3068 	ldrb.w	r3, [r3, #104]	; 0x68
+20000b62:	2b00      	cmp	r3, #0
+20000b64:	d004      	beq.n	20000b70 <enable_slave_if_required+0x1c>
+    {
+        this_i2c->hw_reg_bit->CTRL_AA = 1u;
+20000b66:	687b      	ldr	r3, [r7, #4]
+20000b68:	699b      	ldr	r3, [r3, #24]
+20000b6a:	f04f 0201 	mov.w	r2, #1
+20000b6e:	609a      	str	r2, [r3, #8]
+    }
+}
+20000b70:	f107 070c 	add.w	r7, r7, #12
+20000b74:	46bd      	mov	sp, r7
+20000b76:	bc80      	pop	{r7}
+20000b78:	4770      	bx	lr
+20000b7a:	bf00      	nop
+
+20000b7c <mss_i2c_isr>:
+ */
+static void mss_i2c_isr
+(
+    mss_i2c_instance_t * this_i2c
+)
+{
+20000b7c:	b580      	push	{r7, lr}
+20000b7e:	b084      	sub	sp, #16
+20000b80:	af00      	add	r7, sp, #0
+20000b82:	6078      	str	r0, [r7, #4]
+    volatile uint8_t status;
+    uint8_t data;
+    uint8_t hold_bus;
+    uint8_t clear_irq = 1u;
+20000b84:	f04f 0301 	mov.w	r3, #1
+20000b88:	73bb      	strb	r3, [r7, #14]
+    ASSERT( (this_i2c == &g_mss_i2c0) || (this_i2c == &g_mss_i2c1) );
+20000b8a:	687a      	ldr	r2, [r7, #4]
+20000b8c:	f241 6394 	movw	r3, #5780	; 0x1694
+20000b90:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000b94:	429a      	cmp	r2, r3
+20000b96:	d007      	beq.n	20000ba8 <mss_i2c_isr+0x2c>
+20000b98:	687a      	ldr	r2, [r7, #4]
+20000b9a:	f241 7308 	movw	r3, #5896	; 0x1708
+20000b9e:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000ba2:	429a      	cmp	r2, r3
+20000ba4:	d000      	beq.n	20000ba8 <mss_i2c_isr+0x2c>
+20000ba6:	be00      	bkpt	0x0000
+
+    status = this_i2c->hw_reg->STATUS;
+20000ba8:	687b      	ldr	r3, [r7, #4]
+20000baa:	695b      	ldr	r3, [r3, #20]
+20000bac:	791b      	ldrb	r3, [r3, #4]
+20000bae:	72fb      	strb	r3, [r7, #11]
+
+    switch( status )
+20000bb0:	7afb      	ldrb	r3, [r7, #11]
+20000bb2:	b2db      	uxtb	r3, r3
+20000bb4:	f1a3 0308 	sub.w	r3, r3, #8
+20000bb8:	2bd0      	cmp	r3, #208	; 0xd0
+20000bba:	f200 841c 	bhi.w	200013f6 <mss_i2c_isr+0x87a>
+20000bbe:	a201      	add	r2, pc, #4	; (adr r2, 20000bc4 <mss_i2c_isr+0x48>)
+20000bc0:	f852 f023 	ldr.w	pc, [r2, r3, lsl #2]
+20000bc4:	20000f09 	.word	0x20000f09
+20000bc8:	200013f7 	.word	0x200013f7
+20000bcc:	200013f7 	.word	0x200013f7
+20000bd0:	200013f7 	.word	0x200013f7
+20000bd4:	200013f7 	.word	0x200013f7
+20000bd8:	200013f7 	.word	0x200013f7
+20000bdc:	200013f7 	.word	0x200013f7
+20000be0:	200013f7 	.word	0x200013f7
+20000be4:	20000f09 	.word	0x20000f09
+20000be8:	200013f7 	.word	0x200013f7
+20000bec:	200013f7 	.word	0x200013f7
+20000bf0:	200013f7 	.word	0x200013f7
+20000bf4:	200013f7 	.word	0x200013f7
+20000bf8:	200013f7 	.word	0x200013f7
+20000bfc:	200013f7 	.word	0x200013f7
+20000c00:	200013f7 	.word	0x200013f7
+20000c04:	20000fad 	.word	0x20000fad
+20000c08:	200013f7 	.word	0x200013f7
+20000c0c:	200013f7 	.word	0x200013f7
+20000c10:	200013f7 	.word	0x200013f7
+20000c14:	200013f7 	.word	0x200013f7
+20000c18:	200013f7 	.word	0x200013f7
+20000c1c:	200013f7 	.word	0x200013f7
+20000c20:	200013f7 	.word	0x200013f7
+20000c24:	20000f89 	.word	0x20000f89
+20000c28:	200013f7 	.word	0x200013f7
+20000c2c:	200013f7 	.word	0x200013f7
+20000c30:	200013f7 	.word	0x200013f7
+20000c34:	200013f7 	.word	0x200013f7
+20000c38:	200013f7 	.word	0x200013f7
+20000c3c:	200013f7 	.word	0x200013f7
+20000c40:	200013f7 	.word	0x200013f7
+20000c44:	20000fad 	.word	0x20000fad
+20000c48:	200013f7 	.word	0x200013f7
+20000c4c:	200013f7 	.word	0x200013f7
+20000c50:	200013f7 	.word	0x200013f7
+20000c54:	200013f7 	.word	0x200013f7
+20000c58:	200013f7 	.word	0x200013f7
+20000c5c:	200013f7 	.word	0x200013f7
+20000c60:	200013f7 	.word	0x200013f7
+20000c64:	20001041 	.word	0x20001041
+20000c68:	200013f7 	.word	0x200013f7
+20000c6c:	200013f7 	.word	0x200013f7
+20000c70:	200013f7 	.word	0x200013f7
+20000c74:	200013f7 	.word	0x200013f7
+20000c78:	200013f7 	.word	0x200013f7
+20000c7c:	200013f7 	.word	0x200013f7
+20000c80:	200013f7 	.word	0x200013f7
+20000c84:	20000f7d 	.word	0x20000f7d
+20000c88:	200013f7 	.word	0x200013f7
+20000c8c:	200013f7 	.word	0x200013f7
+20000c90:	200013f7 	.word	0x200013f7
+20000c94:	200013f7 	.word	0x200013f7
+20000c98:	200013f7 	.word	0x200013f7
+20000c9c:	200013f7 	.word	0x200013f7
+20000ca0:	200013f7 	.word	0x200013f7
+20000ca4:	20001065 	.word	0x20001065
+20000ca8:	200013f7 	.word	0x200013f7
+20000cac:	200013f7 	.word	0x200013f7
+20000cb0:	200013f7 	.word	0x200013f7
+20000cb4:	200013f7 	.word	0x200013f7
+20000cb8:	200013f7 	.word	0x200013f7
+20000cbc:	200013f7 	.word	0x200013f7
+20000cc0:	200013f7 	.word	0x200013f7
+20000cc4:	200010b5 	.word	0x200010b5
+20000cc8:	200013f7 	.word	0x200013f7
+20000ccc:	200013f7 	.word	0x200013f7
+20000cd0:	200013f7 	.word	0x200013f7
+20000cd4:	200013f7 	.word	0x200013f7
+20000cd8:	200013f7 	.word	0x200013f7
+20000cdc:	200013f7 	.word	0x200013f7
+20000ce0:	200013f7 	.word	0x200013f7
+20000ce4:	200010d9 	.word	0x200010d9
+20000ce8:	200013f7 	.word	0x200013f7
+20000cec:	200013f7 	.word	0x200013f7
+20000cf0:	200013f7 	.word	0x200013f7
+20000cf4:	200013f7 	.word	0x200013f7
+20000cf8:	200013f7 	.word	0x200013f7
+20000cfc:	200013f7 	.word	0x200013f7
+20000d00:	200013f7 	.word	0x200013f7
+20000d04:	20001113 	.word	0x20001113
+20000d08:	200013f7 	.word	0x200013f7
+20000d0c:	200013f7 	.word	0x200013f7
+20000d10:	200013f7 	.word	0x200013f7
+20000d14:	200013f7 	.word	0x200013f7
+20000d18:	200013f7 	.word	0x200013f7
+20000d1c:	200013f7 	.word	0x200013f7
+20000d20:	200013f7 	.word	0x200013f7
+20000d24:	200011b5 	.word	0x200011b5
+20000d28:	200013f7 	.word	0x200013f7
+20000d2c:	200013f7 	.word	0x200013f7
+20000d30:	200013f7 	.word	0x200013f7
+20000d34:	200013f7 	.word	0x200013f7
+20000d38:	200013f7 	.word	0x200013f7
+20000d3c:	200013f7 	.word	0x200013f7
+20000d40:	200013f7 	.word	0x200013f7
+20000d44:	200011ab 	.word	0x200011ab
+20000d48:	200013f7 	.word	0x200013f7
+20000d4c:	200013f7 	.word	0x200013f7
+20000d50:	200013f7 	.word	0x200013f7
+20000d54:	200013f7 	.word	0x200013f7
+20000d58:	200013f7 	.word	0x200013f7
+20000d5c:	200013f7 	.word	0x200013f7
+20000d60:	200013f7 	.word	0x200013f7
+20000d64:	200011b5 	.word	0x200011b5
+20000d68:	200013f7 	.word	0x200013f7
+20000d6c:	200013f7 	.word	0x200013f7
+20000d70:	200013f7 	.word	0x200013f7
+20000d74:	200013f7 	.word	0x200013f7
+20000d78:	200013f7 	.word	0x200013f7
+20000d7c:	200013f7 	.word	0x200013f7
+20000d80:	200013f7 	.word	0x200013f7
+20000d84:	200011ab 	.word	0x200011ab
+20000d88:	200013f7 	.word	0x200013f7
+20000d8c:	200013f7 	.word	0x200013f7
+20000d90:	200013f7 	.word	0x200013f7
+20000d94:	200013f7 	.word	0x200013f7
+20000d98:	200013f7 	.word	0x200013f7
+20000d9c:	200013f7 	.word	0x200013f7
+20000da0:	200013f7 	.word	0x200013f7
+20000da4:	200011f7 	.word	0x200011f7
+20000da8:	200013f7 	.word	0x200013f7
+20000dac:	200013f7 	.word	0x200013f7
+20000db0:	200013f7 	.word	0x200013f7
+20000db4:	200013f7 	.word	0x200013f7
+20000db8:	200013f7 	.word	0x200013f7
+20000dbc:	200013f7 	.word	0x200013f7
+20000dc0:	200013f7 	.word	0x200013f7
+20000dc4:	20001177 	.word	0x20001177
+20000dc8:	200013f7 	.word	0x200013f7
+20000dcc:	200013f7 	.word	0x200013f7
+20000dd0:	200013f7 	.word	0x200013f7
+20000dd4:	200013f7 	.word	0x200013f7
+20000dd8:	200013f7 	.word	0x200013f7
+20000ddc:	200013f7 	.word	0x200013f7
+20000de0:	200013f7 	.word	0x200013f7
+20000de4:	200011f7 	.word	0x200011f7
+20000de8:	200013f7 	.word	0x200013f7
+20000dec:	200013f7 	.word	0x200013f7
+20000df0:	200013f7 	.word	0x200013f7
+20000df4:	200013f7 	.word	0x200013f7
+20000df8:	200013f7 	.word	0x200013f7
+20000dfc:	200013f7 	.word	0x200013f7
+20000e00:	200013f7 	.word	0x200013f7
+20000e04:	20001177 	.word	0x20001177
+20000e08:	200013f7 	.word	0x200013f7
+20000e0c:	200013f7 	.word	0x200013f7
+20000e10:	200013f7 	.word	0x200013f7
+20000e14:	200013f7 	.word	0x200013f7
+20000e18:	200013f7 	.word	0x200013f7
+20000e1c:	200013f7 	.word	0x200013f7
+20000e20:	200013f7 	.word	0x200013f7
+20000e24:	20001253 	.word	0x20001253
+20000e28:	200013f7 	.word	0x200013f7
+20000e2c:	200013f7 	.word	0x200013f7
+20000e30:	200013f7 	.word	0x200013f7
+20000e34:	200013f7 	.word	0x200013f7
+20000e38:	200013f7 	.word	0x200013f7
+20000e3c:	200013f7 	.word	0x200013f7
+20000e40:	200013f7 	.word	0x200013f7
+20000e44:	2000132b 	.word	0x2000132b
+20000e48:	200013f7 	.word	0x200013f7
+20000e4c:	200013f7 	.word	0x200013f7
+20000e50:	200013f7 	.word	0x200013f7
+20000e54:	200013f7 	.word	0x200013f7
+20000e58:	200013f7 	.word	0x200013f7
+20000e5c:	200013f7 	.word	0x200013f7
+20000e60:	200013f7 	.word	0x200013f7
+20000e64:	2000132b 	.word	0x2000132b
+20000e68:	200013f7 	.word	0x200013f7
+20000e6c:	200013f7 	.word	0x200013f7
+20000e70:	200013f7 	.word	0x200013f7
+20000e74:	200013f7 	.word	0x200013f7
+20000e78:	200013f7 	.word	0x200013f7
+20000e7c:	200013f7 	.word	0x200013f7
+20000e80:	200013f7 	.word	0x200013f7
+20000e84:	2000132b 	.word	0x2000132b
+20000e88:	200013f7 	.word	0x200013f7
+20000e8c:	200013f7 	.word	0x200013f7
+20000e90:	200013f7 	.word	0x200013f7
+20000e94:	200013f7 	.word	0x200013f7
+20000e98:	200013f7 	.word	0x200013f7
+20000e9c:	200013f7 	.word	0x200013f7
+20000ea0:	200013f7 	.word	0x200013f7
+20000ea4:	200013bd 	.word	0x200013bd
+20000ea8:	200013f7 	.word	0x200013f7
+20000eac:	200013f7 	.word	0x200013f7
+20000eb0:	200013f7 	.word	0x200013f7
+20000eb4:	200013f7 	.word	0x200013f7
+20000eb8:	200013f7 	.word	0x200013f7
+20000ebc:	200013f7 	.word	0x200013f7
+20000ec0:	200013f7 	.word	0x200013f7
+20000ec4:	200013bd 	.word	0x200013bd
+20000ec8:	200013f7 	.word	0x200013f7
+20000ecc:	200013f7 	.word	0x200013f7
+20000ed0:	200013f7 	.word	0x200013f7
+20000ed4:	200013f7 	.word	0x200013f7
+20000ed8:	200013f7 	.word	0x200013f7
+20000edc:	200013f7 	.word	0x200013f7
+20000ee0:	200013f7 	.word	0x200013f7
+20000ee4:	200013f7 	.word	0x200013f7
+20000ee8:	200013f7 	.word	0x200013f7
+20000eec:	200013f7 	.word	0x200013f7
+20000ef0:	200013f7 	.word	0x200013f7
+20000ef4:	200013f7 	.word	0x200013f7
+20000ef8:	200013f7 	.word	0x200013f7
+20000efc:	200013f7 	.word	0x200013f7
+20000f00:	200013f7 	.word	0x200013f7
+20000f04:	200012fd 	.word	0x200012fd
+    {
+        /************** MASTER TRANSMITTER / RECEIVER *******************/
+      
+        case ST_START: /* start has been xmt'd */
+        case ST_RESTART: /* repeated start has been xmt'd */
+            this_i2c->hw_reg_bit->CTRL_STA = 0u;
+20000f08:	687b      	ldr	r3, [r7, #4]
+20000f0a:	699b      	ldr	r3, [r3, #24]
+20000f0c:	f04f 0200 	mov.w	r2, #0
+20000f10:	615a      	str	r2, [r3, #20]
+            this_i2c->hw_reg->DATA = (uint8_t)this_i2c->target_addr;
+20000f12:	687b      	ldr	r3, [r7, #4]
+20000f14:	695b      	ldr	r3, [r3, #20]
+20000f16:	687a      	ldr	r2, [r7, #4]
+20000f18:	6852      	ldr	r2, [r2, #4]
+20000f1a:	b2d2      	uxtb	r2, r2
+20000f1c:	721a      	strb	r2, [r3, #8]
+            this_i2c->hw_reg_bit->DATA_DIR = this_i2c->dir;
+20000f1e:	687b      	ldr	r3, [r7, #4]
+20000f20:	699b      	ldr	r3, [r3, #24]
+20000f22:	687a      	ldr	r2, [r7, #4]
+20000f24:	6ad2      	ldr	r2, [r2, #44]	; 0x2c
+20000f26:	f8c3 2100 	str.w	r2, [r3, #256]	; 0x100
+            if ( this_i2c->dir == WRITE_DIR )
+20000f2a:	687b      	ldr	r3, [r7, #4]
+20000f2c:	6adb      	ldr	r3, [r3, #44]	; 0x2c
+20000f2e:	2b00      	cmp	r3, #0
+20000f30:	d104      	bne.n	20000f3c <mss_i2c_isr+0x3c0>
+            {
+                this_i2c->master_tx_idx = 0u;
+20000f32:	687b      	ldr	r3, [r7, #4]
+20000f34:	f04f 0200 	mov.w	r2, #0
+20000f38:	629a      	str	r2, [r3, #40]	; 0x28
+20000f3a:	e007      	b.n	20000f4c <mss_i2c_isr+0x3d0>
+            }
+            else if ( this_i2c->dir == READ_DIR)
+20000f3c:	687b      	ldr	r3, [r7, #4]
+20000f3e:	6adb      	ldr	r3, [r3, #44]	; 0x2c
+20000f40:	2b01      	cmp	r3, #1
+20000f42:	d103      	bne.n	20000f4c <mss_i2c_isr+0x3d0>
+            {
+                this_i2c->master_rx_idx = 0u;
+20000f44:	687b      	ldr	r3, [r7, #4]
+20000f46:	f04f 0200 	mov.w	r2, #0
+20000f4a:	639a      	str	r2, [r3, #56]	; 0x38
+            /*
+             * Clear the pending transaction. This condition will be true if the slave 
+             * has acquired the bus to carry out pending master transaction which 
+             * it had received during its slave transmission or reception mode. 
+             */
+            if(this_i2c->is_transaction_pending)
+20000f4c:	687b      	ldr	r3, [r7, #4]
+20000f4e:	f893 3071 	ldrb.w	r3, [r3, #113]	; 0x71
+20000f52:	2b00      	cmp	r3, #0
+20000f54:	d004      	beq.n	20000f60 <mss_i2c_isr+0x3e4>
+            {
+                this_i2c->is_transaction_pending = 0u;
+20000f56:	687b      	ldr	r3, [r7, #4]
+20000f58:	f04f 0200 	mov.w	r2, #0
+20000f5c:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
+
+            /*
+             * Make sure to update proper transaction after master START
+             * or RESTART
+             */
+            if(this_i2c->transaction != this_i2c->pending_transaction)
+20000f60:	687b      	ldr	r3, [r7, #4]
+20000f62:	7a1a      	ldrb	r2, [r3, #8]
+20000f64:	687b      	ldr	r3, [r7, #4]
+20000f66:	f893 3072 	ldrb.w	r3, [r3, #114]	; 0x72
+20000f6a:	429a      	cmp	r2, r3
+20000f6c:	f000 8267 	beq.w	2000143e <mss_i2c_isr+0x8c2>
+            {
+                this_i2c->transaction = this_i2c->pending_transaction;
+20000f70:	687b      	ldr	r3, [r7, #4]
+20000f72:	f893 2072 	ldrb.w	r2, [r3, #114]	; 0x72
+20000f76:	687b      	ldr	r3, [r7, #4]
+20000f78:	721a      	strb	r2, [r3, #8]
+            }
+            break;
+20000f7a:	e269      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            
+        case ST_LOST_ARB:
+            /* Set start bit.  Let's keep trying!  Don't give up! */
+            this_i2c->hw_reg_bit->CTRL_STA = 0x01u;
 20000f7c:	687b      	ldr	r3, [r7, #4]
-20000f7e:	f04f 0200 	mov.w	r2, #0
-20000f82:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
-20000f86:	687b      	ldr	r3, [r7, #4]
-20000f88:	f04f 0200 	mov.w	r2, #0
-20000f8c:	721a      	strb	r2, [r3, #8]
-20000f8e:	e1cd      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000f90:	687b      	ldr	r3, [r7, #4]
-20000f92:	699b      	ldr	r3, [r3, #24]
-20000f94:	f04f 0201 	mov.w	r2, #1
-20000f98:	611a      	str	r2, [r3, #16]
-20000f9a:	687b      	ldr	r3, [r7, #4]
-20000f9c:	f04f 0202 	mov.w	r2, #2
-20000fa0:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
-20000fa4:	687b      	ldr	r3, [r7, #4]
-20000fa6:	f04f 0200 	mov.w	r2, #0
-20000faa:	721a      	strb	r2, [r3, #8]
-20000fac:	6878      	ldr	r0, [r7, #4]
-20000fae:	f7ff fd3f 	bl	20000a30 <enable_slave_if_required>
-20000fb2:	e1bb      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000fb4:	687b      	ldr	r3, [r7, #4]
-20000fb6:	6b1a      	ldr	r2, [r3, #48]	; 0x30
+20000f7e:	699b      	ldr	r3, [r3, #24]
+20000f80:	f04f 0201 	mov.w	r2, #1
+20000f84:	615a      	str	r2, [r3, #20]
+            break;
+20000f86:	e263      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            
+        /******************* MASTER TRANSMITTER *************************/
+        case ST_SLAW_NACK:
+            /* SLA+W has been transmitted; not ACK has been received - let's stop. */
+            this_i2c->hw_reg_bit->CTRL_STO = 0x01u;
+20000f88:	687b      	ldr	r3, [r7, #4]
+20000f8a:	699b      	ldr	r3, [r3, #24]
+20000f8c:	f04f 0201 	mov.w	r2, #1
+20000f90:	611a      	str	r2, [r3, #16]
+            this_i2c->master_status = MSS_I2C_FAILED;
+20000f92:	687b      	ldr	r3, [r7, #4]
+20000f94:	f04f 0202 	mov.w	r2, #2
+20000f98:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+            this_i2c->transaction = NO_TRANSACTION;
+20000f9c:	687b      	ldr	r3, [r7, #4]
+20000f9e:	f04f 0200 	mov.w	r2, #0
+20000fa2:	721a      	strb	r2, [r3, #8]
+            enable_slave_if_required(this_i2c);
+20000fa4:	6878      	ldr	r0, [r7, #4]
+20000fa6:	f7ff fdd5 	bl	20000b54 <enable_slave_if_required>
+            break;
+20000faa:	e251      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            
+        case ST_SLAW_ACK:
+        case ST_TX_DATA_ACK:
+            /* data byte has been xmt'd with ACK, time to send stop bit or repeated start. */
+            if (this_i2c->master_tx_idx < this_i2c->master_tx_size)
+20000fac:	687b      	ldr	r3, [r7, #4]
+20000fae:	6a9a      	ldr	r2, [r3, #40]	; 0x28
+20000fb0:	687b      	ldr	r3, [r7, #4]
+20000fb2:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+20000fb4:	429a      	cmp	r2, r3
+20000fb6:	d20d      	bcs.n	20000fd4 <mss_i2c_isr+0x458>
+            {    
+                this_i2c->hw_reg->DATA = this_i2c->master_tx_buffer[this_i2c->master_tx_idx++];
 20000fb8:	687b      	ldr	r3, [r7, #4]
-20000fba:	6b9b      	ldr	r3, [r3, #56]	; 0x38
-20000fbc:	441a      	add	r2, r3
-20000fbe:	6879      	ldr	r1, [r7, #4]
-20000fc0:	6949      	ldr	r1, [r1, #20]
-20000fc2:	7a09      	ldrb	r1, [r1, #8]
-20000fc4:	b2c9      	uxtb	r1, r1
-20000fc6:	7011      	strb	r1, [r2, #0]
-20000fc8:	f103 0201 	add.w	r2, r3, #1
-20000fcc:	687b      	ldr	r3, [r7, #4]
-20000fce:	639a      	str	r2, [r3, #56]	; 0x38
-20000fd0:	687b      	ldr	r3, [r7, #4]
-20000fd2:	6b9a      	ldr	r2, [r3, #56]	; 0x38
+20000fba:	695a      	ldr	r2, [r3, #20]
+20000fbc:	687b      	ldr	r3, [r7, #4]
+20000fbe:	6a19      	ldr	r1, [r3, #32]
+20000fc0:	687b      	ldr	r3, [r7, #4]
+20000fc2:	6a9b      	ldr	r3, [r3, #40]	; 0x28
+20000fc4:	4419      	add	r1, r3
+20000fc6:	7809      	ldrb	r1, [r1, #0]
+20000fc8:	7211      	strb	r1, [r2, #8]
+20000fca:	f103 0201 	add.w	r2, r3, #1
+20000fce:	687b      	ldr	r3, [r7, #4]
+20000fd0:	629a      	str	r2, [r3, #40]	; 0x28
+                    NVIC_DisableIRQ( this_i2c->irqn );
+                    clear_irq = 0u;
+                }
+                this_i2c->master_status = MSS_I2C_SUCCESS;
+            }
+            break;
+20000fd2:	e23d      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            /* data byte has been xmt'd with ACK, time to send stop bit or repeated start. */
+            if (this_i2c->master_tx_idx < this_i2c->master_tx_size)
+            {    
+                this_i2c->hw_reg->DATA = this_i2c->master_tx_buffer[this_i2c->master_tx_idx++];
+            }
+            else if ( this_i2c->transaction == MASTER_RANDOM_READ_TRANSACTION )
 20000fd4:	687b      	ldr	r3, [r7, #4]
-20000fd6:	6b5b      	ldr	r3, [r3, #52]	; 0x34
-20000fd8:	f103 33ff 	add.w	r3, r3, #4294967295
-20000fdc:	429a      	cmp	r2, r3
-20000fde:	f0c0 819e 	bcc.w	2000131e <mss_i2c_isr+0x8c6>
-20000fe2:	687b      	ldr	r3, [r7, #4]
-20000fe4:	699b      	ldr	r3, [r3, #24]
-20000fe6:	f04f 0200 	mov.w	r2, #0
-20000fea:	609a      	str	r2, [r3, #8]
-20000fec:	e19e      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20000fee:	687b      	ldr	r3, [r7, #4]
-20000ff0:	6b1a      	ldr	r2, [r3, #48]	; 0x30
-20000ff2:	687b      	ldr	r3, [r7, #4]
-20000ff4:	6b9b      	ldr	r3, [r3, #56]	; 0x38
-20000ff6:	4413      	add	r3, r2
-20000ff8:	687a      	ldr	r2, [r7, #4]
-20000ffa:	6952      	ldr	r2, [r2, #20]
-20000ffc:	7a12      	ldrb	r2, [r2, #8]
-20000ffe:	b2d2      	uxtb	r2, r2
-20001000:	701a      	strb	r2, [r3, #0]
+20000fd6:	7a1b      	ldrb	r3, [r3, #8]
+20000fd8:	2b03      	cmp	r3, #3
+20000fda:	d109      	bne.n	20000ff0 <mss_i2c_isr+0x474>
+            {
+                /* We are finished sending the address offset part of a random read transaction.
+                 * It is is time to send a restart in order to change direction. */
+                 this_i2c->dir = READ_DIR;
+20000fdc:	687b      	ldr	r3, [r7, #4]
+20000fde:	f04f 0201 	mov.w	r2, #1
+20000fe2:	62da      	str	r2, [r3, #44]	; 0x2c
+                 this_i2c->hw_reg_bit->CTRL_STA = 0x01u;
+20000fe4:	687b      	ldr	r3, [r7, #4]
+20000fe6:	699b      	ldr	r3, [r3, #24]
+20000fe8:	f04f 0201 	mov.w	r2, #1
+20000fec:	615a      	str	r2, [r3, #20]
+                    NVIC_DisableIRQ( this_i2c->irqn );
+                    clear_irq = 0u;
+                }
+                this_i2c->master_status = MSS_I2C_SUCCESS;
+            }
+            break;
+20000fee:	e22f      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            {
+                /*
+                 * Set the transaction back to NO_TRANSACTION to allow user to do further
+                 * transaction
+                 */
+                this_i2c->transaction = NO_TRANSACTION;
+20000ff0:	687b      	ldr	r3, [r7, #4]
+20000ff2:	f04f 0200 	mov.w	r2, #0
+20000ff6:	721a      	strb	r2, [r3, #8]
+                hold_bus = this_i2c->options & MSS_I2C_HOLD_BUS;
+20000ff8:	687b      	ldr	r3, [r7, #4]
+20000ffa:	7c1b      	ldrb	r3, [r3, #16]
+20000ffc:	f003 0301 	and.w	r3, r3, #1
+20001000:	737b      	strb	r3, [r7, #13]
+
+                /* Store the information of current I2C bus status in the bus_status*/
+                this_i2c->bus_status  = hold_bus;
 20001002:	687b      	ldr	r3, [r7, #4]
-20001004:	7c1b      	ldrb	r3, [r3, #16]
-20001006:	f003 0301 	and.w	r3, r3, #1
-2000100a:	737b      	strb	r3, [r7, #13]
-2000100c:	687b      	ldr	r3, [r7, #4]
-2000100e:	7b7a      	ldrb	r2, [r7, #13]
-20001010:	f883 2070 	strb.w	r2, [r3, #112]	; 0x70
-20001014:	7b7b      	ldrb	r3, [r7, #13]
-20001016:	2b00      	cmp	r3, #0
-20001018:	d108      	bne.n	2000102c <mss_i2c_isr+0x5d4>
-2000101a:	687b      	ldr	r3, [r7, #4]
-2000101c:	699b      	ldr	r3, [r3, #24]
-2000101e:	f04f 0201 	mov.w	r2, #1
-20001022:	611a      	str	r2, [r3, #16]
-20001024:	6878      	ldr	r0, [r7, #4]
-20001026:	f7ff fd03 	bl	20000a30 <enable_slave_if_required>
-2000102a:	e008      	b.n	2000103e <mss_i2c_isr+0x5e6>
-2000102c:	687b      	ldr	r3, [r7, #4]
-2000102e:	8a5b      	ldrh	r3, [r3, #18]
-20001030:	b21b      	sxth	r3, r3
-20001032:	4618      	mov	r0, r3
-20001034:	f7ff fb6a 	bl	2000070c <NVIC_DisableIRQ>
-20001038:	f04f 0300 	mov.w	r3, #0
-2000103c:	73bb      	strb	r3, [r7, #14]
-2000103e:	687b      	ldr	r3, [r7, #4]
-20001040:	f04f 0200 	mov.w	r2, #0
-20001044:	721a      	strb	r2, [r3, #8]
-20001046:	687b      	ldr	r3, [r7, #4]
-20001048:	f04f 0200 	mov.w	r2, #0
-2000104c:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
-20001050:	e16c      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20001052:	687b      	ldr	r3, [r7, #4]
-20001054:	699b      	ldr	r3, [r3, #24]
-20001056:	f04f 0201 	mov.w	r2, #1
-2000105a:	609a      	str	r2, [r3, #8]
-2000105c:	687b      	ldr	r3, [r7, #4]
-2000105e:	f04f 0200 	mov.w	r2, #0
-20001062:	721a      	strb	r2, [r3, #8]
+20001004:	7b7a      	ldrb	r2, [r7, #13]
+20001006:	f883 2070 	strb.w	r2, [r3, #112]	; 0x70
+                if ( hold_bus == 0u )
+2000100a:	7b7b      	ldrb	r3, [r7, #13]
+2000100c:	2b00      	cmp	r3, #0
+2000100e:	d108      	bne.n	20001022 <mss_i2c_isr+0x4a6>
+                { 
+                    this_i2c->hw_reg_bit->CTRL_STO = 0x01u; /*xmt stop condition */
+20001010:	687b      	ldr	r3, [r7, #4]
+20001012:	699b      	ldr	r3, [r3, #24]
+20001014:	f04f 0201 	mov.w	r2, #1
+20001018:	611a      	str	r2, [r3, #16]
+                    enable_slave_if_required(this_i2c);
+2000101a:	6878      	ldr	r0, [r7, #4]
+2000101c:	f7ff fd9a 	bl	20000b54 <enable_slave_if_required>
+20001020:	e008      	b.n	20001034 <mss_i2c_isr+0x4b8>
+                }
+                else
+                {
+                    NVIC_DisableIRQ( this_i2c->irqn );
+20001022:	687b      	ldr	r3, [r7, #4]
+20001024:	8a5b      	ldrh	r3, [r3, #18]
+20001026:	b21b      	sxth	r3, r3
+20001028:	4618      	mov	r0, r3
+2000102a:	f7ff fb87 	bl	2000073c <NVIC_DisableIRQ>
+                    clear_irq = 0u;
+2000102e:	f04f 0300 	mov.w	r3, #0
+20001032:	73bb      	strb	r3, [r7, #14]
+                }
+                this_i2c->master_status = MSS_I2C_SUCCESS;
+20001034:	687b      	ldr	r3, [r7, #4]
+20001036:	f04f 0200 	mov.w	r2, #0
+2000103a:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+            }
+            break;
+2000103e:	e207      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            /* data byte SENT, ACK to be received
+             * In fact, this means we've received a NACK (This may not be 
+             * obvious, but if we've rec'd an ACK then we would be in state 
+             * 0x28!) hence, let's send a stop bit
+             */
+            this_i2c->hw_reg_bit->CTRL_STO = 0x01u;
+20001040:	687b      	ldr	r3, [r7, #4]
+20001042:	699b      	ldr	r3, [r3, #24]
+20001044:	f04f 0201 	mov.w	r2, #1
+20001048:	611a      	str	r2, [r3, #16]
+            this_i2c->master_status = MSS_I2C_FAILED;
+2000104a:	687b      	ldr	r3, [r7, #4]
+2000104c:	f04f 0202 	mov.w	r2, #2
+20001050:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+
+            /*
+             * Set the transaction back to NO_TRANSACTION to allow user to do further
+             * transaction
+             */
+            this_i2c->transaction = NO_TRANSACTION;
+20001054:	687b      	ldr	r3, [r7, #4]
+20001056:	f04f 0200 	mov.w	r2, #0
+2000105a:	721a      	strb	r2, [r3, #8]
+            enable_slave_if_required(this_i2c);
+2000105c:	6878      	ldr	r0, [r7, #4]
+2000105e:	f7ff fd79 	bl	20000b54 <enable_slave_if_required>
+
+            break;
+20001062:	e1f5      	b.n	20001450 <mss_i2c_isr+0x8d4>
+      /* STATUS codes 08H, 10H, 38H are all covered in MTX mode */
+        case ST_SLAR_ACK: /* SLA+R tx'ed. */
+            /* Let's make sure we ACK the first data byte received (set AA bit in CTRL) unless
+             * the next byte is the last byte of the read transaction.
+             */
+            if(this_i2c->master_rx_size > 1u)
 20001064:	687b      	ldr	r3, [r7, #4]
-20001066:	f04f 0200 	mov.w	r2, #0
-2000106a:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
-2000106e:	687b      	ldr	r3, [r7, #4]
-20001070:	f893 3071 	ldrb.w	r3, [r3, #113]	; 0x71
-20001074:	2b00      	cmp	r3, #0
-20001076:	f000 8154 	beq.w	20001322 <mss_i2c_isr+0x8ca>
-2000107a:	687b      	ldr	r3, [r7, #4]
-2000107c:	699b      	ldr	r3, [r3, #24]
-2000107e:	f04f 0201 	mov.w	r2, #1
-20001082:	615a      	str	r2, [r3, #20]
-20001084:	e152      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20001086:	687b      	ldr	r3, [r7, #4]
-20001088:	f04f 0201 	mov.w	r2, #1
-2000108c:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
-20001090:	687b      	ldr	r3, [r7, #4]
-20001092:	f04f 0204 	mov.w	r2, #4
-20001096:	721a      	strb	r2, [r3, #8]
-20001098:	687b      	ldr	r3, [r7, #4]
-2000109a:	f04f 0200 	mov.w	r2, #0
-2000109e:	659a      	str	r2, [r3, #88]	; 0x58
+20001066:	6b5b      	ldr	r3, [r3, #52]	; 0x34
+20001068:	2b01      	cmp	r3, #1
+2000106a:	d905      	bls.n	20001078 <mss_i2c_isr+0x4fc>
+            {
+                this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+2000106c:	687b      	ldr	r3, [r7, #4]
+2000106e:	699b      	ldr	r3, [r3, #24]
+20001070:	f04f 0201 	mov.w	r2, #1
+20001074:	609a      	str	r2, [r3, #8]
+                this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+                this_i2c->hw_reg_bit->CTRL_STO = 0x01u;
+                this_i2c->master_status = MSS_I2C_SUCCESS;
+                this_i2c->transaction = NO_TRANSACTION;
+            }
+            break;
+20001076:	e1eb      	b.n	20001450 <mss_i2c_isr+0x8d4>
+             */
+            if(this_i2c->master_rx_size > 1u)
+            {
+                this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+            }
+            else if(1u == this_i2c->master_rx_size)
+20001078:	687b      	ldr	r3, [r7, #4]
+2000107a:	6b5b      	ldr	r3, [r3, #52]	; 0x34
+2000107c:	2b01      	cmp	r3, #1
+2000107e:	d105      	bne.n	2000108c <mss_i2c_isr+0x510>
+            {
+                this_i2c->hw_reg_bit->CTRL_AA = 0u;
+20001080:	687b      	ldr	r3, [r7, #4]
+20001082:	699b      	ldr	r3, [r3, #24]
+20001084:	f04f 0200 	mov.w	r2, #0
+20001088:	609a      	str	r2, [r3, #8]
+                this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+                this_i2c->hw_reg_bit->CTRL_STO = 0x01u;
+                this_i2c->master_status = MSS_I2C_SUCCESS;
+                this_i2c->transaction = NO_TRANSACTION;
+            }
+            break;
+2000108a:	e1e1      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            {
+                this_i2c->hw_reg_bit->CTRL_AA = 0u;
+            }
+            else /* this_i2c->master_rx_size == 0u */
+            {
+                this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+2000108c:	687b      	ldr	r3, [r7, #4]
+2000108e:	699b      	ldr	r3, [r3, #24]
+20001090:	f04f 0201 	mov.w	r2, #1
+20001094:	609a      	str	r2, [r3, #8]
+                this_i2c->hw_reg_bit->CTRL_STO = 0x01u;
+20001096:	687b      	ldr	r3, [r7, #4]
+20001098:	699b      	ldr	r3, [r3, #24]
+2000109a:	f04f 0201 	mov.w	r2, #1
+2000109e:	611a      	str	r2, [r3, #16]
+                this_i2c->master_status = MSS_I2C_SUCCESS;
 200010a0:	687b      	ldr	r3, [r7, #4]
 200010a2:	f04f 0200 	mov.w	r2, #0
-200010a6:	60da      	str	r2, [r3, #12]
-200010a8:	687b      	ldr	r3, [r7, #4]
-200010aa:	699b      	ldr	r3, [r3, #24]
-200010ac:	695b      	ldr	r3, [r3, #20]
-200010ae:	2b00      	cmp	r3, #0
-200010b0:	d009      	beq.n	200010c6 <mss_i2c_isr+0x66e>
-200010b2:	687b      	ldr	r3, [r7, #4]
-200010b4:	699b      	ldr	r3, [r3, #24]
-200010b6:	f04f 0200 	mov.w	r2, #0
-200010ba:	615a      	str	r2, [r3, #20]
-200010bc:	687b      	ldr	r3, [r7, #4]
-200010be:	f04f 0201 	mov.w	r2, #1
-200010c2:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
-200010c6:	687b      	ldr	r3, [r7, #4]
-200010c8:	f04f 0201 	mov.w	r2, #1
-200010cc:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
-200010d0:	e12c      	b.n	2000132c <mss_i2c_isr+0x8d4>
-200010d2:	687b      	ldr	r3, [r7, #4]
-200010d4:	6d1b      	ldr	r3, [r3, #80]	; 0x50
-200010d6:	2b00      	cmp	r3, #0
-200010d8:	d01c      	beq.n	20001114 <mss_i2c_isr+0x6bc>
-200010da:	687b      	ldr	r3, [r7, #4]
-200010dc:	6d9a      	ldr	r2, [r3, #88]	; 0x58
-200010de:	687b      	ldr	r3, [r7, #4]
-200010e0:	6d5b      	ldr	r3, [r3, #84]	; 0x54
-200010e2:	429a      	cmp	r2, r3
-200010e4:	d216      	bcs.n	20001114 <mss_i2c_isr+0x6bc>
-200010e6:	687b      	ldr	r3, [r7, #4]
-200010e8:	695b      	ldr	r3, [r3, #20]
-200010ea:	7a1b      	ldrb	r3, [r3, #8]
-200010ec:	733b      	strb	r3, [r7, #12]
-200010ee:	687b      	ldr	r3, [r7, #4]
-200010f0:	6d1a      	ldr	r2, [r3, #80]	; 0x50
-200010f2:	687b      	ldr	r3, [r7, #4]
-200010f4:	6d9b      	ldr	r3, [r3, #88]	; 0x58
-200010f6:	441a      	add	r2, r3
-200010f8:	7b39      	ldrb	r1, [r7, #12]
-200010fa:	7011      	strb	r1, [r2, #0]
-200010fc:	f103 0201 	add.w	r2, r3, #1
-20001100:	687b      	ldr	r3, [r7, #4]
-20001102:	659a      	str	r2, [r3, #88]	; 0x58
-20001104:	687b      	ldr	r3, [r7, #4]
-20001106:	68db      	ldr	r3, [r3, #12]
-20001108:	ea4f 2203 	mov.w	r2, r3, lsl #8
-2000110c:	7b3b      	ldrb	r3, [r7, #12]
-2000110e:	441a      	add	r2, r3
-20001110:	687b      	ldr	r3, [r7, #4]
-20001112:	60da      	str	r2, [r3, #12]
-20001114:	687b      	ldr	r3, [r7, #4]
-20001116:	6d9a      	ldr	r2, [r3, #88]	; 0x58
-20001118:	687b      	ldr	r3, [r7, #4]
-2000111a:	6d5b      	ldr	r3, [r3, #84]	; 0x54
-2000111c:	429a      	cmp	r2, r3
-2000111e:	f0c0 8102 	bcc.w	20001326 <mss_i2c_isr+0x8ce>
-20001122:	687b      	ldr	r3, [r7, #4]
-20001124:	699b      	ldr	r3, [r3, #24]
-20001126:	f04f 0200 	mov.w	r2, #0
-2000112a:	609a      	str	r2, [r3, #8]
-2000112c:	e0fe      	b.n	2000132c <mss_i2c_isr+0x8d4>
-2000112e:	687b      	ldr	r3, [r7, #4]
-20001130:	7a1b      	ldrb	r3, [r3, #8]
-20001132:	2b04      	cmp	r3, #4
-20001134:	d135      	bne.n	200011a2 <mss_i2c_isr+0x74a>
-20001136:	687b      	ldr	r3, [r7, #4]
-20001138:	6d9a      	ldr	r2, [r3, #88]	; 0x58
-2000113a:	687b      	ldr	r3, [r7, #4]
-2000113c:	6e1b      	ldr	r3, [r3, #96]	; 0x60
-2000113e:	429a      	cmp	r2, r3
-20001140:	d103      	bne.n	2000114a <mss_i2c_isr+0x6f2>
-20001142:	687b      	ldr	r3, [r7, #4]
-20001144:	68da      	ldr	r2, [r3, #12]
-20001146:	687b      	ldr	r3, [r7, #4]
-20001148:	64da      	str	r2, [r3, #76]	; 0x4c
-2000114a:	687b      	ldr	r3, [r7, #4]
-2000114c:	6e5b      	ldr	r3, [r3, #100]	; 0x64
-2000114e:	2b00      	cmp	r3, #0
-20001150:	d021      	beq.n	20001196 <mss_i2c_isr+0x73e>
-20001152:	687b      	ldr	r3, [r7, #4]
-20001154:	6e5b      	ldr	r3, [r3, #100]	; 0x64
-20001156:	687a      	ldr	r2, [r7, #4]
-20001158:	6d11      	ldr	r1, [r2, #80]	; 0x50
-2000115a:	687a      	ldr	r2, [r7, #4]
-2000115c:	6d92      	ldr	r2, [r2, #88]	; 0x58
-2000115e:	b292      	uxth	r2, r2
-20001160:	6878      	ldr	r0, [r7, #4]
-20001162:	4798      	blx	r3
-20001164:	4603      	mov	r3, r0
-20001166:	73fb      	strb	r3, [r7, #15]
-20001168:	7bfb      	ldrb	r3, [r7, #15]
-2000116a:	2b00      	cmp	r3, #0
-2000116c:	d108      	bne.n	20001180 <mss_i2c_isr+0x728>
-2000116e:	6878      	ldr	r0, [r7, #4]
-20001170:	f7ff fc5e 	bl	20000a30 <enable_slave_if_required>
-20001174:	687b      	ldr	r3, [r7, #4]
-20001176:	699b      	ldr	r3, [r3, #24]
-20001178:	f04f 0201 	mov.w	r2, #1
-2000117c:	609a      	str	r2, [r3, #8]
-2000117e:	e017      	b.n	200011b0 <mss_i2c_isr+0x758>
+200010a6:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+                this_i2c->transaction = NO_TRANSACTION;
+200010aa:	687b      	ldr	r3, [r7, #4]
+200010ac:	f04f 0200 	mov.w	r2, #0
+200010b0:	721a      	strb	r2, [r3, #8]
+            }
+            break;
+200010b2:	e1cd      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            
+        case ST_SLAR_NACK: /* SLA+R tx'ed; let's release the bus (send a stop condition) */
+            this_i2c->hw_reg_bit->CTRL_STO = 0x01u;
+200010b4:	687b      	ldr	r3, [r7, #4]
+200010b6:	699b      	ldr	r3, [r3, #24]
+200010b8:	f04f 0201 	mov.w	r2, #1
+200010bc:	611a      	str	r2, [r3, #16]
+            this_i2c->master_status = MSS_I2C_FAILED;
+200010be:	687b      	ldr	r3, [r7, #4]
+200010c0:	f04f 0202 	mov.w	r2, #2
+200010c4:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+
+            /*
+             * Set the transaction back to NO_TRANSACTION to allow user to do further
+             * transaction
+             */
+            this_i2c->transaction = NO_TRANSACTION;
+200010c8:	687b      	ldr	r3, [r7, #4]
+200010ca:	f04f 0200 	mov.w	r2, #0
+200010ce:	721a      	strb	r2, [r3, #8]
+            enable_slave_if_required(this_i2c);
+200010d0:	6878      	ldr	r0, [r7, #4]
+200010d2:	f7ff fd3f 	bl	20000b54 <enable_slave_if_required>
+            break;
+200010d6:	e1bb      	b.n	20001450 <mss_i2c_isr+0x8d4>
+          
+        case ST_RX_DATA_ACK: /* Data byte received, ACK returned */
+            /* First, get the data */
+            this_i2c->master_rx_buffer[this_i2c->master_rx_idx++] = this_i2c->hw_reg->DATA;
+200010d8:	687b      	ldr	r3, [r7, #4]
+200010da:	6b1a      	ldr	r2, [r3, #48]	; 0x30
+200010dc:	687b      	ldr	r3, [r7, #4]
+200010de:	6b9b      	ldr	r3, [r3, #56]	; 0x38
+200010e0:	441a      	add	r2, r3
+200010e2:	6879      	ldr	r1, [r7, #4]
+200010e4:	6949      	ldr	r1, [r1, #20]
+200010e6:	7a09      	ldrb	r1, [r1, #8]
+200010e8:	b2c9      	uxtb	r1, r1
+200010ea:	7011      	strb	r1, [r2, #0]
+200010ec:	f103 0201 	add.w	r2, r3, #1
+200010f0:	687b      	ldr	r3, [r7, #4]
+200010f2:	639a      	str	r2, [r3, #56]	; 0x38
+
+            if( this_i2c->master_rx_idx >= (this_i2c->master_rx_size - 1u))
+200010f4:	687b      	ldr	r3, [r7, #4]
+200010f6:	6b9a      	ldr	r2, [r3, #56]	; 0x38
+200010f8:	687b      	ldr	r3, [r7, #4]
+200010fa:	6b5b      	ldr	r3, [r3, #52]	; 0x34
+200010fc:	f103 33ff 	add.w	r3, r3, #4294967295
+20001100:	429a      	cmp	r2, r3
+20001102:	f0c0 819e 	bcc.w	20001442 <mss_i2c_isr+0x8c6>
+            {
+                /* If we're at the second last byte, let's set AA to 0 so
+                 * we return a NACK at the last byte. */
+                this_i2c->hw_reg_bit->CTRL_AA = 0u;
+20001106:	687b      	ldr	r3, [r7, #4]
+20001108:	699b      	ldr	r3, [r3, #24]
+2000110a:	f04f 0200 	mov.w	r2, #0
+2000110e:	609a      	str	r2, [r3, #8]
+            }
+            break;
+20001110:	e19e      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            
+        case ST_RX_DATA_NACK: /* Data byte received, NACK returned */
+            /* Get the data, then send a stop condition */
+            this_i2c->master_rx_buffer[this_i2c->master_rx_idx] = this_i2c->hw_reg->DATA;
+20001112:	687b      	ldr	r3, [r7, #4]
+20001114:	6b1a      	ldr	r2, [r3, #48]	; 0x30
+20001116:	687b      	ldr	r3, [r7, #4]
+20001118:	6b9b      	ldr	r3, [r3, #56]	; 0x38
+2000111a:	4413      	add	r3, r2
+2000111c:	687a      	ldr	r2, [r7, #4]
+2000111e:	6952      	ldr	r2, [r2, #20]
+20001120:	7a12      	ldrb	r2, [r2, #8]
+20001122:	b2d2      	uxtb	r2, r2
+20001124:	701a      	strb	r2, [r3, #0]
+          
+            hold_bus = this_i2c->options &  MSS_I2C_HOLD_BUS; 
+20001126:	687b      	ldr	r3, [r7, #4]
+20001128:	7c1b      	ldrb	r3, [r3, #16]
+2000112a:	f003 0301 	and.w	r3, r3, #1
+2000112e:	737b      	strb	r3, [r7, #13]
+
+            /* Store the information of current I2C bus status in the bus_status*/
+            this_i2c->bus_status  = hold_bus;
+20001130:	687b      	ldr	r3, [r7, #4]
+20001132:	7b7a      	ldrb	r2, [r7, #13]
+20001134:	f883 2070 	strb.w	r2, [r3, #112]	; 0x70
+            if ( hold_bus == 0u )
+20001138:	7b7b      	ldrb	r3, [r7, #13]
+2000113a:	2b00      	cmp	r3, #0
+2000113c:	d108      	bne.n	20001150 <mss_i2c_isr+0x5d4>
+            { 
+                this_i2c->hw_reg_bit->CTRL_STO = 0x01u;  /*xmt stop condition */
+2000113e:	687b      	ldr	r3, [r7, #4]
+20001140:	699b      	ldr	r3, [r3, #24]
+20001142:	f04f 0201 	mov.w	r2, #1
+20001146:	611a      	str	r2, [r3, #16]
+
+                /* Bus is released, now we can start listening to bus, if it is slave */
+                   enable_slave_if_required(this_i2c);
+20001148:	6878      	ldr	r0, [r7, #4]
+2000114a:	f7ff fd03 	bl	20000b54 <enable_slave_if_required>
+2000114e:	e008      	b.n	20001162 <mss_i2c_isr+0x5e6>
+            }
+            else
+            {
+                NVIC_DisableIRQ( this_i2c->irqn );
+20001150:	687b      	ldr	r3, [r7, #4]
+20001152:	8a5b      	ldrh	r3, [r3, #18]
+20001154:	b21b      	sxth	r3, r3
+20001156:	4618      	mov	r0, r3
+20001158:	f7ff faf0 	bl	2000073c <NVIC_DisableIRQ>
+                clear_irq = 0u;
+2000115c:	f04f 0300 	mov.w	r3, #0
+20001160:	73bb      	strb	r3, [r7, #14]
+
+            /*
+             * Set the transaction back to NO_TRANSACTION to allow user to do further
+             * transaction
+             */
+            this_i2c->transaction = NO_TRANSACTION;
+20001162:	687b      	ldr	r3, [r7, #4]
+20001164:	f04f 0200 	mov.w	r2, #0
+20001168:	721a      	strb	r2, [r3, #8]
+            this_i2c->master_status = MSS_I2C_SUCCESS;
+2000116a:	687b      	ldr	r3, [r7, #4]
+2000116c:	f04f 0200 	mov.w	r2, #0
+20001170:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+            break;
+20001174:	e16c      	b.n	20001450 <mss_i2c_isr+0x8d4>
+        
+        /******************** SLAVE RECEIVER **************************/
+        case ST_GCA_NACK: /* NACK after, GCA addressing */
+        case ST_SLA_NACK: /* Re-enable AA (assert ack) bit for future transmissions */
+            this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+20001176:	687b      	ldr	r3, [r7, #4]
+20001178:	699b      	ldr	r3, [r3, #24]
+2000117a:	f04f 0201 	mov.w	r2, #1
+2000117e:	609a      	str	r2, [r3, #8]
+            
+            this_i2c->transaction = NO_TRANSACTION;
 20001180:	687b      	ldr	r3, [r7, #4]
-20001182:	699b      	ldr	r3, [r3, #24]
-20001184:	f04f 0200 	mov.w	r2, #0
-20001188:	609a      	str	r2, [r3, #8]
-2000118a:	687b      	ldr	r3, [r7, #4]
-2000118c:	f04f 0200 	mov.w	r2, #0
-20001190:	f883 2068 	strb.w	r2, [r3, #104]	; 0x68
-20001194:	e00c      	b.n	200011b0 <mss_i2c_isr+0x758>
-20001196:	687b      	ldr	r3, [r7, #4]
-20001198:	699b      	ldr	r3, [r3, #24]
-2000119a:	f04f 0201 	mov.w	r2, #1
-2000119e:	609a      	str	r2, [r3, #8]
-200011a0:	e006      	b.n	200011b0 <mss_i2c_isr+0x758>
-200011a2:	687b      	ldr	r3, [r7, #4]
-200011a4:	f04f 0200 	mov.w	r2, #0
-200011a8:	64da      	str	r2, [r3, #76]	; 0x4c
-200011aa:	6878      	ldr	r0, [r7, #4]
-200011ac:	f7ff fc40 	bl	20000a30 <enable_slave_if_required>
-200011b0:	687b      	ldr	r3, [r7, #4]
-200011b2:	f04f 0200 	mov.w	r2, #0
-200011b6:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
-200011ba:	687b      	ldr	r3, [r7, #4]
-200011bc:	f893 3071 	ldrb.w	r3, [r3, #113]	; 0x71
-200011c0:	2b00      	cmp	r3, #0
-200011c2:	d004      	beq.n	200011ce <mss_i2c_isr+0x776>
+20001182:	f04f 0200 	mov.w	r2, #0
+20001186:	721a      	strb	r2, [r3, #8]
+            this_i2c->slave_status = MSS_I2C_SUCCESS;
+20001188:	687b      	ldr	r3, [r7, #4]
+2000118a:	f04f 0200 	mov.w	r2, #0
+2000118e:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
+            
+            /* Check if transaction was pending. If yes, set the START bit */
+            if(this_i2c->is_transaction_pending)
+20001192:	687b      	ldr	r3, [r7, #4]
+20001194:	f893 3071 	ldrb.w	r3, [r3, #113]	; 0x71
+20001198:	2b00      	cmp	r3, #0
+2000119a:	f000 8154 	beq.w	20001446 <mss_i2c_isr+0x8ca>
+            {
+                this_i2c->hw_reg_bit->CTRL_STA = 1u ;
+2000119e:	687b      	ldr	r3, [r7, #4]
+200011a0:	699b      	ldr	r3, [r3, #24]
+200011a2:	f04f 0201 	mov.w	r2, #1
+200011a6:	615a      	str	r2, [r3, #20]
+            }
+            break;
+200011a8:	e152      	b.n	20001450 <mss_i2c_isr+0x8d4>
+        case ST_SLV_LA: /* Arbitr. lost (SLA rec'd) */
+            /*
+             *  We lost arbitration and either the GCE or our address was the
+             *  one received so pend the master operation we were starting.
+             */
+            this_i2c->is_transaction_pending = 1u;
+200011aa:	687b      	ldr	r3, [r7, #4]
+200011ac:	f04f 0201 	mov.w	r2, #1
+200011b0:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
+            /* Fall through to normal ST processing as we are now in slave mode */
+
+        case ST_GCA: /* General call address received, ACK returned */
+        case ST_SLAVE_SLAW: /* SLA+W received, ACK returned */
+
+            this_i2c->transaction = WRITE_SLAVE_TRANSACTION;
+200011b4:	687b      	ldr	r3, [r7, #4]
+200011b6:	f04f 0204 	mov.w	r2, #4
+200011ba:	721a      	strb	r2, [r3, #8]
+            this_i2c->slave_rx_idx = 0u;
+200011bc:	687b      	ldr	r3, [r7, #4]
+200011be:	f04f 0200 	mov.w	r2, #0
+200011c2:	659a      	str	r2, [r3, #88]	; 0x58
+            this_i2c->random_read_addr = 0u;
 200011c4:	687b      	ldr	r3, [r7, #4]
-200011c6:	699b      	ldr	r3, [r3, #24]
-200011c8:	f04f 0201 	mov.w	r2, #1
-200011cc:	615a      	str	r2, [r3, #20]
-200011ce:	687b      	ldr	r3, [r7, #4]
-200011d0:	f04f 0200 	mov.w	r2, #0
-200011d4:	721a      	strb	r2, [r3, #8]
-200011d6:	e0a9      	b.n	2000132c <mss_i2c_isr+0x8d4>
-200011d8:	687b      	ldr	r3, [r7, #4]
+200011c6:	f04f 0200 	mov.w	r2, #0
+200011ca:	60da      	str	r2, [r3, #12]
+
+             /* If Start Bit is set, clear it, but store that information since it is because of
+              * pending transaction
+              */
+            if(this_i2c->hw_reg_bit->CTRL_STA)
+200011cc:	687b      	ldr	r3, [r7, #4]
+200011ce:	699b      	ldr	r3, [r3, #24]
+200011d0:	695b      	ldr	r3, [r3, #20]
+200011d2:	2b00      	cmp	r3, #0
+200011d4:	d009      	beq.n	200011ea <mss_i2c_isr+0x66e>
+            {
+                this_i2c->hw_reg_bit->CTRL_STA = 0u ;
+200011d6:	687b      	ldr	r3, [r7, #4]
+200011d8:	699b      	ldr	r3, [r3, #24]
 200011da:	f04f 0200 	mov.w	r2, #0
-200011de:	721a      	strb	r2, [r3, #8]
+200011de:	615a      	str	r2, [r3, #20]
+                this_i2c->is_transaction_pending = 1u;
 200011e0:	687b      	ldr	r3, [r7, #4]
-200011e2:	f04f 0200 	mov.w	r2, #0
-200011e6:	64da      	str	r2, [r3, #76]	; 0x4c
-200011e8:	687b      	ldr	r3, [r7, #4]
-200011ea:	f893 305c 	ldrb.w	r3, [r3, #92]	; 0x5c
-200011ee:	b2db      	uxtb	r3, r3
-200011f0:	2b01      	cmp	r3, #1
-200011f2:	d104      	bne.n	200011fe <mss_i2c_isr+0x7a6>
-200011f4:	687b      	ldr	r3, [r7, #4]
-200011f6:	f04f 0202 	mov.w	r2, #2
-200011fa:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
-200011fe:	6878      	ldr	r0, [r7, #4]
-20001200:	f7ff fc16 	bl	20000a30 <enable_slave_if_required>
-20001204:	e092      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20001206:	7afb      	ldrb	r3, [r7, #11]
-20001208:	b2db      	uxtb	r3, r3
-2000120a:	2ba8      	cmp	r3, #168	; 0xa8
-2000120c:	d11b      	bne.n	20001246 <mss_i2c_isr+0x7ee>
-2000120e:	687b      	ldr	r3, [r7, #4]
-20001210:	f04f 0205 	mov.w	r2, #5
-20001214:	721a      	strb	r2, [r3, #8]
+200011e2:	f04f 0201 	mov.w	r2, #1
+200011e6:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
+            }
+            this_i2c->slave_status = MSS_I2C_IN_PROGRESS;
+200011ea:	687b      	ldr	r3, [r7, #4]
+200011ec:	f04f 0201 	mov.w	r2, #1
+200011f0:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
+#ifdef MSS_I2C_INCLUDE_SLA_IN_RX_PAYLOAD
+            /* Fall through to put address as first byte in payload buffer */
+#else
+            /* Only break from this case if the slave address must NOT be included at the
+             * beginning of the received write data. */
+            break;
+200011f4:	e12c      	b.n	20001450 <mss_i2c_isr+0x8d4>
+#endif            
+        case ST_GCA_ACK: /* DATA received; ACK sent after GCA */
+        case ST_RDATA: /* DATA received; must clear DATA register */
+            if((this_i2c->slave_rx_buffer != (uint8_t *)0)
+200011f6:	687b      	ldr	r3, [r7, #4]
+200011f8:	6d1b      	ldr	r3, [r3, #80]	; 0x50
+200011fa:	2b00      	cmp	r3, #0
+200011fc:	d01c      	beq.n	20001238 <mss_i2c_isr+0x6bc>
+               && (this_i2c->slave_rx_idx < this_i2c->slave_rx_size))
+200011fe:	687b      	ldr	r3, [r7, #4]
+20001200:	6d9a      	ldr	r2, [r3, #88]	; 0x58
+20001202:	687b      	ldr	r3, [r7, #4]
+20001204:	6d5b      	ldr	r3, [r3, #84]	; 0x54
+             * beginning of the received write data. */
+            break;
+#endif            
+        case ST_GCA_ACK: /* DATA received; ACK sent after GCA */
+        case ST_RDATA: /* DATA received; must clear DATA register */
+            if((this_i2c->slave_rx_buffer != (uint8_t *)0)
+20001206:	429a      	cmp	r2, r3
+20001208:	d216      	bcs.n	20001238 <mss_i2c_isr+0x6bc>
+               && (this_i2c->slave_rx_idx < this_i2c->slave_rx_size))
+            {
+                data = this_i2c->hw_reg->DATA;
+2000120a:	687b      	ldr	r3, [r7, #4]
+2000120c:	695b      	ldr	r3, [r3, #20]
+2000120e:	7a1b      	ldrb	r3, [r3, #8]
+20001210:	733b      	strb	r3, [r7, #12]
+                this_i2c->slave_rx_buffer[this_i2c->slave_rx_idx++] = data;
+20001212:	687b      	ldr	r3, [r7, #4]
+20001214:	6d1a      	ldr	r2, [r3, #80]	; 0x50
 20001216:	687b      	ldr	r3, [r7, #4]
-20001218:	f04f 0200 	mov.w	r2, #0
-2000121c:	60da      	str	r2, [r3, #12]
-2000121e:	687b      	ldr	r3, [r7, #4]
-20001220:	f04f 0201 	mov.w	r2, #1
-20001224:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
+20001218:	6d9b      	ldr	r3, [r3, #88]	; 0x58
+2000121a:	441a      	add	r2, r3
+2000121c:	7b39      	ldrb	r1, [r7, #12]
+2000121e:	7011      	strb	r1, [r2, #0]
+20001220:	f103 0201 	add.w	r2, r3, #1
+20001224:	687b      	ldr	r3, [r7, #4]
+20001226:	659a      	str	r2, [r3, #88]	; 0x58
+                {
+                    /* Ignore the slave address byte in the random read address
+                       computation in the case where INCLUDE_SLA_IN_RX_PAYLOAD
+                       is defined. */
+#endif
+                    this_i2c->random_read_addr = (this_i2c->random_read_addr << 8) + data;
 20001228:	687b      	ldr	r3, [r7, #4]
-2000122a:	699b      	ldr	r3, [r3, #24]
-2000122c:	695b      	ldr	r3, [r3, #20]
-2000122e:	2b00      	cmp	r3, #0
-20001230:	d009      	beq.n	20001246 <mss_i2c_isr+0x7ee>
-20001232:	687b      	ldr	r3, [r7, #4]
-20001234:	699b      	ldr	r3, [r3, #24]
-20001236:	f04f 0200 	mov.w	r2, #0
-2000123a:	615a      	str	r2, [r3, #20]
+2000122a:	68db      	ldr	r3, [r3, #12]
+2000122c:	ea4f 2203 	mov.w	r2, r3, lsl #8
+20001230:	7b3b      	ldrb	r3, [r7, #12]
+20001232:	441a      	add	r2, r3
+20001234:	687b      	ldr	r3, [r7, #4]
+20001236:	60da      	str	r2, [r3, #12]
+#ifdef MSS_I2C_INCLUDE_SLA_IN_RX_PAYLOAD
+                }
+#endif
+            }
+            
+            if (this_i2c->slave_rx_idx >= this_i2c->slave_rx_size)
+20001238:	687b      	ldr	r3, [r7, #4]
+2000123a:	6d9a      	ldr	r2, [r3, #88]	; 0x58
 2000123c:	687b      	ldr	r3, [r7, #4]
-2000123e:	f04f 0201 	mov.w	r2, #1
-20001242:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
+2000123e:	6d5b      	ldr	r3, [r3, #84]	; 0x54
+20001240:	429a      	cmp	r2, r3
+20001242:	f0c0 8102 	bcc.w	2000144a <mss_i2c_isr+0x8ce>
+            {
+                this_i2c->hw_reg_bit->CTRL_AA = 0u;   /* send a NACK when done (next reception) */
 20001246:	687b      	ldr	r3, [r7, #4]
-20001248:	6cda      	ldr	r2, [r3, #76]	; 0x4c
-2000124a:	687b      	ldr	r3, [r7, #4]
-2000124c:	6c9b      	ldr	r3, [r3, #72]	; 0x48
-2000124e:	429a      	cmp	r2, r3
-20001250:	d305      	bcc.n	2000125e <mss_i2c_isr+0x806>
+20001248:	699b      	ldr	r3, [r3, #24]
+2000124a:	f04f 0200 	mov.w	r2, #0
+2000124e:	609a      	str	r2, [r3, #8]
+            }
+            break;
+20001250:	e0fe      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            /* STOP or repeated START occurred. */
+            /* We cannot be sure if the transaction has actually completed as
+             * this hardware state reports that either a STOP or repeated START
+             * condition has occurred. We assume that this is a repeated START
+             * if the transaction was a write from the master to this point.*/
+            if ( this_i2c->transaction == WRITE_SLAVE_TRANSACTION )
 20001252:	687b      	ldr	r3, [r7, #4]
-20001254:	695b      	ldr	r3, [r3, #20]
-20001256:	f04f 32ff 	mov.w	r2, #4294967295
-2000125a:	721a      	strb	r2, [r3, #8]
-2000125c:	e00c      	b.n	20001278 <mss_i2c_isr+0x820>
+20001254:	7a1b      	ldrb	r3, [r3, #8]
+20001256:	2b04      	cmp	r3, #4
+20001258:	d135      	bne.n	200012c6 <mss_i2c_isr+0x74a>
+            {
+                if ( this_i2c->slave_rx_idx == this_i2c->slave_mem_offset_length )
+2000125a:	687b      	ldr	r3, [r7, #4]
+2000125c:	6d9a      	ldr	r2, [r3, #88]	; 0x58
 2000125e:	687b      	ldr	r3, [r7, #4]
-20001260:	695a      	ldr	r2, [r3, #20]
-20001262:	687b      	ldr	r3, [r7, #4]
-20001264:	6c59      	ldr	r1, [r3, #68]	; 0x44
+20001260:	6e1b      	ldr	r3, [r3, #96]	; 0x60
+20001262:	429a      	cmp	r2, r3
+20001264:	d103      	bne.n	2000126e <mss_i2c_isr+0x6f2>
+                {
+                    this_i2c->slave_tx_idx = this_i2c->random_read_addr;
 20001266:	687b      	ldr	r3, [r7, #4]
-20001268:	6cdb      	ldr	r3, [r3, #76]	; 0x4c
-2000126a:	4419      	add	r1, r3
-2000126c:	7809      	ldrb	r1, [r1, #0]
-2000126e:	7211      	strb	r1, [r2, #8]
-20001270:	f103 0201 	add.w	r2, r3, #1
-20001274:	687b      	ldr	r3, [r7, #4]
-20001276:	64da      	str	r2, [r3, #76]	; 0x4c
-20001278:	687b      	ldr	r3, [r7, #4]
-2000127a:	6cda      	ldr	r2, [r3, #76]	; 0x4c
-2000127c:	687b      	ldr	r3, [r7, #4]
-2000127e:	6c9b      	ldr	r3, [r3, #72]	; 0x48
-20001280:	429a      	cmp	r2, r3
-20001282:	d352      	bcc.n	2000132a <mss_i2c_isr+0x8d2>
-20001284:	687b      	ldr	r3, [r7, #4]
-20001286:	699b      	ldr	r3, [r3, #24]
-20001288:	f04f 0200 	mov.w	r2, #0
-2000128c:	609a      	str	r2, [r3, #8]
-2000128e:	687b      	ldr	r3, [r7, #4]
-20001290:	f04f 0200 	mov.w	r2, #0
-20001294:	64da      	str	r2, [r3, #76]	; 0x4c
-20001296:	e049      	b.n	2000132c <mss_i2c_isr+0x8d4>
+20001268:	68da      	ldr	r2, [r3, #12]
+2000126a:	687b      	ldr	r3, [r7, #4]
+2000126c:	64da      	str	r2, [r3, #76]	; 0x4c
+                }
+                {
+                    /* Call the slave's write transaction handler if it exists. */
+                    if ( this_i2c->slave_write_handler != 0u )
+2000126e:	687b      	ldr	r3, [r7, #4]
+20001270:	6e5b      	ldr	r3, [r3, #100]	; 0x64
+20001272:	2b00      	cmp	r3, #0
+20001274:	d021      	beq.n	200012ba <mss_i2c_isr+0x73e>
+                    {
+                        mss_i2c_slave_handler_ret_t h_ret;
+                        h_ret = this_i2c->slave_write_handler( this_i2c, this_i2c->slave_rx_buffer, (uint16_t)this_i2c->slave_rx_idx );
+20001276:	687b      	ldr	r3, [r7, #4]
+20001278:	6e5b      	ldr	r3, [r3, #100]	; 0x64
+2000127a:	687a      	ldr	r2, [r7, #4]
+2000127c:	6d11      	ldr	r1, [r2, #80]	; 0x50
+2000127e:	687a      	ldr	r2, [r7, #4]
+20001280:	6d92      	ldr	r2, [r2, #88]	; 0x58
+20001282:	b292      	uxth	r2, r2
+20001284:	6878      	ldr	r0, [r7, #4]
+20001286:	4798      	blx	r3
+20001288:	4603      	mov	r3, r0
+2000128a:	73fb      	strb	r3, [r7, #15]
+                        if ( MSS_I2C_REENABLE_SLAVE_RX == h_ret )
+2000128c:	7bfb      	ldrb	r3, [r7, #15]
+2000128e:	2b00      	cmp	r3, #0
+20001290:	d108      	bne.n	200012a4 <mss_i2c_isr+0x728>
+                        {
+                            /* There is a small risk that the write handler could
+                             * call MSS_I2C_disable_slave() but return
+                             * MSS_I2C_REENABLE_SLAVE_RX in error so we only
+                             * enable ACKs if still in slave mode. */
+                             enable_slave_if_required(this_i2c);
+20001292:	6878      	ldr	r0, [r7, #4]
+20001294:	f7ff fc5e 	bl	20000b54 <enable_slave_if_required>
+                             this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
 20001298:	687b      	ldr	r3, [r7, #4]
-2000129a:	f04f 0200 	mov.w	r2, #0
-2000129e:	64da      	str	r2, [r3, #76]	; 0x4c
-200012a0:	687b      	ldr	r3, [r7, #4]
-200012a2:	699b      	ldr	r3, [r3, #24]
-200012a4:	f04f 0201 	mov.w	r2, #1
-200012a8:	609a      	str	r2, [r3, #8]
-200012aa:	687b      	ldr	r3, [r7, #4]
-200012ac:	f04f 0200 	mov.w	r2, #0
-200012b0:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
-200012b4:	687b      	ldr	r3, [r7, #4]
-200012b6:	f893 3071 	ldrb.w	r3, [r3, #113]	; 0x71
-200012ba:	2b00      	cmp	r3, #0
-200012bc:	d004      	beq.n	200012c8 <mss_i2c_isr+0x870>
-200012be:	687b      	ldr	r3, [r7, #4]
-200012c0:	699b      	ldr	r3, [r3, #24]
-200012c2:	f04f 0201 	mov.w	r2, #1
-200012c6:	615a      	str	r2, [r3, #20]
-200012c8:	687b      	ldr	r3, [r7, #4]
-200012ca:	f04f 0200 	mov.w	r2, #0
-200012ce:	721a      	strb	r2, [r3, #8]
-200012d0:	e02c      	b.n	2000132c <mss_i2c_isr+0x8d4>
-200012d2:	687b      	ldr	r3, [r7, #4]
-200012d4:	699b      	ldr	r3, [r3, #24]
+2000129a:	699b      	ldr	r3, [r3, #24]
+2000129c:	f04f 0201 	mov.w	r2, #1
+200012a0:	609a      	str	r2, [r3, #8]
+                        }
+                    }
+                    else
+                    {
+                        /* Re-enable address acknowledge in case we were ready to nack the next received byte. */
+                        this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+200012a2:	e017      	b.n	200012d4 <mss_i2c_isr+0x758>
+                             enable_slave_if_required(this_i2c);
+                             this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+                        }
+                        else
+                        {
+                            this_i2c->hw_reg_bit->CTRL_AA = 0u;
+200012a4:	687b      	ldr	r3, [r7, #4]
+200012a6:	699b      	ldr	r3, [r3, #24]
+200012a8:	f04f 0200 	mov.w	r2, #0
+200012ac:	609a      	str	r2, [r3, #8]
+                            /* Clear slave mode flag as well otherwise in mixed
+                             * master/slave applications, the AA bit will get set by
+                             * subsequent master operations. */
+                            this_i2c->is_slave_enabled = 0u;
+200012ae:	687b      	ldr	r3, [r7, #4]
+200012b0:	f04f 0200 	mov.w	r2, #0
+200012b4:	f883 2068 	strb.w	r2, [r3, #104]	; 0x68
+                        }
+                    }
+                    else
+                    {
+                        /* Re-enable address acknowledge in case we were ready to nack the next received byte. */
+                        this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+200012b8:	e00c      	b.n	200012d4 <mss_i2c_isr+0x758>
+200012ba:	687b      	ldr	r3, [r7, #4]
+200012bc:	699b      	ldr	r3, [r3, #24]
+200012be:	f04f 0201 	mov.w	r2, #1
+200012c2:	609a      	str	r2, [r3, #8]
+200012c4:	e006      	b.n	200012d4 <mss_i2c_isr+0x758>
+            {
+                /*
+                 * Reset slave_tx_idx so that a subsequent read will result in the slave's
+                 * transmit buffer being sent from the first byte.
+                 */
+                this_i2c->slave_tx_idx = 0u;
+200012c6:	687b      	ldr	r3, [r7, #4]
+200012c8:	f04f 0200 	mov.w	r2, #0
+200012cc:	64da      	str	r2, [r3, #76]	; 0x4c
+                /*
+                 * See if we need to re-enable acknowledgement as some error conditions, such
+                 * as a master prematurely ending a transfer, can see us get here with AA set
+                 * to 0 which will disable slave operation if we are not careful.
+                 */
+                enable_slave_if_required(this_i2c);
+200012ce:	6878      	ldr	r0, [r7, #4]
+200012d0:	f7ff fc40 	bl	20000b54 <enable_slave_if_required>
+            }
+
+            /* Mark any previous master write transaction as complete. */
+            this_i2c->slave_status = MSS_I2C_SUCCESS;
+200012d4:	687b      	ldr	r3, [r7, #4]
 200012d6:	f04f 0200 	mov.w	r2, #0
-200012da:	615a      	str	r2, [r3, #20]
-200012dc:	687b      	ldr	r3, [r7, #4]
-200012de:	f04f 0200 	mov.w	r2, #0
-200012e2:	721a      	strb	r2, [r3, #8]
-200012e4:	687b      	ldr	r3, [r7, #4]
-200012e6:	f04f 0200 	mov.w	r2, #0
-200012ea:	64da      	str	r2, [r3, #76]	; 0x4c
-200012ec:	687b      	ldr	r3, [r7, #4]
-200012ee:	f893 303c 	ldrb.w	r3, [r3, #60]	; 0x3c
-200012f2:	b2db      	uxtb	r3, r3
-200012f4:	2b01      	cmp	r3, #1
-200012f6:	d104      	bne.n	20001302 <mss_i2c_isr+0x8aa>
-200012f8:	687b      	ldr	r3, [r7, #4]
-200012fa:	f04f 0202 	mov.w	r2, #2
-200012fe:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
-20001302:	687b      	ldr	r3, [r7, #4]
-20001304:	f893 305c 	ldrb.w	r3, [r3, #92]	; 0x5c
-20001308:	b2db      	uxtb	r3, r3
-2000130a:	2b01      	cmp	r3, #1
-2000130c:	d10e      	bne.n	2000132c <mss_i2c_isr+0x8d4>
-2000130e:	687b      	ldr	r3, [r7, #4]
-20001310:	f04f 0202 	mov.w	r2, #2
-20001314:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
-20001318:	e008      	b.n	2000132c <mss_i2c_isr+0x8d4>
-2000131a:	bf00      	nop
-2000131c:	e006      	b.n	2000132c <mss_i2c_isr+0x8d4>
-2000131e:	bf00      	nop
-20001320:	e004      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20001322:	bf00      	nop
-20001324:	e002      	b.n	2000132c <mss_i2c_isr+0x8d4>
-20001326:	bf00      	nop
-20001328:	e000      	b.n	2000132c <mss_i2c_isr+0x8d4>
-2000132a:	bf00      	nop
-2000132c:	7bbb      	ldrb	r3, [r7, #14]
-2000132e:	2b00      	cmp	r3, #0
-20001330:	d004      	beq.n	2000133c <mss_i2c_isr+0x8e4>
+200012da:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
+
+            /* Check if transaction was pending. If yes, set the START bit */
+            if(this_i2c->is_transaction_pending)
+200012de:	687b      	ldr	r3, [r7, #4]
+200012e0:	f893 3071 	ldrb.w	r3, [r3, #113]	; 0x71
+200012e4:	2b00      	cmp	r3, #0
+200012e6:	d004      	beq.n	200012f2 <mss_i2c_isr+0x776>
+            {
+                this_i2c->hw_reg_bit->CTRL_STA = 1u ;
+200012e8:	687b      	ldr	r3, [r7, #4]
+200012ea:	699b      	ldr	r3, [r3, #24]
+200012ec:	f04f 0201 	mov.w	r2, #1
+200012f0:	615a      	str	r2, [r3, #20]
+
+            /*
+             * Set the transaction back to NO_TRANSACTION to allow user to do further
+             * transaction
+             */
+            this_i2c->transaction = NO_TRANSACTION;
+200012f2:	687b      	ldr	r3, [r7, #4]
+200012f4:	f04f 0200 	mov.w	r2, #0
+200012f8:	721a      	strb	r2, [r3, #8]
+            break;
+200012fa:	e0a9      	b.n	20001450 <mss_i2c_isr+0x8d4>
+        case ST_SLV_RST: /* SMBUS ONLY: timeout state. must clear interrupt */
+            /*
+             * Set the transaction back to NO_TRANSACTION to allow user to do further
+             * transaction.
+             */
+            this_i2c->transaction = NO_TRANSACTION;
+200012fc:	687b      	ldr	r3, [r7, #4]
+200012fe:	f04f 0200 	mov.w	r2, #0
+20001302:	721a      	strb	r2, [r3, #8]
+            /*
+             * Reset slave_tx_idx so that a subsequent read will result in the slave's
+             * transmit buffer being sent from the first byte.
+             */
+            this_i2c->slave_tx_idx = 0u;
+20001304:	687b      	ldr	r3, [r7, #4]
+20001306:	f04f 0200 	mov.w	r2, #0
+2000130a:	64da      	str	r2, [r3, #76]	; 0x4c
+            /*
+             * Clear status to I2C_FAILED only if there was an operation in progress.
+             */
+            if(MSS_I2C_IN_PROGRESS == this_i2c->slave_status)
+2000130c:	687b      	ldr	r3, [r7, #4]
+2000130e:	f893 305c 	ldrb.w	r3, [r3, #92]	; 0x5c
+20001312:	b2db      	uxtb	r3, r3
+20001314:	2b01      	cmp	r3, #1
+20001316:	d104      	bne.n	20001322 <mss_i2c_isr+0x7a6>
+            {
+                this_i2c->slave_status = MSS_I2C_FAILED;
+20001318:	687b      	ldr	r3, [r7, #4]
+2000131a:	f04f 0202 	mov.w	r2, #2
+2000131e:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
+            }
+
+            enable_slave_if_required(this_i2c); /* Make sure AA is set correctly */
+20001322:	6878      	ldr	r0, [r7, #4]
+20001324:	f7ff fc16 	bl	20000b54 <enable_slave_if_required>
+
+            break;
+20001328:	e092      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            
+        /****************** SLAVE TRANSMITTER **************************/
+        case ST_SLAVE_SLAR_ACK: /* SLA+R received, ACK returned */
+        case ST_SLARW_LA:   /* Arbitration lost, SLA+R received, ACK returned */
+        case ST_RACK: /* Data tx'ed, ACK received */
+            if ( status == ST_SLAVE_SLAR_ACK )
+2000132a:	7afb      	ldrb	r3, [r7, #11]
+2000132c:	b2db      	uxtb	r3, r3
+2000132e:	2ba8      	cmp	r3, #168	; 0xa8
+20001330:	d11b      	bne.n	2000136a <mss_i2c_isr+0x7ee>
+            {
+                this_i2c->transaction = READ_SLAVE_TRANSACTION;
 20001332:	687b      	ldr	r3, [r7, #4]
-20001334:	699b      	ldr	r3, [r3, #24]
-20001336:	f04f 0200 	mov.w	r2, #0
-2000133a:	60da      	str	r2, [r3, #12]
-2000133c:	687b      	ldr	r3, [r7, #4]
-2000133e:	695b      	ldr	r3, [r3, #20]
-20001340:	791b      	ldrb	r3, [r3, #4]
-20001342:	72fb      	strb	r3, [r7, #11]
-20001344:	f107 0710 	add.w	r7, r7, #16
-20001348:	46bd      	mov	sp, r7
-2000134a:	bd80      	pop	{r7, pc}
+20001334:	f04f 0205 	mov.w	r2, #5
+20001338:	721a      	strb	r2, [r3, #8]
+                this_i2c->random_read_addr = 0u;
+2000133a:	687b      	ldr	r3, [r7, #4]
+2000133c:	f04f 0200 	mov.w	r2, #0
+20001340:	60da      	str	r2, [r3, #12]
 
-2000134c <disable_interrupts>:
-2000134c:	b580      	push	{r7, lr}
-2000134e:	b082      	sub	sp, #8
-20001350:	af00      	add	r7, sp, #0
-20001352:	f000 f845 	bl	200013e0 <__get_PRIMASK>
-20001356:	4603      	mov	r3, r0
-20001358:	607b      	str	r3, [r7, #4]
-2000135a:	f04f 0001 	mov.w	r0, #1
-2000135e:	f000 f84f 	bl	20001400 <__set_PRIMASK>
-20001362:	687b      	ldr	r3, [r7, #4]
-20001364:	4618      	mov	r0, r3
-20001366:	f107 0708 	add.w	r7, r7, #8
-2000136a:	46bd      	mov	sp, r7
-2000136c:	bd80      	pop	{r7, pc}
-2000136e:	bf00      	nop
+                this_i2c->slave_status = MSS_I2C_IN_PROGRESS;
+20001342:	687b      	ldr	r3, [r7, #4]
+20001344:	f04f 0201 	mov.w	r2, #1
+20001348:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
 
-20001370 <restore_interrupts>:
-20001370:	b580      	push	{r7, lr}
-20001372:	b082      	sub	sp, #8
-20001374:	af00      	add	r7, sp, #0
-20001376:	6078      	str	r0, [r7, #4]
-20001378:	6878      	ldr	r0, [r7, #4]
-2000137a:	f000 f841 	bl	20001400 <__set_PRIMASK>
-2000137e:	f107 0708 	add.w	r7, r7, #8
-20001382:	46bd      	mov	sp, r7
-20001384:	bd80      	pop	{r7, pc}
-20001386:	bf00      	nop
+                /* If Start Bit is set, clear it, but store that information since it is because of
+                 * pending transaction
+                 */
+                if(this_i2c->hw_reg_bit->CTRL_STA)
+2000134c:	687b      	ldr	r3, [r7, #4]
+2000134e:	699b      	ldr	r3, [r3, #24]
+20001350:	695b      	ldr	r3, [r3, #20]
+20001352:	2b00      	cmp	r3, #0
+20001354:	d009      	beq.n	2000136a <mss_i2c_isr+0x7ee>
+                {
+                    this_i2c->hw_reg_bit->CTRL_STA = 0u ;
+20001356:	687b      	ldr	r3, [r7, #4]
+20001358:	699b      	ldr	r3, [r3, #24]
+2000135a:	f04f 0200 	mov.w	r2, #0
+2000135e:	615a      	str	r2, [r3, #20]
+                    this_i2c->is_transaction_pending = 1u;
+20001360:	687b      	ldr	r3, [r7, #4]
+20001362:	f04f 0201 	mov.w	r2, #1
+20001366:	f883 2071 	strb.w	r2, [r3, #113]	; 0x71
+                }
+            }
+            if (this_i2c->slave_tx_idx >= this_i2c->slave_tx_size)
+2000136a:	687b      	ldr	r3, [r7, #4]
+2000136c:	6cda      	ldr	r2, [r3, #76]	; 0x4c
+2000136e:	687b      	ldr	r3, [r7, #4]
+20001370:	6c9b      	ldr	r3, [r3, #72]	; 0x48
+20001372:	429a      	cmp	r2, r3
+20001374:	d305      	bcc.n	20001382 <mss_i2c_isr+0x806>
+            {
+                /* Ensure 0xFF is returned to the master when the slave specifies
+                 * an empty transmit buffer. */
+                this_i2c->hw_reg->DATA = 0xFFu;
+20001376:	687b      	ldr	r3, [r7, #4]
+20001378:	695b      	ldr	r3, [r3, #20]
+2000137a:	f04f 32ff 	mov.w	r2, #4294967295
+2000137e:	721a      	strb	r2, [r3, #8]
+20001380:	e00c      	b.n	2000139c <mss_i2c_isr+0x820>
+            }
+            else
+            {
+                /* Load the data the data byte to be sent to the master. */
+                this_i2c->hw_reg->DATA = this_i2c->slave_tx_buffer[this_i2c->slave_tx_idx++];
+20001382:	687b      	ldr	r3, [r7, #4]
+20001384:	695a      	ldr	r2, [r3, #20]
+20001386:	687b      	ldr	r3, [r7, #4]
+20001388:	6c59      	ldr	r1, [r3, #68]	; 0x44
+2000138a:	687b      	ldr	r3, [r7, #4]
+2000138c:	6cdb      	ldr	r3, [r3, #76]	; 0x4c
+2000138e:	4419      	add	r1, r3
+20001390:	7809      	ldrb	r1, [r1, #0]
+20001392:	7211      	strb	r1, [r2, #8]
+20001394:	f103 0201 	add.w	r2, r3, #1
+20001398:	687b      	ldr	r3, [r7, #4]
+2000139a:	64da      	str	r2, [r3, #76]	; 0x4c
+            }
+            /* Determine if this is the last data byte to send to the master. */
+            if (this_i2c->slave_tx_idx >= this_i2c->slave_tx_size) /* last byte? */
+2000139c:	687b      	ldr	r3, [r7, #4]
+2000139e:	6cda      	ldr	r2, [r3, #76]	; 0x4c
+200013a0:	687b      	ldr	r3, [r7, #4]
+200013a2:	6c9b      	ldr	r3, [r3, #72]	; 0x48
+200013a4:	429a      	cmp	r2, r3
+200013a6:	d352      	bcc.n	2000144e <mss_i2c_isr+0x8d2>
+            {
+                this_i2c->hw_reg_bit->CTRL_AA = 0u;
+200013a8:	687b      	ldr	r3, [r7, #4]
+200013aa:	699b      	ldr	r3, [r3, #24]
+200013ac:	f04f 0200 	mov.w	r2, #0
+200013b0:	609a      	str	r2, [r3, #8]
+                /* Next read transaction will result in slave's transmit buffer
+                 * being sent from the first byte. */
+                this_i2c->slave_tx_idx = 0u;
+200013b2:	687b      	ldr	r3, [r7, #4]
+200013b4:	f04f 0200 	mov.w	r2, #0
+200013b8:	64da      	str	r2, [r3, #76]	; 0x4c
+            }
+            break;
+200013ba:	e049      	b.n	20001450 <mss_i2c_isr+0x8d4>
+        case ST_SLAVE_RNACK:    /* Data byte has been transmitted; not-ACK has been received. */
+        case ST_FINAL: /* Last Data byte tx'ed, ACK received */
+            /* We assume that the transaction will be stopped by the master.
+             * Reset slave_tx_idx so that a subsequent read will result in the slave's
+             * transmit buffer being sent from the first byte. */
+            this_i2c->slave_tx_idx = 0u;
+200013bc:	687b      	ldr	r3, [r7, #4]
+200013be:	f04f 0200 	mov.w	r2, #0
+200013c2:	64da      	str	r2, [r3, #76]	; 0x4c
+            this_i2c->hw_reg_bit->CTRL_AA = 0x01u;
+200013c4:	687b      	ldr	r3, [r7, #4]
+200013c6:	699b      	ldr	r3, [r3, #24]
+200013c8:	f04f 0201 	mov.w	r2, #1
+200013cc:	609a      	str	r2, [r3, #8]
 
-20001388 <I2C0_IRQHandler>:
-20001388:	4668      	mov	r0, sp
-2000138a:	f020 0107 	bic.w	r1, r0, #7
-2000138e:	468d      	mov	sp, r1
-20001390:	b589      	push	{r0, r3, r7, lr}
-20001392:	af00      	add	r7, sp, #0
-20001394:	f241 5070 	movw	r0, #5488	; 0x1570
-20001398:	f2c2 0000 	movt	r0, #8192	; 0x2000
-2000139c:	f7ff fb5c 	bl	20000a58 <mss_i2c_isr>
-200013a0:	f04f 000e 	mov.w	r0, #14
-200013a4:	f7ff f9d0 	bl	20000748 <NVIC_ClearPendingIRQ>
-200013a8:	46bd      	mov	sp, r7
-200013aa:	e8bd 4089 	ldmia.w	sp!, {r0, r3, r7, lr}
-200013ae:	4685      	mov	sp, r0
-200013b0:	4770      	bx	lr
-200013b2:	bf00      	nop
+            /*  Mark previous state as complete */
+            this_i2c->slave_status = MSS_I2C_SUCCESS;
+200013ce:	687b      	ldr	r3, [r7, #4]
+200013d0:	f04f 0200 	mov.w	r2, #0
+200013d4:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
 
-200013b4 <I2C1_IRQHandler>:
-200013b4:	4668      	mov	r0, sp
-200013b6:	f020 0107 	bic.w	r1, r0, #7
-200013ba:	468d      	mov	sp, r1
-200013bc:	b589      	push	{r0, r3, r7, lr}
-200013be:	af00      	add	r7, sp, #0
-200013c0:	f241 50e4 	movw	r0, #5604	; 0x15e4
-200013c4:	f2c2 0000 	movt	r0, #8192	; 0x2000
-200013c8:	f7ff fb46 	bl	20000a58 <mss_i2c_isr>
-200013cc:	f04f 0011 	mov.w	r0, #17
-200013d0:	f7ff f9ba 	bl	20000748 <NVIC_ClearPendingIRQ>
-200013d4:	46bd      	mov	sp, r7
-200013d6:	e8bd 4089 	ldmia.w	sp!, {r0, r3, r7, lr}
-200013da:	4685      	mov	sp, r0
-200013dc:	4770      	bx	lr
-200013de:	bf00      	nop
+            /* Check if transaction was pending. If yes, set the START bit */
+            if(this_i2c->is_transaction_pending)
+200013d8:	687b      	ldr	r3, [r7, #4]
+200013da:	f893 3071 	ldrb.w	r3, [r3, #113]	; 0x71
+200013de:	2b00      	cmp	r3, #0
+200013e0:	d004      	beq.n	200013ec <mss_i2c_isr+0x870>
+            {
+                this_i2c->hw_reg_bit->CTRL_STA = 1u ;
+200013e2:	687b      	ldr	r3, [r7, #4]
+200013e4:	699b      	ldr	r3, [r3, #24]
+200013e6:	f04f 0201 	mov.w	r2, #1
+200013ea:	615a      	str	r2, [r3, #20]
 
-200013e0 <__get_PRIMASK>:
-200013e0:	b480      	push	{r7}
-200013e2:	b083      	sub	sp, #12
-200013e4:	af00      	add	r7, sp, #0
-200013e6:	f04f 0300 	mov.w	r3, #0
-200013ea:	607b      	str	r3, [r7, #4]
-200013ec:	f3ef 8310 	mrs	r3, PRIMASK
-200013f0:	607b      	str	r3, [r7, #4]
-200013f2:	687b      	ldr	r3, [r7, #4]
-200013f4:	4618      	mov	r0, r3
-200013f6:	f107 070c 	add.w	r7, r7, #12
-200013fa:	46bd      	mov	sp, r7
-200013fc:	bc80      	pop	{r7}
-200013fe:	4770      	bx	lr
-
-20001400 <__set_PRIMASK>:
-20001400:	b480      	push	{r7}
-20001402:	b083      	sub	sp, #12
-20001404:	af00      	add	r7, sp, #0
-20001406:	6078      	str	r0, [r7, #4]
+            /*
+             * Set the transaction back to NO_TRANSACTION to allow user to do further
+             * transaction
+             */
+            this_i2c->transaction = NO_TRANSACTION;
+200013ec:	687b      	ldr	r3, [r7, #4]
+200013ee:	f04f 0200 	mov.w	r2, #0
+200013f2:	721a      	strb	r2, [r3, #8]
+            break;
+200013f4:	e02c      	b.n	20001450 <mss_i2c_isr+0x8d4>
+        case ST_RESET_ACTIVATED:
+        case ST_BUS_ERROR: /* Bus error during MST or selected slave modes */
+        default:
+            /* Some undefined state has encountered. Clear Start bit to make
+             * sure, next good transaction happen */
+            this_i2c->hw_reg_bit->CTRL_STA = 0x00u;
+200013f6:	687b      	ldr	r3, [r7, #4]
+200013f8:	699b      	ldr	r3, [r3, #24]
+200013fa:	f04f 0200 	mov.w	r2, #0
+200013fe:	615a      	str	r2, [r3, #20]
+            /*
+             * Set the transaction back to NO_TRANSACTION to allow user to do further
+             * transaction
+             */
+            this_i2c->transaction = NO_TRANSACTION;
+20001400:	687b      	ldr	r3, [r7, #4]
+20001402:	f04f 0200 	mov.w	r2, #0
+20001406:	721a      	strb	r2, [r3, #8]
+            /*
+             * Reset slave_tx_idx so that a subsequent read will result in the slave's
+             * transmit buffer being sent from the first byte.
+             */
+            this_i2c->slave_tx_idx = 0u;
 20001408:	687b      	ldr	r3, [r7, #4]
-2000140a:	f383 8810 	msr	PRIMASK, r3
-2000140e:	f107 070c 	add.w	r7, r7, #12
-20001412:	46bd      	mov	sp, r7
-20001414:	bc80      	pop	{r7}
-20001416:	4770      	bx	lr
+2000140a:	f04f 0200 	mov.w	r2, #0
+2000140e:	64da      	str	r2, [r3, #76]	; 0x4c
+            /*
+             * Clear statuses to I2C_FAILED only if there was an operation in progress.
+             */
+            if(MSS_I2C_IN_PROGRESS == this_i2c->master_status)
+20001410:	687b      	ldr	r3, [r7, #4]
+20001412:	f893 303c 	ldrb.w	r3, [r3, #60]	; 0x3c
+20001416:	b2db      	uxtb	r3, r3
+20001418:	2b01      	cmp	r3, #1
+2000141a:	d104      	bne.n	20001426 <mss_i2c_isr+0x8aa>
+            {
+                this_i2c->master_status = MSS_I2C_FAILED;
+2000141c:	687b      	ldr	r3, [r7, #4]
+2000141e:	f04f 0202 	mov.w	r2, #2
+20001422:	f883 203c 	strb.w	r2, [r3, #60]	; 0x3c
+            }
 
-20001418 <SystemInit>:
-20001418:	b480      	push	{r7}
-2000141a:	af00      	add	r7, sp, #0
-2000141c:	46bd      	mov	sp, r7
-2000141e:	bc80      	pop	{r7}
-20001420:	4770      	bx	lr
-20001422:	bf00      	nop
+            if(MSS_I2C_IN_PROGRESS == this_i2c->slave_status)
+20001426:	687b      	ldr	r3, [r7, #4]
+20001428:	f893 305c 	ldrb.w	r3, [r3, #92]	; 0x5c
+2000142c:	b2db      	uxtb	r3, r3
+2000142e:	2b01      	cmp	r3, #1
+20001430:	d10e      	bne.n	20001450 <mss_i2c_isr+0x8d4>
+            {
+                this_i2c->slave_status = MSS_I2C_FAILED;
+20001432:	687b      	ldr	r3, [r7, #4]
+20001434:	f04f 0202 	mov.w	r2, #2
+20001438:	f883 205c 	strb.w	r2, [r3, #92]	; 0x5c
+2000143c:	e008      	b.n	20001450 <mss_i2c_isr+0x8d4>
+             */
+            if(this_i2c->transaction != this_i2c->pending_transaction)
+            {
+                this_i2c->transaction = this_i2c->pending_transaction;
+            }
+            break;
+2000143e:	bf00      	nop
+20001440:	e006      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            {
+                /* If we're at the second last byte, let's set AA to 0 so
+                 * we return a NACK at the last byte. */
+                this_i2c->hw_reg_bit->CTRL_AA = 0u;
+            }
+            break;
+20001442:	bf00      	nop
+20001444:	e004      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            /* Check if transaction was pending. If yes, set the START bit */
+            if(this_i2c->is_transaction_pending)
+            {
+                this_i2c->hw_reg_bit->CTRL_STA = 1u ;
+            }
+            break;
+20001446:	bf00      	nop
+20001448:	e002      	b.n	20001450 <mss_i2c_isr+0x8d4>
+            
+            if (this_i2c->slave_rx_idx >= this_i2c->slave_rx_size)
+            {
+                this_i2c->hw_reg_bit->CTRL_AA = 0u;   /* send a NACK when done (next reception) */
+            }
+            break;
+2000144a:	bf00      	nop
+2000144c:	e000      	b.n	20001450 <mss_i2c_isr+0x8d4>
+                this_i2c->hw_reg_bit->CTRL_AA = 0u;
+                /* Next read transaction will result in slave's transmit buffer
+                 * being sent from the first byte. */
+                this_i2c->slave_tx_idx = 0u;
+            }
+            break;
+2000144e:	bf00      	nop
 
-20001424 <__libc_init_array>:
-20001424:	b570      	push	{r4, r5, r6, lr}
-20001426:	f241 5660 	movw	r6, #5472	; 0x1560
-2000142a:	f241 5560 	movw	r5, #5472	; 0x1560
-2000142e:	f2c2 0600 	movt	r6, #8192	; 0x2000
-20001432:	f2c2 0500 	movt	r5, #8192	; 0x2000
-20001436:	1b76      	subs	r6, r6, r5
-20001438:	10b6      	asrs	r6, r6, #2
-2000143a:	d006      	beq.n	2000144a <__libc_init_array+0x26>
-2000143c:	2400      	movs	r4, #0
-2000143e:	f855 3024 	ldr.w	r3, [r5, r4, lsl #2]
-20001442:	3401      	adds	r4, #1
-20001444:	4798      	blx	r3
-20001446:	42a6      	cmp	r6, r4
-20001448:	d8f9      	bhi.n	2000143e <__libc_init_array+0x1a>
-2000144a:	f241 5560 	movw	r5, #5472	; 0x1560
-2000144e:	f241 5664 	movw	r6, #5476	; 0x1564
-20001452:	f2c2 0500 	movt	r5, #8192	; 0x2000
-20001456:	f2c2 0600 	movt	r6, #8192	; 0x2000
-2000145a:	1b76      	subs	r6, r6, r5
-2000145c:	f000 f874 	bl	20001548 <_init>
-20001460:	10b6      	asrs	r6, r6, #2
-20001462:	d006      	beq.n	20001472 <__libc_init_array+0x4e>
-20001464:	2400      	movs	r4, #0
-20001466:	f855 3024 	ldr.w	r3, [r5, r4, lsl #2]
-2000146a:	3401      	adds	r4, #1
-2000146c:	4798      	blx	r3
-2000146e:	42a6      	cmp	r6, r4
-20001470:	d8f9      	bhi.n	20001466 <__libc_init_array+0x42>
-20001472:	bd70      	pop	{r4, r5, r6, pc}
 
-20001474 <memset>:
-20001474:	2a03      	cmp	r2, #3
-20001476:	b2c9      	uxtb	r1, r1
-20001478:	b430      	push	{r4, r5}
-2000147a:	d807      	bhi.n	2000148c <memset+0x18>
-2000147c:	b122      	cbz	r2, 20001488 <memset+0x14>
-2000147e:	2300      	movs	r3, #0
-20001480:	54c1      	strb	r1, [r0, r3]
-20001482:	3301      	adds	r3, #1
-20001484:	4293      	cmp	r3, r2
-20001486:	d1fb      	bne.n	20001480 <memset+0xc>
-20001488:	bc30      	pop	{r4, r5}
-2000148a:	4770      	bx	lr
-2000148c:	eb00 0c02 	add.w	ip, r0, r2
-20001490:	4603      	mov	r3, r0
-20001492:	e001      	b.n	20001498 <memset+0x24>
-20001494:	f803 1c01 	strb.w	r1, [r3, #-1]
-20001498:	f003 0403 	and.w	r4, r3, #3
-2000149c:	461a      	mov	r2, r3
-2000149e:	3301      	adds	r3, #1
-200014a0:	2c00      	cmp	r4, #0
-200014a2:	d1f7      	bne.n	20001494 <memset+0x20>
-200014a4:	f04f 3301 	mov.w	r3, #16843009	; 0x1010101
-200014a8:	ebc2 040c 	rsb	r4, r2, ip
-200014ac:	fb03 f301 	mul.w	r3, r3, r1
-200014b0:	e01f      	b.n	200014f2 <memset+0x7e>
-200014b2:	f842 3c40 	str.w	r3, [r2, #-64]
-200014b6:	f842 3c3c 	str.w	r3, [r2, #-60]
-200014ba:	f842 3c38 	str.w	r3, [r2, #-56]
-200014be:	f842 3c34 	str.w	r3, [r2, #-52]
-200014c2:	f842 3c30 	str.w	r3, [r2, #-48]
-200014c6:	f842 3c2c 	str.w	r3, [r2, #-44]
-200014ca:	f842 3c28 	str.w	r3, [r2, #-40]
-200014ce:	f842 3c24 	str.w	r3, [r2, #-36]
-200014d2:	f842 3c20 	str.w	r3, [r2, #-32]
-200014d6:	f842 3c1c 	str.w	r3, [r2, #-28]
-200014da:	f842 3c18 	str.w	r3, [r2, #-24]
-200014de:	f842 3c14 	str.w	r3, [r2, #-20]
-200014e2:	f842 3c10 	str.w	r3, [r2, #-16]
-200014e6:	f842 3c0c 	str.w	r3, [r2, #-12]
-200014ea:	f842 3c08 	str.w	r3, [r2, #-8]
-200014ee:	f842 3c04 	str.w	r3, [r2, #-4]
-200014f2:	4615      	mov	r5, r2
-200014f4:	3240      	adds	r2, #64	; 0x40
-200014f6:	2c3f      	cmp	r4, #63	; 0x3f
-200014f8:	f1a4 0440 	sub.w	r4, r4, #64	; 0x40
-200014fc:	dcd9      	bgt.n	200014b2 <memset+0x3e>
-200014fe:	462a      	mov	r2, r5
-20001500:	ebc5 040c 	rsb	r4, r5, ip
-20001504:	e007      	b.n	20001516 <memset+0xa2>
-20001506:	f842 3c10 	str.w	r3, [r2, #-16]
-2000150a:	f842 3c0c 	str.w	r3, [r2, #-12]
-2000150e:	f842 3c08 	str.w	r3, [r2, #-8]
-20001512:	f842 3c04 	str.w	r3, [r2, #-4]
-20001516:	4615      	mov	r5, r2
-20001518:	3210      	adds	r2, #16
-2000151a:	2c0f      	cmp	r4, #15
-2000151c:	f1a4 0410 	sub.w	r4, r4, #16
-20001520:	dcf1      	bgt.n	20001506 <memset+0x92>
-20001522:	462a      	mov	r2, r5
-20001524:	ebc5 050c 	rsb	r5, r5, ip
-20001528:	e001      	b.n	2000152e <memset+0xba>
-2000152a:	f842 3c04 	str.w	r3, [r2, #-4]
-2000152e:	4614      	mov	r4, r2
-20001530:	3204      	adds	r2, #4
-20001532:	2d03      	cmp	r5, #3
-20001534:	f1a5 0504 	sub.w	r5, r5, #4
-20001538:	dcf7      	bgt.n	2000152a <memset+0xb6>
-2000153a:	e001      	b.n	20001540 <memset+0xcc>
-2000153c:	f804 1b01 	strb.w	r1, [r4], #1
-20001540:	4564      	cmp	r4, ip
-20001542:	d3fb      	bcc.n	2000153c <memset+0xc8>
-20001544:	e7a0      	b.n	20001488 <memset+0x14>
+            break;
+    }
+    
+    if ( clear_irq )
+20001450:	7bbb      	ldrb	r3, [r7, #14]
+20001452:	2b00      	cmp	r3, #0
+20001454:	d004      	beq.n	20001460 <mss_i2c_isr+0x8e4>
+    {
+        /* clear interrupt. */
+        this_i2c->hw_reg_bit->CTRL_SI = 0u;
+20001456:	687b      	ldr	r3, [r7, #4]
+20001458:	699b      	ldr	r3, [r3, #24]
+2000145a:	f04f 0200 	mov.w	r2, #0
+2000145e:	60da      	str	r2, [r3, #12]
+    }
+    
+    /* Read the status register to ensure the last I2C registers write took place
+     * in a system built around a bus making use of posted writes. */
+    status = this_i2c->hw_reg->STATUS;
+20001460:	687b      	ldr	r3, [r7, #4]
+20001462:	695b      	ldr	r3, [r3, #20]
+20001464:	791b      	ldrb	r3, [r3, #4]
+20001466:	72fb      	strb	r3, [r7, #11]
+}
+20001468:	f107 0710 	add.w	r7, r7, #16
+2000146c:	46bd      	mov	sp, r7
+2000146e:	bd80      	pop	{r7, pc}
+
+20001470 <disable_interrupts>:
+}
+/*------------------------------------------------------------------------------
+ *
+ */
+static uint32_t disable_interrupts( void )
+{
+20001470:	b580      	push	{r7, lr}
+20001472:	b082      	sub	sp, #8
+20001474:	af00      	add	r7, sp, #0
+    uint32_t primask;
+    primask = __get_PRIMASK();
+20001476:	f000 f845 	bl	20001504 <__get_PRIMASK>
+2000147a:	4603      	mov	r3, r0
+2000147c:	607b      	str	r3, [r7, #4]
+    __set_PRIMASK(1u);
+2000147e:	f04f 0001 	mov.w	r0, #1
+20001482:	f000 f84f 	bl	20001524 <__set_PRIMASK>
+    return primask;
+20001486:	687b      	ldr	r3, [r7, #4]
+}
+20001488:	4618      	mov	r0, r3
+2000148a:	f107 0708 	add.w	r7, r7, #8
+2000148e:	46bd      	mov	sp, r7
+20001490:	bd80      	pop	{r7, pc}
+20001492:	bf00      	nop
+
+20001494 <restore_interrupts>:
+
+/*------------------------------------------------------------------------------
+ *
+ */
+static void restore_interrupts( uint32_t primask )
+{
+20001494:	b580      	push	{r7, lr}
+20001496:	b082      	sub	sp, #8
+20001498:	af00      	add	r7, sp, #0
+2000149a:	6078      	str	r0, [r7, #4]
+    __set_PRIMASK( primask );
+2000149c:	6878      	ldr	r0, [r7, #4]
+2000149e:	f000 f841 	bl	20001524 <__set_PRIMASK>
+}
+200014a2:	f107 0708 	add.w	r7, r7, #8
+200014a6:	46bd      	mov	sp, r7
+200014a8:	bd80      	pop	{r7, pc}
+200014aa:	bf00      	nop
+
+200014ac <I2C0_IRQHandler>:
+#if defined(__GNUC__)
+__attribute__((__interrupt__)) void I2C0_IRQHandler( void )
+#else
+void I2C0_IRQHandler( void )
+#endif
+{
+200014ac:	4668      	mov	r0, sp
+200014ae:	f020 0107 	bic.w	r1, r0, #7
+200014b2:	468d      	mov	sp, r1
+200014b4:	b589      	push	{r0, r3, r7, lr}
+200014b6:	af00      	add	r7, sp, #0
+    mss_i2c_isr( &g_mss_i2c0 );
+200014b8:	f241 6094 	movw	r0, #5780	; 0x1694
+200014bc:	f2c2 0000 	movt	r0, #8192	; 0x2000
+200014c0:	f7ff fb5c 	bl	20000b7c <mss_i2c_isr>
+    NVIC_ClearPendingIRQ( I2C0_IRQn );
+200014c4:	f04f 000e 	mov.w	r0, #14
+200014c8:	f7ff f956 	bl	20000778 <NVIC_ClearPendingIRQ>
+}
+200014cc:	46bd      	mov	sp, r7
+200014ce:	e8bd 4089 	ldmia.w	sp!, {r0, r3, r7, lr}
+200014d2:	4685      	mov	sp, r0
+200014d4:	4770      	bx	lr
+200014d6:	bf00      	nop
+
+200014d8 <I2C1_IRQHandler>:
+#if defined(__GNUC__)
+__attribute__((__interrupt__)) void I2C1_IRQHandler( void )
+#else
+void I2C1_IRQHandler( void )
+#endif
+{
+200014d8:	4668      	mov	r0, sp
+200014da:	f020 0107 	bic.w	r1, r0, #7
+200014de:	468d      	mov	sp, r1
+200014e0:	b589      	push	{r0, r3, r7, lr}
+200014e2:	af00      	add	r7, sp, #0
+    mss_i2c_isr( &g_mss_i2c1 );
+200014e4:	f241 7008 	movw	r0, #5896	; 0x1708
+200014e8:	f2c2 0000 	movt	r0, #8192	; 0x2000
+200014ec:	f7ff fb46 	bl	20000b7c <mss_i2c_isr>
+    NVIC_ClearPendingIRQ( I2C1_IRQn );
+200014f0:	f04f 0011 	mov.w	r0, #17
+200014f4:	f7ff f940 	bl	20000778 <NVIC_ClearPendingIRQ>
+}
+200014f8:	46bd      	mov	sp, r7
+200014fa:	e8bd 4089 	ldmia.w	sp!, {r0, r3, r7, lr}
+200014fe:	4685      	mov	sp, r0
+20001500:	4770      	bx	lr
+20001502:	bf00      	nop
+
+20001504 <__get_PRIMASK>:
+ * @return PriMask
+ *
+ * Return state of the priority mask bit from the priority mask register
+ */
+uint32_t __get_PRIMASK(void)
+{
+20001504:	b480      	push	{r7}
+20001506:	b083      	sub	sp, #12
+20001508:	af00      	add	r7, sp, #0
+  uint32_t result=0;
+2000150a:	f04f 0300 	mov.w	r3, #0
+2000150e:	607b      	str	r3, [r7, #4]
+
+  __ASM volatile ("MRS %0, primask" : "=r" (result) );
+20001510:	f3ef 8310 	mrs	r3, PRIMASK
+20001514:	607b      	str	r3, [r7, #4]
+  return(result);
+20001516:	687b      	ldr	r3, [r7, #4]
+}
+20001518:	4618      	mov	r0, r3
+2000151a:	f107 070c 	add.w	r7, r7, #12
+2000151e:	46bd      	mov	sp, r7
+20001520:	bc80      	pop	{r7}
+20001522:	4770      	bx	lr
+
+20001524 <__set_PRIMASK>:
+ * @param  priMask  PriMask
+ *
+ * Set the priority mask bit in the priority mask register
+ */
+void __set_PRIMASK(uint32_t priMask)
+{
+20001524:	b480      	push	{r7}
+20001526:	b083      	sub	sp, #12
+20001528:	af00      	add	r7, sp, #0
+2000152a:	6078      	str	r0, [r7, #4]
+  __ASM volatile ("MSR primask, %0" : : "r" (priMask) );
+2000152c:	687b      	ldr	r3, [r7, #4]
+2000152e:	f383 8810 	msr	PRIMASK, r3
+}
+20001532:	f107 070c 	add.w	r7, r7, #12
+20001536:	46bd      	mov	sp, r7
+20001538:	bc80      	pop	{r7}
+2000153a:	4770      	bx	lr
+
+2000153c <SystemInit>:
+
+/***************************************************************************//**
+ * See system_a2fxxxm3f.h for details.
+ */
+void SystemInit(void)
+{
+2000153c:	b480      	push	{r7}
+2000153e:	af00      	add	r7, sp, #0
+    /*
+     * Do not make use of global variables or make any asumptions regarding
+     * memory content if modifying this function. The memory content has not been
+     * initialised by the time this function is called by the start-up code.
+     */
+}
+20001540:	46bd      	mov	sp, r7
+20001542:	bc80      	pop	{r7}
+20001544:	4770      	bx	lr
 20001546:	bf00      	nop
 
-20001548 <_init>:
-20001548:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
-2000154a:	bf00      	nop
-2000154c:	bcf8      	pop	{r3, r4, r5, r6, r7}
-2000154e:	bc08      	pop	{r3}
-20001550:	469e      	mov	lr, r3
-20001552:	4770      	bx	lr
+20001548 <__libc_init_array>:
+20001548:	b570      	push	{r4, r5, r6, lr}
+2000154a:	f241 6684 	movw	r6, #5764	; 0x1684
+2000154e:	f241 6584 	movw	r5, #5764	; 0x1684
+20001552:	f2c2 0600 	movt	r6, #8192	; 0x2000
+20001556:	f2c2 0500 	movt	r5, #8192	; 0x2000
+2000155a:	1b76      	subs	r6, r6, r5
+2000155c:	10b6      	asrs	r6, r6, #2
+2000155e:	d006      	beq.n	2000156e <__libc_init_array+0x26>
+20001560:	2400      	movs	r4, #0
+20001562:	f855 3024 	ldr.w	r3, [r5, r4, lsl #2]
+20001566:	3401      	adds	r4, #1
+20001568:	4798      	blx	r3
+2000156a:	42a6      	cmp	r6, r4
+2000156c:	d8f9      	bhi.n	20001562 <__libc_init_array+0x1a>
+2000156e:	f241 6584 	movw	r5, #5764	; 0x1684
+20001572:	f241 6688 	movw	r6, #5768	; 0x1688
+20001576:	f2c2 0500 	movt	r5, #8192	; 0x2000
+2000157a:	f2c2 0600 	movt	r6, #8192	; 0x2000
+2000157e:	1b76      	subs	r6, r6, r5
+20001580:	f000 f874 	bl	2000166c <_init>
+20001584:	10b6      	asrs	r6, r6, #2
+20001586:	d006      	beq.n	20001596 <__libc_init_array+0x4e>
+20001588:	2400      	movs	r4, #0
+2000158a:	f855 3024 	ldr.w	r3, [r5, r4, lsl #2]
+2000158e:	3401      	adds	r4, #1
+20001590:	4798      	blx	r3
+20001592:	42a6      	cmp	r6, r4
+20001594:	d8f9      	bhi.n	2000158a <__libc_init_array+0x42>
+20001596:	bd70      	pop	{r4, r5, r6, pc}
 
-20001554 <_fini>:
-20001554:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
-20001556:	bf00      	nop
-20001558:	bcf8      	pop	{r3, r4, r5, r6, r7}
-2000155a:	bc08      	pop	{r3}
-2000155c:	469e      	mov	lr, r3
-2000155e:	4770      	bx	lr
+20001598 <memset>:
+20001598:	2a03      	cmp	r2, #3
+2000159a:	b2c9      	uxtb	r1, r1
+2000159c:	b430      	push	{r4, r5}
+2000159e:	d807      	bhi.n	200015b0 <memset+0x18>
+200015a0:	b122      	cbz	r2, 200015ac <memset+0x14>
+200015a2:	2300      	movs	r3, #0
+200015a4:	54c1      	strb	r1, [r0, r3]
+200015a6:	3301      	adds	r3, #1
+200015a8:	4293      	cmp	r3, r2
+200015aa:	d1fb      	bne.n	200015a4 <memset+0xc>
+200015ac:	bc30      	pop	{r4, r5}
+200015ae:	4770      	bx	lr
+200015b0:	eb00 0c02 	add.w	ip, r0, r2
+200015b4:	4603      	mov	r3, r0
+200015b6:	e001      	b.n	200015bc <memset+0x24>
+200015b8:	f803 1c01 	strb.w	r1, [r3, #-1]
+200015bc:	f003 0403 	and.w	r4, r3, #3
+200015c0:	461a      	mov	r2, r3
+200015c2:	3301      	adds	r3, #1
+200015c4:	2c00      	cmp	r4, #0
+200015c6:	d1f7      	bne.n	200015b8 <memset+0x20>
+200015c8:	f04f 3301 	mov.w	r3, #16843009	; 0x1010101
+200015cc:	ebc2 040c 	rsb	r4, r2, ip
+200015d0:	fb03 f301 	mul.w	r3, r3, r1
+200015d4:	e01f      	b.n	20001616 <memset+0x7e>
+200015d6:	f842 3c40 	str.w	r3, [r2, #-64]
+200015da:	f842 3c3c 	str.w	r3, [r2, #-60]
+200015de:	f842 3c38 	str.w	r3, [r2, #-56]
+200015e2:	f842 3c34 	str.w	r3, [r2, #-52]
+200015e6:	f842 3c30 	str.w	r3, [r2, #-48]
+200015ea:	f842 3c2c 	str.w	r3, [r2, #-44]
+200015ee:	f842 3c28 	str.w	r3, [r2, #-40]
+200015f2:	f842 3c24 	str.w	r3, [r2, #-36]
+200015f6:	f842 3c20 	str.w	r3, [r2, #-32]
+200015fa:	f842 3c1c 	str.w	r3, [r2, #-28]
+200015fe:	f842 3c18 	str.w	r3, [r2, #-24]
+20001602:	f842 3c14 	str.w	r3, [r2, #-20]
+20001606:	f842 3c10 	str.w	r3, [r2, #-16]
+2000160a:	f842 3c0c 	str.w	r3, [r2, #-12]
+2000160e:	f842 3c08 	str.w	r3, [r2, #-8]
+20001612:	f842 3c04 	str.w	r3, [r2, #-4]
+20001616:	4615      	mov	r5, r2
+20001618:	3240      	adds	r2, #64	; 0x40
+2000161a:	2c3f      	cmp	r4, #63	; 0x3f
+2000161c:	f1a4 0440 	sub.w	r4, r4, #64	; 0x40
+20001620:	dcd9      	bgt.n	200015d6 <memset+0x3e>
+20001622:	462a      	mov	r2, r5
+20001624:	ebc5 040c 	rsb	r4, r5, ip
+20001628:	e007      	b.n	2000163a <memset+0xa2>
+2000162a:	f842 3c10 	str.w	r3, [r2, #-16]
+2000162e:	f842 3c0c 	str.w	r3, [r2, #-12]
+20001632:	f842 3c08 	str.w	r3, [r2, #-8]
+20001636:	f842 3c04 	str.w	r3, [r2, #-4]
+2000163a:	4615      	mov	r5, r2
+2000163c:	3210      	adds	r2, #16
+2000163e:	2c0f      	cmp	r4, #15
+20001640:	f1a4 0410 	sub.w	r4, r4, #16
+20001644:	dcf1      	bgt.n	2000162a <memset+0x92>
+20001646:	462a      	mov	r2, r5
+20001648:	ebc5 050c 	rsb	r5, r5, ip
+2000164c:	e001      	b.n	20001652 <memset+0xba>
+2000164e:	f842 3c04 	str.w	r3, [r2, #-4]
+20001652:	4614      	mov	r4, r2
+20001654:	3204      	adds	r2, #4
+20001656:	2d03      	cmp	r5, #3
+20001658:	f1a5 0504 	sub.w	r5, r5, #4
+2000165c:	dcf7      	bgt.n	2000164e <memset+0xb6>
+2000165e:	e001      	b.n	20001664 <memset+0xcc>
+20001660:	f804 1b01 	strb.w	r1, [r4], #1
+20001664:	4564      	cmp	r4, ip
+20001666:	d3fb      	bcc.n	20001660 <memset+0xc8>
+20001668:	e7a0      	b.n	200015ac <memset+0x14>
+2000166a:	bf00      	nop
 
-20001560 <__frame_dummy_init_array_entry>:
-20001560:	0485 2000                                   ... 
+2000166c <_init>:
+2000166c:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+2000166e:	bf00      	nop
+20001670:	bcf8      	pop	{r3, r4, r5, r6, r7}
+20001672:	bc08      	pop	{r3}
+20001674:	469e      	mov	lr, r3
+20001676:	4770      	bx	lr
 
-20001564 <__do_global_dtors_aux_fini_array_entry>:
-20001564:	0471 2000                                   q.. 
+20001678 <_fini>:
+20001678:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+2000167a:	bf00      	nop
+2000167c:	bcf8      	pop	{r3, r4, r5, r6, r7}
+2000167e:	bc08      	pop	{r3}
+20001680:	469e      	mov	lr, r3
+20001682:	4770      	bx	lr
+
+20001684 <__frame_dummy_init_array_entry>:
+20001684:	0485 2000                                   ... 
+
+20001688 <__do_global_dtors_aux_fini_array_entry>:
+20001688:	0471 2000                                   q.. 

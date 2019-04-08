@@ -3,27 +3,29 @@
 
 #include "drivers/mss_i2c/mss_i2c.h"
 #include "motor_control.h"
+#include<stdlib.h>
+#include<stdio.h>
 //int main()
 //{
 //    MSS_I2C_init( &g_mss_i2c0, MOTOR_CONTROL_ADDR, MSS_I2C_PCLK_DIV_256 );
 //
 //    uint8_t setup_buffer[3] = {1, 2, 7};
 //
-//    MSS_I2C_write( &g_mss_i2c0, TFMINI_ADDR, setup_buffer,
+//    MSS_I2C_write( &g_mss_i2c1, TFMINI_ADDR, setup_buffer,
 //					sizeof(setup_buffer), MSS_I2C_RELEASE_BUS );
 //
-//    uint8_t status = MSS_I2C_wait_complete( &g_mss_i2c0, MSS_I2C_NO_TIMEOUT );
+//    uint8_t status = MSS_I2C_wait_complete( &g_mss_i2c1, MSS_I2C_NO_TIMEOUT );
 //
 //
 //    printf("d", status);
 //}
 
 uint8_t readRegister8(uint8_t reg){
-	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, &reg, 1,
+	MSS_I2C_write( &g_mss_i2c1, DRV2605_ADDR, &reg, 1,
 	                      MSS_I2C_RELEASE_BUS );
-	MSS_I2C_wait_complete( &g_mss_i2c0, MSS_I2C_NO_TIMEOUT );
+	MSS_I2C_wait_complete( &g_mss_i2c1, MSS_I2C_NO_TIMEOUT );
 	uint8_t * ret = 0;
-	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, ret, 1,
+	MSS_I2C_read( &g_mss_i2c1, DRV2605_ADDR, ret, 1,
 		                      MSS_I2C_RELEASE_BUS );
 	return *ret;
 }
@@ -32,8 +34,8 @@ uint8_t readRegister8(uint8_t reg){
 void writeRegister8(uint8_t reg, uint8_t val){
 	uint8_t status;
 	uint8_t buffer[2] = {reg, val};
-	MSS_I2C_write( &g_mss_i2c0, DRV2605_ADDR, buffer, 2, MSS_I2C_RELEASE_BUS );
-	status = MSS_I2C_wait_complete( &g_mss_i2c0, MSS_I2C_NO_TIMEOUT );
+	MSS_I2C_write( &g_mss_i2c1, DRV2605_ADDR, buffer, 2, MSS_I2C_RELEASE_BUS );
+	status = MSS_I2C_wait_complete( &g_mss_i2c1, MSS_I2C_NO_TIMEOUT );
 }
 
 int init() {
@@ -138,22 +140,26 @@ void useLRA () {
 
 int main(){
 	// set the effect to play
-	  MSS_I2C_init( &g_mss_i2c0, DRV2605_ADDR, MSS_I2C_PCLK_DIV_256 );
+	  MSS_I2C_init( &g_mss_i2c1, DRV2605_ADDR, MSS_I2C_PCLK_DIV_256 );
 
 	  init();
-
-	  selectLibrary(1);
+	  useERM();
+	  selectLibrary(5);
 
 	  // I2C trigger by sending 'go' command
 	  // default, internal trigger when sending GO command
 	  setMode(DRV2605_MODE_INTTRIG);
 
-
-	  setWaveform(0, 102);  // play effect
-	  setWaveform(1, 0);       // end waveform
+	  setWaveform(0, 84);
+	  setWaveform(1, 1);  // play effect
+	  setWaveform(2, 0);       // end waveform
 
 	  // play the effect!
-	  go();
+	  while(1){
+		  go();
+		  //delay(1000);
+	  }
+	  return 0;
 }
 
 

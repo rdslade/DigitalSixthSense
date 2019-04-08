@@ -11,15 +11,15 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>C:/Users/rdslade/Desktop/DigitalSixthSense/component/work/core</location>
-    <state>SAVED ( Mon Apr 01 13:46:38 2019 )</state>
-    <swide-toolchain>SoftConsole workspace generated to C:\Users\rdslade\Desktop\DigitalSixthSense\SoftConsole</swide-toolchain>
+    <location>C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core</location>
+    <state>SAVED ( Mon Apr 08 16:02:13 2019 )</state>
+    <swide-toolchain>SoftConsole workspace generated to C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\SoftConsole</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>C:\Users\rdslade\Desktop\DigitalSixthSense\component\work\toplevel\toplevel.v</file>
+    <file>C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\component\work\toplevel\toplevel.v</file>
   </fileset>
   <io>
     <port-name>I2C_0_SCL</port-name>

@@ -2,7 +2,7 @@
 #define core_HW_PLATFORM_H_
 /*****************************************************************************
 *
-*Created by Microsemi SmartDesign  Mon Apr 01 13:46:32 2019
+*Created by Microsemi SmartDesign  Mon Apr 08 16:02:12 2019
 *
 *Memory map specification for peripherals in core
 */

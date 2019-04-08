@@ -2,7 +2,7 @@
 <device>
   <name>core</name>
   <version>1.0</version>
-  <description>CMSIS description for core.  Created by Microsemi SmartDesign on Mon Apr 01 13:46:32 2019</description>
+  <description>CMSIS description for core.  Created by Microsemi SmartDesign on Mon Apr 08 16:02:12 2019</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>
