@@ -466,7 +466,7 @@ Wrote status report to file: core_compile_report.txt
 The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: core_report_pin_byname.txt
 
-The Report command succeeded ( 00:00:01 )
+The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: core_report_pin_bynumber.txt
 
 The Report command succeeded ( 00:00:01 )

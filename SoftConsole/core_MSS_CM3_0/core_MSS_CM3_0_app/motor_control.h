@@ -1,3 +1,12 @@
+#ifndef _MOTOR_C_H_
+#define _MOTOR_C_H_
+
+#include "drivers/mss_i2c/mss_i2c.h"
+#include "motor_control.h"
+#include<stdlib.h>
+#include<stdio.h>
+#include<assert.h>
+
 #define DRV2605_ADDR 0x5A             ///< Device I2C address
 
 #define DRV2605_REG_STATUS 0x00       ///< Status register
@@ -43,3 +52,20 @@
 #define DRV2605_REG_CONTROL4 0x1E     ///< Control4 Register
 #define DRV2605_REG_VBAT 0x21         ///< Vbat voltage-monitor register
 #define DRV2605_REG_LRARESON 0x22     ///< LRA resonance-period register
+
+uint8_t readRegister8(uint8_t reg);
+
+void writeRegister8(uint8_t reg, uint8_t val);
+int init();
+
+void setWaveform(uint8_t slot, uint8_t w);
+
+void selectLibrary(uint8_t lib);
+void go();
+void stop();
+void setMode(uint8_t mode);
+void setRealtimeValue(uint8_t rtp);
+void useERM ();
+void useLRA ();
+
+#endif

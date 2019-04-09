@@ -1,0 +1,22 @@
+#include "tfmini.h"
+#include "motor_control.h"
+#include "drivers/mss_i2c/mss_i2c.h"
+#include "motor_control.h"
+#include<stdlib.h>
+#include<stdio.h>
+#include<assert.h>
+
+int main(){
+	int distance = measure();
+	if(distance == -1){
+		assert(0);
+	}
+	int level;
+	if (distance <= 1000 && distance >=500)
+	{
+		level = 0;
+	}
+	else if (distance < 500 && distance >= 200){
+
+	} */
+}

@@ -1,8 +1,4 @@
-#include "drivers/mss_uart/mss_uart.h"
-
-#define TFMINI_ADDR 0x10
-#define MAX_MEASURMENT_ATTEMPTS 100
-#define NUM_MOTORS 10
+#include "tfmini.h"
 
 double map(int input, int irange_start, int irange_end, double orange_start, double orange_end){
 	 return orange_start + ((orange_end - orange_start) / (irange_end - irange_start)) * (input - irange_start);
@@ -49,27 +45,22 @@ int measure()
 			}
 			else{
 				// success
-				measurementAttempts = 0;
+				// measurementAttempts = 0;
 				// same intensity mode
 				// map from [30, 500] to [3.7, .7]
 				// calls map function
-				double voltage = map(750, 30, 500, 3.7, .7);
+				//double voltage = map(750, 30, 500, 3.7, .7);
 
-				printf("%d", voltage);
+				//printf("%d", voltage);
 
 				// slyther mode
 				// map from [30, 500] to [n, 0]
 				//
+
+				return distance;
 			}
 			++total_measurements;
 		}
 	}
 	return -1;
-}
-
-int main(){
-	if(measure() == -1){
-		printf("failed measure");
-	}
-
 }

@@ -34,25 +34,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Mon Apr 08 16:02:37 2019
+Timing-driven Placer Started: Tue Apr 09 10:52:35 2019
 
-Placer Finished: Mon Apr 08 16:02:38 2019
+Placer Finished: Tue Apr 09 10:52:36 2019
 Total Placer CPU Time:     00:00:01
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: core                            Started: Mon Apr 08 16:02:39 2019
+Design: core                            Started: Tue Apr 09 10:52:37 2019
 
  
 
 Timing-driven Router completed successfully.
 
 Design: core                            
-Finished: Mon Apr 08 16:02:41 2019
+Finished: Tue Apr 09 10:52:39 2019
 Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:02
-Total Memory Usage: 161.0 Mbytes
+Total Memory Usage: 160.8 Mbytes
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.

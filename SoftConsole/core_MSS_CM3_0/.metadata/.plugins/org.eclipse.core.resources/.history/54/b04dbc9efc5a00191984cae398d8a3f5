@@ -1,0 +1,9 @@
+#include "tfmini.h"
+#include "motor_control.h"
+
+int main(){
+	int distance = measure();
+	if(distance == -1){
+		assert(false);
+	}
+}

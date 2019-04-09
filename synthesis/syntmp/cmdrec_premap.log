@@ -1,15 +1,15 @@
 C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synlog\report\core_premap.xml  -top_level_module  core  -oedif  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\core.edn  -conchk_prepass  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\core_cck.rpt   -freq 100.000   C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synwork\core_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synwork\core_prem.srd  -qsap  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\core.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v  -ologparam  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\syntmp\core.plg  -osyn  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synwork\core_prem.srd  -prjdir  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\  -prjname  core_syn  -log  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synlog\core_premap.srr 
 relcom:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A2F200M3F -package FBGA484 -grade STD -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\core_premap.xml -top_level_module core -oedif ..\core.edn -conchk_prepass ..\core_cck.rpt -freq 100.000 ..\synwork\core_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\core_prem.srd -qsap ..\core.sap -devicelib ..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v -ologparam core.plg -osyn ..\synwork\core_prem.srd -prjdir ..\ -prjname core_syn -log ..\synlog\core_premap.srr
 rc:0 success:1 runtime:0
-file:..\scratchproject.prs|io:o|time:1554753746|size:2190|exec:0|csum:
-file:..\core.edn|io:o|time:1554753679|size:99475|exec:0|csum:
-file:..\core_cck.rpt|io:o|time:1554753747|size:23727|exec:0|csum:
-file:..\synwork\core_mult.srs|io:i|time:1554753747|size:21965|exec:0|csum:29BDE15D2B2873A1384471637ED39D1B
-file:..\synwork\core_prem.srd|io:o|time:1554753747|size:9367|exec:0|csum:
-file:..\core.sap|io:o|time:1554753747|size:113|exec:0|csum:
+file:..\scratchproject.prs|io:o|time:1554821246|size:2190|exec:0|csum:
+file:..\core.edn|io:o|time:1554821246|size:99474|exec:0|csum:
+file:..\core_cck.rpt|io:o|time:1554821544|size:23727|exec:0|csum:
+file:..\synwork\core_mult.srs|io:i|time:1554821544|size:21967|exec:0|csum:475DDA42EFBDBAE9A305A2E65ACC65BB
+file:..\synwork\core_prem.srd|io:o|time:1554821544|size:9368|exec:0|csum:
+file:..\core.sap|io:o|time:1554821544|size:113|exec:0|csum:
 file:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1509027488|size:72817|exec:0|csum:792D908376FAE59463CBCC67F19D1698
-file:core.plg|io:o|time:1554753747|size:0|exec:0|csum:
-file:..\synwork\core_prem.srd|io:o|time:1554753747|size:9367|exec:0|csum:
-file:..\synlog\core_premap.srr|io:o|time:1554753747|size:3450|exec:0|csum:
+file:core.plg|io:o|time:1554821544|size:0|exec:0|csum:
+file:..\synwork\core_prem.srd|io:o|time:1554821544|size:9368|exec:0|csum:
+file:..\synlog\core_premap.srr|io:o|time:1554821544|size:3450|exec:0|csum:
 file:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509373872|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
 file:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509375286|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

@@ -1,0 +1,14 @@
+#include "tfmini.h"
+#include "motor_control.h"
+#include "drivers/mss_i2c/mss_i2c.h"
+#include "motor_control.h"
+#include<stdlib.h>
+#include<stdio.h>
+#include<assert.h>
+
+int main(){
+	int distance = measure();
+	if(distance == -1){
+		assert(0);
+	}
+}

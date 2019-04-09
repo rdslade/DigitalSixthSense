@@ -1,0 +1,40 @@
+#include "tfmini.h"
+#include "motor_control.h"
+#include "drivers/mss_i2c/mss_i2c.h"
+#include "motor_control.h"
+#include<stdlib.h>
+#include<stdio.h>
+#include<assert.h>
+
+logcalculator(int distance);
+int main(){
+	int distance = measure();
+	if(distance == -1){
+		assert(0);
+	}
+	int level;
+
+	if (distance <= 1000 && distance >= 800)
+	{
+		level = 0;
+	}
+	else if (distance < 800 && distance >= 400){
+		level = 1;
+	}
+	else if (distance < 400 && distance >= 200){
+		level = 2;
+	}
+	else if (distance < 200 && distance >= 100){
+		level = 3;
+	}
+	else if (distance < 100 && distance >= 70){
+		level = 4;
+	}
+	else if (distance < 70 && distance >= 45){
+		level = 5;
+	}
+	else if (distance < 38){
+		level = 6;
+	}
+
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
-<window height="1167" width="1887" x="37" y="0">
+<window height="1167" maximized="true" width="1887" x="91" y="163">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="274"/>
@@ -35,29 +35,35 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mss_i2c.h" partName="mss_i2c.h" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.h" title="mss_i2c.h" tooltip="core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="21" selectionOffset="44737" selectionTopPixel="15725"/>
-</editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="motor_control.h" partName="motor_control.h" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_app/motor_control.h" title="motor_control.h" tooltip="core_MSS_CM3_0_app/motor_control.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/core_MSS_CM3_0_app/motor_control.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="347"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tfmini.c" partName="tfmini.c" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_app/tfmini.c" title="tfmini.c" tooltip="core_MSS_CM3_0_app/tfmini.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/core_MSS_CM3_0_app/tfmini.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3216" selectionTopPixel="75"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="motor_control.c" partName="motor_control.c" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_app/motor_control.c" title="motor_control.c" tooltip="core_MSS_CM3_0_app/motor_control.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/core_MSS_CM3_0_app/motor_control.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="5031" selectionTopPixel="2618"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1570" selectionTopPixel="731"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="mss_i2c.c" partName="mss_i2c.c" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c" title="mss_i2c.c" tooltip="core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mss_i2c.c" partName="mss_i2c.c" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c" title="mss_i2c.c" tooltip="core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14623" selectionTopPixel="7259"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14525" selectionTopPixel="7208"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_app/main.c" title="main.c" tooltip="core_MSS_CM3_0_app/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/core_MSS_CM3_0_app/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="278" selectionTopPixel="547"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tfmini.c" partName="tfmini.c" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_app/tfmini.c" title="tfmini.c" tooltip="core_MSS_CM3_0_app/tfmini.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/core_MSS_CM3_0_app/tfmini.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="959" selectionTopPixel="442"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tfmini.h" partName="tfmini.h" path="C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/SoftConsole/core_MSS_CM3_0/core_MSS_CM3_0_app/tfmini.h" title="tfmini.h" tooltip="core_MSS_CM3_0_app/tfmini.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/core_MSS_CM3_0_app/tfmini.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="107" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -101,13 +107,14 @@
 <view id="org.eclipse.debug.ui.RegisterView" partName="Registers">
 <viewState/>
 </view>
-<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Targets"/>
 <view id="org.eclipse.cdt.debug.ui.DisassemblyView" partName="Disassembly">
 <viewState/>
 </view>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Targets"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
@@ -289,7 +296,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.9548989" ratioLeft="614" ratioRight="29" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.70504284" ratioLeft="741" ratioRight="310" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -308,7 +315,7 @@
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.44936708" ratioLeft="355" ratioRight="435" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info part="org.eclipse.ui.editorss" ratio="0.36077237" ratioLeft="355" ratioRight="629" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
 <info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75712776" ratioLeft="717" ratioRight="230" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.cdt.debug.ui.DisassemblyView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -343,102 +350,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_app/motor_control.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_app/motor_control.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_app/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_app/tfmini.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_app/tfmini.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_hw_platform/CMSIS/startup_gcc/newlib_stubs.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c"/>
 </editors>
-<item historyLabel="mss_i2c.h" index="0">
-<position info="not_deleted" x="44737" y="21"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="968" y="0"/>
 </item>
-<item historyLabel="motor_control.c" index="1">
+<item historyLabel="tfmini.h" index="4">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="tfmini.c" index="3">
+<position info="not_deleted" x="844" y="0"/>
+</item>
+<item historyLabel="motor_control.h" index="1">
+<position info="not_deleted" x="3216" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="tfmini.c" index="3">
+<position info="not_deleted" x="844" y="0"/>
+</item>
+<item historyLabel="tfmini.c" index="3">
+<position info="not_deleted" x="953" y="0"/>
+</item>
+<item historyLabel="tfmini.c" index="3">
+<position info="not_deleted" x="911" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="965" y="0"/>
+</item>
+<item historyLabel="tfmini.c" index="3">
+<position info="not_deleted" x="911" y="0"/>
+</item>
+<item historyLabel="motor_control.c" index="0">
+<position info="not_deleted" x="5126" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="tfmini.c" index="3">
+<position info="not_deleted" x="959" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
 <position/>
 </item>
-<item historyLabel="motor_control.c" index="1">
+<item historyLabel="tfmini.c" index="3">
+<position info="not_deleted" x="959" y="0"/>
+</item>
+<item historyLabel="motor_control.c" index="0">
+<position info="not_deleted" x="5126" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="965" y="0"/>
+</item>
+<item historyLabel="motor_control.c" index="0">
+<position info="not_deleted" x="5126" y="0"/>
+</item>
+<item historyLabel="motor_control.h" index="1">
+<position info="not_deleted" x="3216" y="0"/>
+</item>
+<item historyLabel="motor_control.c" index="0">
+<position info="not_deleted" x="5126" y="0"/>
+</item>
+<item historyLabel="motor_control.h" index="1">
+<position info="not_deleted" x="3216" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="965" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
 <position/>
 </item>
-<item historyLabel="mss_i2c.c" index="2">
-<position/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="485" y="0"/>
 </item>
-<item historyLabel="motor_control.c" index="1">
-<position/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="486" y="0"/>
 </item>
-<item historyLabel="motor_control.c" index="1">
-<position/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="965" y="0"/>
 </item>
-<item historyLabel="mss_i2c.c" index="2">
-<position/>
+<item historyLabel="motor_control.c" index="0">
+<position info="not_deleted" x="4822" y="661"/>
 </item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="4639" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="965" y="0"/>
 </item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="5045" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="906" y="0"/>
 </item>
-<item historyLabel="mss_i2c.h" index="0">
-<position info="not_deleted" x="44737" y="21"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="959" y="0"/>
 </item>
-<item historyLabel="motor_control.h" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="965" y="0"/>
 </item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="4858" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
 </item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="5045" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="900" y="0"/>
 </item>
-<item historyLabel="mss_i2c.c" index="2">
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="newlib_stubs.c" index="5">
+<position info="not_deleted" x="2233" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="mss_i2c.c" index="6">
 <position info="not_deleted" x="14525" y="0"/>
 </item>
-<item historyLabel="mss_i2c.c" index="2">
-<position info="not_deleted" x="14572" y="0"/>
+<item historyLabel="motor_control.c" index="0">
+<position info="not_deleted" x="1570" y="0"/>
 </item>
-<item historyLabel="mss_i2c.c" index="2">
+<item historyLabel="mss_i2c.c" index="6">
 <position info="not_deleted" x="14525" y="0"/>
 </item>
-<item historyLabel="mss_i2c.c" index="2">
-<position info="not_deleted" x="14572" y="0"/>
-</item>
-<item historyLabel="mss_i2c.c" index="2">
-<position info="not_deleted" x="14525" y="0"/>
-</item>
-<item historyLabel="mss_i2c.c" index="2">
-<position info="not_deleted" x="14572" y="0"/>
-</item>
-<item historyLabel="mss_i2c.c" index="2">
-<position info="not_deleted" x="14525" y="0"/>
-</item>
-<item historyLabel="motor_control.h" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="4639" y="0"/>
-</item>
-<item historyLabel="mss_i2c.c" index="4">
-<position info="not_deleted" x="14572" y="0"/>
-</item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="2600" y="0"/>
-</item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="4639" y="0"/>
-</item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="5045" y="0"/>
-</item>
-<item historyLabel="motor_control.c" index="1">
-<position info="not_deleted" x="5031" y="12"/>
-</item>
-<item historyLabel="mss_i2c.c" index="5">
-<position info="not_deleted" x="14525" y="0"/>
-</item>
-<item active="true" historyLabel="mss_i2c.c" index="5">
-<position info="not_deleted" x="14623" y="0"/>
+<item active="true" historyLabel="main.c" index="2">
+<position info="not_deleted" x="278" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -457,14 +522,17 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mss_i2c.c" tooltip="core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c">
-<persistable path="/core_MSS_CM3_0_hw_platform/drivers/mss_i2c/mss_i2c.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="newlib_stubs.c" tooltip="core_MSS_CM3_0_hw_platform/CMSIS/startup_gcc/newlib_stubs.c">
+<persistable path="/core_MSS_CM3_0_hw_platform/CMSIS/startup_gcc/newlib_stubs.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="motor_control.c" tooltip="core_MSS_CM3_0_app/motor_control.c">
-<persistable path="/core_MSS_CM3_0_app/motor_control.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tfmini.h" tooltip="core_MSS_CM3_0_app/tfmini.h">
+<persistable path="/core_MSS_CM3_0_app/tfmini.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tfmini.c" tooltip="core_MSS_CM3_0_app/tfmini.c">
 <persistable path="/core_MSS_CM3_0_app/tfmini.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="core_MSS_CM3_0_app/main.c">
+<persistable path="/core_MSS_CM3_0_app/main.c"/>
 </file>
 </mruList>
 </workbench>
