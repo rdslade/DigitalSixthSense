@@ -1,4 +1,4 @@
-# Tue Apr 09 10:52:24 2019
+# Tue Apr 09 17:21:05 2019
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -100,10 +100,12 @@ Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s
 
 Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
+@N: MT615 |Found clock FCLK with period 10.00ns 
+@N: MT615 |Found clock FAB_CLK with period 10.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Apr 09 10:52:25 2019
+# Timing Report written on Tue Apr 09 17:21:06 2019
 #
 
 
@@ -114,7 +116,8 @@ Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
-Constraint File(s):    
+Constraint File(s):    C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\component\work\core\mss_tshell_syn.sdc
+                       
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
 @N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
@@ -125,13 +128,16 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 4.491
+Worst slack in design: 9.678
 
-                   Requested     Estimated     Requested     Estimated               Clock      Clock          
-Starting Clock     Frequency     Frequency     Period        Period        Slack     Type       Group          
----------------------------------------------------------------------------------------------------------------
-System             100.0 MHz     181.5 MHz     10.000        5.509         4.491     system     system_clkgroup
-===============================================================================================================
+                   Requested     Estimated      Requested     Estimated               Clock        Clock          
+Starting Clock     Frequency     Frequency      Period        Period        Slack     Type         Group          
+------------------------------------------------------------------------------------------------------------------
+FAB_CLK            100.0 MHz     NA             10.000        NA            NA        declared     clk_group_0    
+FCLK               100.0 MHz     NA             10.000        NA            NA        declared     clk_group_0    
+System             100.0 MHz     3110.4 MHz     10.000        0.322         9.678     system       system_clkgroup
+==================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
 
 
@@ -144,7 +150,7 @@ Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fal
 --------------------------------------------------------------------------------------------------------
 Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------
-System    System  |  10.000      4.491  |  No paths    -      |  No paths    -      |  No paths    -    
+System    System  |  10.000      9.678  |  No paths    -      |  No paths    -      |  No paths    -    
 ========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -167,13 +173,12 @@ Detailed Report for Clock: System
 Starting Points with Worst Slack
 ********************************
 
-                      Starting                                                       Arrival          
-Instance              Reference     Type        Pin        Net                       Time        Slack
-                      Clock                                                                           
-------------------------------------------------------------------------------------------------------
-MSS_CCC_0.I_RCOSC     System        RCOSC       CLKOUT     N_CLKA_RCOSC              0.000       4.491
-MSS_ADLIB_INST        System        MSS_APB     EMCCLK     MSS_ADLIB_INST_EMCCLK     0.000       9.678
-======================================================================================================
+                   Starting                                                       Arrival          
+Instance           Reference     Type        Pin        Net                       Time        Slack
+                   Clock                                                                           
+---------------------------------------------------------------------------------------------------
+MSS_ADLIB_INST     System        MSS_APB     EMCCLK     MSS_ADLIB_INST_EMCCLK     0.000       9.678
+===================================================================================================
 
 
 Ending Points with Worst Slack
@@ -183,7 +188,6 @@ Ending Points with Worst Slack
 Instance           Reference     Type        Pin           Net                       Time         Slack
                    Clock                                                                               
 -------------------------------------------------------------------------------------------------------
-MSS_ADLIB_INST     System        MSS_APB     FCLK          MSS_ADLIB_INST_FCLK       10.000       4.491
 MSS_ADLIB_INST     System        MSS_APB     EMCCLKRTN     MSS_ADLIB_INST_EMCCLK     10.000       9.678
 =======================================================================================================
 
@@ -200,28 +204,25 @@ Path information for path number 1:
     + Estimated clock delay at ending point: 0.000
     = Required time:                         10.000
 
-    - Propagation time:                      5.509
+    - Propagation time:                      0.322
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (critical) :                     4.491
+    = Slack (critical) :                     9.678
 
-    Number of logic level(s):                1
-    Starting point:                          MSS_CCC_0.I_RCOSC / CLKOUT
-    Ending point:                            MSS_ADLIB_INST / FCLK
+    Number of logic level(s):                0
+    Starting point:                          MSS_ADLIB_INST / EMCCLK
+    Ending point:                            MSS_ADLIB_INST / EMCCLKRTN
     The start point is clocked by            System [rising]
     The end   point is clocked by            System [rising]
 
-Instance / Net                      Pin        Pin               Arrival     No. of    
-Name                    Type        Name       Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------
-MSS_CCC_0.I_RCOSC       RCOSC       CLKOUT     Out     0.000     0.000       -         
-N_CLKA_RCOSC            Net         -          -       0.322     -           1         
-MSS_CCC_0.I_MSSCCC      MSS_CCC     CLKA       In      -         0.322       -         
-MSS_CCC_0.I_MSSCCC      MSS_CCC     GLAMSS     Out     4.866     5.188       -         
-MSS_ADLIB_INST_FCLK     Net         -          -       0.322     -           1         
-MSS_ADLIB_INST          MSS_APB     FCLK       In      -         5.509       -         
-=======================================================================================
-Total path delay (propagation time + setup) of 5.509 is 4.866(88.3%) logic and 0.643(11.7%) route.
+Instance / Net                        Pin           Pin               Arrival     No. of    
+Name                      Type        Name          Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+MSS_ADLIB_INST            MSS_APB     EMCCLK        Out     0.000     0.000       -         
+MSS_ADLIB_INST_EMCCLK     Net         -             -       0.322     -           1         
+MSS_ADLIB_INST            MSS_APB     EMCCLKRTN     In      -         0.322       -         
+============================================================================================
+Total path delay (propagation time + setup) of 0.322 is 0.000(0.0%) logic and 0.322(100.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -255,14 +256,16 @@ Report for cell core.verilog
   IO Cell usage:
               cell count
    BIBUF_OPEND_MSS     4
+             INBUF     1
          INBUF_MSS     3
+            OUTBUF     1
         OUTBUF_MSS     2
                    -----
-             TOTAL     9
+             TOTAL    11
 
 
 Core Cells         : 0 of 4608 (0%)
-IO Cells           : 9
+IO Cells           : 11
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)
@@ -272,6 +275,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Apr 09 10:52:25 2019
+# Tue Apr 09 17:21:06 2019
 
 ###########################################################]

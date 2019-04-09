@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Tue Apr 09 10:52:41 2019 ***************************************************************************
+                          Tue Apr 09 17:21:21 2019 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
 File Name: C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\designer\impl1\core.adb
 Design Name: core  Design State: layout
-Last Saved: Tue Apr 09 10:52:32 2019
+Last Saved: Tue Apr 09 17:21:12 2019
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Tue Apr 09 10:52:29 2019:
+Source File(s) Imported on Tue Apr 09 17:21:08 2019:
         C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\core.edn
 
 
@@ -400,7 +400,6 @@ Warning: CMP201: Net MSS_ADLIB_INST_VAREFOUT drives no load.
 Warning: CMP201: Net MSS_ADLIB_INST_VCC15GOOD drives no load.
 Warning: CMP201: Net MSS_ADLIB_INST_VCC33GOOD drives no load.
 Warning: CMP201: Net MSS_ADLIB_INST_WDINT drives no load.
-Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_GLA drives no load.
 Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_GLB drives no load.
 Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_GLC drives no load.
 Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_LOCK drives no load.
@@ -419,7 +418,7 @@ Optimized macros:
 
     Total macros optimized  0
 
-There were 0 error(s) and 330 warning(s) in this design.
+There were 0 error(s) and 329 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -433,7 +432,7 @@ Compile report:
 
     Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
     Fabric                     Used:      0  Total:   4608   (0.00%)
-    Fabric IO (W/ clocks)      Used:      0  Total:     94   (0.00%)
+    Fabric IO (W/ clocks)      Used:      2  Total:     94   (2.13%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
     Dedicated MSS IO           Used:      9  Total:     43   (20.93%)
@@ -468,8 +467,8 @@ I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 0             | 0            | 0
-    Output I/O                            | 0             | 0            | 0
+    Input I/O                             | 1             | 0            | 0
+    Output I/O                            | 1             | 0            | 0
     Bidirectional I/O                     | 0             | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
     Differential Output I/O Pairs         | 0             | 0            | 0
@@ -480,9 +479,35 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 1     | 1      | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:   2 ( 100.00% )
 
 Net information report:
 =======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    2       INT_NET       Net   : FAB_CLK
+                          Driver: MSS_CCC_0/I_MSSCCC
+                          Source: ESSENTIAL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    1       INT_NET       Net   : FABINT_c
+                          Driver: FABINT_pad
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    1       INT_NET       Net   : FABINT_c
+                          Driver: FABINT_pad
 
 
 Layout Output:
@@ -508,25 +533,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Tue Apr 09 10:52:35 2019
+Timing-driven Placer Started: Tue Apr 09 17:21:15 2019
 
-Placer Finished: Tue Apr 09 10:52:36 2019
+Placer Finished: Tue Apr 09 17:21:16 2019
 Total Placer CPU Time:     00:00:01
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: core                            Started: Tue Apr 09 10:52:37 2019
+Design: core                            Started: Tue Apr 09 17:21:17 2019
 
  
 
 Timing-driven Router completed successfully.
 
 Design: core                            
-Finished: Tue Apr 09 10:52:39 2019
+Finished: Tue Apr 09 17:21:19 2019
 Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:02
-Total Memory Usage: 160.8 Mbytes
+Total Memory Usage: 161.8 Mbytes
                         o - o - o - o - o - o
 
 

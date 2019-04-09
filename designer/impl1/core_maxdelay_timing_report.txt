@@ -2,7 +2,7 @@ Timing Report Max Delay Analysis
 
 SmartTime Version v11.9
 Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
-Date: Tue Apr 09 10:52:47 2019
+Date: Tue Apr 09 17:21:27 2019
 
 
 Design: core
@@ -52,7 +52,7 @@ Period (ns):                12.500
 Frequency (MHz):            80.000
 Required Period (ns):       10.000
 Required Frequency (MHz):   100.000
-External Setup (ns):        -4.814
+External Setup (ns):        0.184
 Max Clock-To-Out (ns):      N/A
 
 Clock Domain:               MSS_CCC_0/I_RCOSC:CLKOUT
@@ -61,7 +61,7 @@ Frequency (MHz):            N/A
 Required Period (ns):       10.000
 Required Frequency (MHz):   100.000
 External Setup (ns):        N/A
-Max Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      9.082
 
                             Input to Output
 Max Delay (ns):             N/A
@@ -234,6 +234,16 @@ END SET Register to Register
 SET External Setup
 
 Path 1
+  From:                  FABINT
+  To:                    MSS_ADLIB_INST/U_CORE:FABINT
+  Delay (ns):            3.115
+  Slack (ns):
+  Arrival (ns):          3.115
+  Required (ns):
+  Setup (ns):            0.624
+  External Setup (ns):   0.184
+
+Path 2
   From:                  MSS_RESET_N
   To:                    MSS_ADLIB_INST/U_CORE:MSSRESETn
   Delay (ns):            0.937
@@ -245,22 +255,30 @@ Path 1
 
 
 Expanded Path 1
-  From: MSS_RESET_N
-  To: MSS_ADLIB_INST/U_CORE:MSSRESETn
+  From: FABINT
+  To: MSS_ADLIB_INST/U_CORE:FABINT
   data required time                             N/C
-  data arrival time                          -   0.937
+  data arrival time                          -   3.115
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
-  0.000                        MSS_RESET_N (r)
-               +     0.000          net: MSS_RESET_N
-  0.000                        MSS_RESET_0_MSS_RESET_N:PAD (r)
-               +     0.937          cell: ADLIB:IOPAD_IN
-  0.937                        MSS_RESET_0_MSS_RESET_N:Y (r)
-               +     0.000          net: MSS_RESET_0_MSS_RESET_N_Y
-  0.937                        MSS_ADLIB_INST/U_CORE:MSSRESETn (r)
+  0.000                        FABINT (f)
+               +     0.000          net: FABINT
+  0.000                        FABINT_pad/U0/U0:PAD (f)
+               +     0.670          cell: ADLIB:IOPAD_IN
+  0.670                        FABINT_pad/U0/U0:Y (f)
+               +     0.000          net: FABINT_pad/U0/NET1
+  0.670                        FABINT_pad/U0/U1:YIN (f)
+               +     0.036          cell: ADLIB:IOIN_IB
+  0.706                        FABINT_pad/U0/U1:Y (f)
+               +     1.809          net: FABINT_c
+  2.515                        MSS_ADLIB_INST/U_60:PIN5 (f)
+               +     0.190          cell: ADLIB:MSS_IF
+  2.705                        MSS_ADLIB_INST/U_60:PIN5INT (f)
+               +     0.410          net: MSS_ADLIB_INST/FABINTINT_NET
+  3.115                        MSS_ADLIB_INST/U_CORE:FABINT (f)
                                     
-  0.937                        data arrival time
+  3.115                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_gla0
@@ -268,10 +286,10 @@ Expanded Path 1
   N/C                          MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLAMSS (r)
                +     2.925          Clock generation
   N/C
-               +     0.630          net: MSS_ADLIB_INST_FCLK
+               +     0.630          net: GLA0
   N/C                          MSS_ADLIB_INST/U_CORE:FCLK (r)
-               -    -2.196          Library setup time: ADLIB:MSS_APB_IP
-  N/C                          MSS_ADLIB_INST/U_CORE:MSSRESETn
+               -     0.624          Library setup time: ADLIB:MSS_APB_IP
+  N/C                          MSS_ADLIB_INST/U_CORE:FABINT
 
 
 END SET External Setup
@@ -330,7 +348,55 @@ END SET External Setup
 
 SET Clock to Output
 
-No Path
+Path 1
+  From:                  MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To:                    FAB_CLK
+  Delay (ns):            9.082
+  Slack (ns):
+  Arrival (ns):          9.082
+  Required (ns):
+  Clock to Out (ns):     9.082
+
+
+Expanded Path 1
+  From: MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To: FAB_CLK
+  data required time                             N/C
+  data arrival time                          -   9.082
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        MSS_CCC_0/I_RCOSC:CLKOUT
+               +     0.000          Clock source
+  0.000                        MSS_CCC_0/I_RCOSC:CLKOUT (r)
+               +     0.000          net: MSS_CCC_0/N_CLKA_RCOSC
+  0.000                        MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA (r)
+               +     4.630          cell: ADLIB:MSS_CCC_IP
+  4.630                        MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (f)
+               +     0.000          net: MSS_CCC_0/I_MSSCCC/GLA_INT
+  4.630                        MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (f)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  4.630                        MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (f)
+               +     0.601          net: FAB_CLK
+  5.231                        FAB_CLK_pad/U0/U1:D (f)
+               +     0.600          cell: ADLIB:IOTRI_OB_EB
+  5.831                        FAB_CLK_pad/U0/U1:DOUT (f)
+               +     0.000          net: FAB_CLK_pad/U0/NET1
+  5.831                        FAB_CLK_pad/U0/U0:D (f)
+               +     3.251          cell: ADLIB:IOPAD_TRI
+  9.082                        FAB_CLK_pad/U0/U0:PAD (f)
+               +     0.000          net: FAB_CLK_c
+  9.082                        FAB_CLK (f)
+                                    
+  9.082                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          MSS_CCC_0/I_RCOSC:CLKOUT
+               +     0.000          Clock source
+  N/C                          MSS_CCC_0/I_RCOSC:CLKOUT (r)
+                                    
+  N/C                          FAB_CLK (f)
+
 
 END SET Clock to Output
 

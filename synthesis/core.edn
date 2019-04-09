@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2019 4 9 10 52 25)
+      (timeStamp 2019 4 9 17 21 6)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09M-SP1-5, mapper mapact, Build 2172R"))
      )
@@ -356,6 +356,35 @@
         (property is_pwr (integer 1))
        )
     )
+    (cell OUTBUF (cellType GENERIC)
+      (property preferred (string "true"))
+      (property pad_cell (string "true"))
+      (property dont_touch (string "false"))
+       (view prim (viewType NETLIST)
+         (interface
+           (port PAD (direction OUTPUT)
+           (property function (string "D"))
+           (property is_pad (string "true"))
+ )
+           (port D (direction INPUT))
+         )
+       )
+    )
+    (cell INBUF (cellType GENERIC)
+      (property preferred (string "true"))
+      (property pad_cell (string "true"))
+      (property dont_touch (string "false"))
+       (view prim (viewType NETLIST)
+         (interface
+           (port Y (direction OUTPUT)
+           (property function (string "PAD"))
+ )
+           (port PAD (direction INPUT)
+           (property is_pad (string "true"))
+ )
+         )
+       )
+    )
     (cell GND (cellType GENERIC)
       (property dont_touch (string "false"))
        (view prim (viewType NETLIST)
@@ -374,7 +403,8 @@
     (cell core_tmp_MSS_CCC_0_MSS_CCC (cellType GENERIC)
        (view netlist (viewType NETLIST)
          (interface
-           (port MSS_ADLIB_INST_FCLK (direction OUTPUT))
+           (port FAB_CLK (direction OUTPUT))
+           (port GLA0 (direction OUTPUT))
          )
          (contents
           (instance I_RCOSC (viewRef prim (cellRef RCOSC (libraryRef smartfusion)))
@@ -386,16 +416,17 @@
           )
           (instance VCC_i (viewRef prim (cellRef VCC (libraryRef smartfusion)))          )
           (instance GND_i (viewRef prim (cellRef GND (libraryRef smartfusion)))          )
+          (net GLA0 (joined
+           (portRef GLA0)
+           (portRef GLAMSS (instanceRef I_MSSCCC))
+          ))
+          (net FAB_CLK (joined
+           (portRef FAB_CLK)
+           (portRef GLA (instanceRef I_MSSCCC))
+          ))
           (net N_CLKA_RCOSC (joined
            (portRef CLKOUT (instanceRef I_RCOSC))
            (portRef CLKA (instanceRef I_MSSCCC))
-          ))
-          (net I_MSSCCC_GLA (joined
-           (portRef GLA (instanceRef I_MSSCCC))
-          ))
-          (net MSS_ADLIB_INST_FCLK (joined
-           (portRef GLAMSS (instanceRef I_MSSCCC))
-           (portRef MSS_ADLIB_INST_FCLK)
           ))
           (net I_MSSCCC_GLB (joined
            (portRef GLB (instanceRef I_MSSCCC))
@@ -515,9 +546,11 @@
     (cell core (cellType GENERIC)
        (view verilog (viewType NETLIST)
          (interface
+           (port FABINT (direction INPUT))
            (port MSS_RESET_N (direction INPUT))
            (port UART_0_RXD (direction INPUT))
            (port UART_1_RXD (direction INPUT))
+           (port FAB_CLK (direction OUTPUT))
            (port UART_0_TXD (direction OUTPUT))
            (port UART_1_TXD (direction OUTPUT))
            (port I2C_0_SCL (direction INOUT))
@@ -526,6 +559,10 @@
            (port I2C_1_SDA (direction INOUT))
          )
          (contents
+          (instance FAB_CLK_pad (viewRef prim (cellRef OUTBUF (libraryRef smartfusion)))
+          )
+          (instance FABINT_pad (viewRef prim (cellRef INBUF (libraryRef smartfusion)))
+          )
           (instance MSS_UART_1_TXD (viewRef prim (cellRef OUTBUF_MSS (libraryRef smartfusion)))
            (property is_instantiated (integer 1))
            (property ACT_CONFIG (integer 0))
@@ -1841,9 +1878,7 @@
            (portRef UART0CTSn (instanceRef MSS_ADLIB_INST))
            (portRef VRON (instanceRef MSS_ADLIB_INST))
            (portRef RXEV (instanceRef MSS_ADLIB_INST))
-           (portRef FABINT (instanceRef MSS_ADLIB_INST))
            (portRef CALIBIN (instanceRef MSS_ADLIB_INST))
-           (portRef SYNCCLKFDBK (instanceRef MSS_ADLIB_INST))
           ))
           (net MSS_ADLIB_INST_EMCCLK (joined
            (portRef EMCCLK (instanceRef MSS_ADLIB_INST))
@@ -1854,8 +1889,8 @@
            (portRef MSSPREADY (instanceRef MSS_ADLIB_INST))
            (portRef F2MRESETn (instanceRef MSS_ADLIB_INST))
           ))
-          (net MSS_ADLIB_INST_FCLK (joined
-           (portRef MSS_ADLIB_INST_FCLK (instanceRef MSS_CCC_0))
+          (net GLA0 (joined
+           (portRef GLA0 (instanceRef MSS_CCC_0))
            (portRef FCLK (instanceRef MSS_ADLIB_INST))
           ))
           (net MSS_I2C_0_SCL_Y (joined
@@ -1909,6 +1944,23 @@
           (net MSS_UART_1_TXD_D (joined
            (portRef UART1TXD (instanceRef MSS_ADLIB_INST))
            (portRef D (instanceRef MSS_UART_1_TXD))
+          ))
+          (net FABINT_c (joined
+           (portRef Y (instanceRef FABINT_pad))
+           (portRef FABINT (instanceRef MSS_ADLIB_INST))
+          ))
+          (net FABINT (joined
+           (portRef FABINT)
+           (portRef PAD (instanceRef FABINT_pad))
+          ))
+          (net (rename FAB_CLKZ0 "FAB_CLK") (joined
+           (portRef FAB_CLK (instanceRef MSS_CCC_0))
+           (portRef SYNCCLKFDBK (instanceRef MSS_ADLIB_INST))
+           (portRef D (instanceRef FAB_CLK_pad))
+          ))
+          (net (rename FAB_CLK "FAB_CLK_c") (joined
+           (portRef PAD (instanceRef FAB_CLK_pad))
+           (portRef FAB_CLK)
           ))
          )
         (property orig_inst_of (string "core"))

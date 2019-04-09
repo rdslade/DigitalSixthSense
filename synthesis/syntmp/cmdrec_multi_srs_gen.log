@@ -1,8 +1,8 @@
 C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  core  -multisrs  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synwork\core_comp.srs  -osyn  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synwork\core_mult.srs  -log  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synlog\core_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top core -multisrs ..\synwork\core_comp.srs -osyn ..\synwork\core_mult.srs -log ..\synlog\core_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\core_comp.srs|io:i|time:1554821543|size:23554|exec:0|csum:E940186CC50AF07A7CA6EF33AD96233E
-file:..\synwork\core_mult.srs|io:o|time:1554821544|size:21967|exec:0|csum:
-file:..\synlog\core_multi_srs_gen.srr|io:o|time:1554821544|size:522|exec:0|csum:
+file:..\synwork\core_comp.srs|io:i|time:1554844864|size:23522|exec:0|csum:B8C17087A76818D6CF7CFD1F378E4A3B
+file:..\synwork\core_mult.srs|io:o|time:1554844865|size:21950|exec:0|csum:
+file:..\synlog\core_multi_srs_gen.srr|io:o|time:1554844865|size:522|exec:0|csum:
 file:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1509029812|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
 file:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1509030084|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

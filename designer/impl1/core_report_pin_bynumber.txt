@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Tue Apr 09 10:52:43 2019 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Tue Apr 09 17:21:23 2019 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
@@ -23,7 +23,7 @@ A10                  GND                           Reserved
 A11                  Not Bonded                    Unconnected
 A12                  EMC_AB[7]/IO07PDB0V0          Unassigned
 A13                  GND                           Reserved
-A14                  EMC_AB[12]/IO10NDB0V0         Unassigned
+A14     FABINT       EMC_AB[12]/IO10NDB0V0         Assigned     LVTTL    ---                ---   None           No               ---   ---               No           No
 A15                  EMC_AB[13]/IO10PDB0V0         Unassigned
 A16                  GND                           Reserved
 A17                  Not Bonded                    Unconnected
@@ -291,7 +291,7 @@ L14                  GND                           Reserved
 L15                  VCC                           Reserved
 L16                  GND                           Reserved
 L17                  GNDQ                          Reserved
-L18                  GDA2/IO33NDB1V0               Special
+L18     FAB_CLK      GDA2/IO33NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
 L19                  VCCFPGAIOB1                   Reserved
 L20                  GDB1/IO30PDB1V0               Special
 L21                  GDB0/IO30NDB1V0               Special

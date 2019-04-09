@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>7</data>
+<data>10</data>
 <report_link name="more">
 <data>C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\synlog\report\core_fpga_mapper_notes.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>111MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1554821545</data>
+<data type="timestamp">1554844866</data>
 </info>
 </job_info>
 </job_run_status>

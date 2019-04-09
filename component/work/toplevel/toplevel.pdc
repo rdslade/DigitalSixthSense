@@ -3,7 +3,7 @@
 
 # Version: v11.9 11.9.0.4
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Tue Apr 09 10:49:15 2019 
+# Date generated: Tue Apr 09 17:20:22 2019 
 
 
 # 
@@ -46,67 +46,6 @@ define_group -name I2C_1
 # The I/Os in this section are unplaced or placed but are not locked
 # the other listed attributes have been applied
 # 
-
-set_io MSS_RESET_N    \
-    -iostd LVTTL      \
-    -DIRECTION INPUT
-
-
-# User Group I2C_0
-
-set_io I2C_0_SCL       \
-    -iostd LVTTL       \
-    -GROUP_NAME I2C_0  \
-    -DIRECTION INOUT
-
-
-set_io I2C_0_SDA       \
-    -iostd LVTTL       \
-    -GROUP_NAME I2C_0  \
-    -DIRECTION INOUT
-
-
-# User Group I2C_1
-
-set_io I2C_1_SCL       \
-    -iostd LVTTL       \
-    -GROUP_NAME I2C_1  \
-    -DIRECTION INOUT
-
-
-set_io I2C_1_SDA       \
-    -iostd LVTTL       \
-    -GROUP_NAME I2C_1  \
-    -DIRECTION INOUT
-
-
-# User Group UART_0
-
-set_io UART_0_RXD       \
-    -iostd LVTTL        \
-    -GROUP_NAME UART_0  \
-    -DIRECTION INPUT
-
-
-set_io UART_0_TXD       \
-    -iostd LVTTL        \
-    -GROUP_NAME UART_0  \
-    -DIRECTION OUTPUT
-
-
-# User Group UART_1
-
-set_io UART_1_RXD       \
-    -iostd LVTTL        \
-    -GROUP_NAME UART_1  \
-    -DIRECTION INPUT
-
-
-set_io UART_1_TXD       \
-    -iostd LVTTL        \
-    -GROUP_NAME UART_1  \
-    -DIRECTION OUTPUT
-
 
 
 #

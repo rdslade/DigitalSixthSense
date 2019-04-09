@@ -4,13 +4,15 @@ Report for cell core.verilog
                                cell       count     area    count*area
                     BIBUF_OPEND_MSS         4       0.0        0.0
                                 GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
                           INBUF_MSS         3       0.0        0.0
                             MSS_APB         1       0.0        0.0
+                             OUTBUF         1       0.0        0.0
                          OUTBUF_MSS         2       0.0        0.0
                                 VCC         1       0.0        0.0
           core_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
                             
-                         TOTAL             13                  0.0
+                         TOTAL             15                  0.0
 ----------------------------------------------------------------------
 Report for cell core_tmp_MSS_CCC_0_MSS_CCC.netlist
      Instance path:  MSS_CCC_0

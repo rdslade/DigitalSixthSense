@@ -12,7 +12,7 @@
     <project-description>
     </project-description>
     <location>C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core</location>
-    <state>SAVED ( Tue Apr 09 10:48:54 2019 )</state>
+    <state>SAVED ( Tue Apr 09 17:14:04 2019 )</state>
     <swide-toolchain>SoftConsole workspace generated to C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\SoftConsole</swide-toolchain>
   </project-settings>
   <site-map>
@@ -20,10 +20,23 @@
   <fileset>
     <name>HDL File(s)</name>
     <file>C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\component\work\toplevel\toplevel.v</file>
+    <file>C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\hdl\timer.v</file>
   </fileset>
   <io>
-    <port-name>I2C_0_SCL</port-name>
+    <port-name>I2C_1_SDA</port-name>
     <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>UART_1_RXD</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>FAB_CLK</port-name>
+    <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -34,32 +47,14 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>UART_0_RXD</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>UART_1_TXD</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
     <port-name>UART_0_TXD</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>MSS_RESET_N</port-name>
+    <port-name>UART_0_RXD</port-name>
     <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>I2C_1_SDA</port-name>
-    <direction>INOUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -70,7 +65,25 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>UART_1_RXD</port-name>
+    <port-name>MSS_RESET_N</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>I2C_0_SCL</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>UART_1_TXD</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>FABINT</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -129,6 +142,17 @@
     <core-desc>
     </core-desc>
     <core-name>MSS_ENVM_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>SmartFusionMSS</core-lib>
+    <core-intname>MSS_FIC</core-intname>
+    <core-ver>1.0.101</core-ver>
+    <core-desc>
+    </core-desc>
+    <core-name>MSS_FIC_0</core-name>
   </core>
   <core type="SpiritModule">
     <core-exttype>IP</core-exttype>

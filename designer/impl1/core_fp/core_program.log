@@ -20,7 +20,7 @@ Info: Adding FPGA Array data from file
       C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\designer\impl1\core.fdb.
 PDB file 'C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\designer\impl1\core_fp\core.pdb'
 has been loaded successfully.
-DESIGN : core;  CHECKSUM : 7226;  PDB_VERSION : 1.9
+DESIGN : core;  CHECKSUM : A3BD;  PDB_VERSION : 1.9
 The 'update_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
 programmer '79945' : Scan Chain...
@@ -31,13 +31,13 @@ programmer '79945' : Executing action PROGRAM
 programmer '79945' : EXPORT FSN[48] = 014b3e608c84
 programmer '79945' : Erase ...
 programmer '79945' : Completed erase
-programmer '79945' : EXPORT CHECKSUM[16] = 7226
+programmer '79945' : EXPORT CHECKSUM[16] = a3bd
 programmer '79945' : Programming FPGA Array
 programmer '79945' : Verifying FPGA Array
 programmer '79945' :         Verifying FPGA Array -- pass
 programmer '79945' : Program System Init and Boot Clients...
 programmer '79945' : Verify System Init and Boot Clients...
-programmer '79945' : Finished: Tue Apr 09 10:53:50 2019 (Elapsed time 00:00:34)
+programmer '79945' : Finished: Tue Apr 09 17:22:51 2019 (Elapsed time 00:00:34)
 programmer '79945' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o

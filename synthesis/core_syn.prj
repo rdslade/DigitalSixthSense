@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
 #--  Project file C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\core_syn.prj
-#--  Written on Tue Apr 09 10:52:25 2019
+#--  Written on Tue Apr 09 17:21:06 2019
 
 
 #project files
@@ -9,6 +9,7 @@ add_file -verilog "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/componen
 add_file -verilog "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core/mss_tshell.v"
 add_file -verilog "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core/MSS_CCC_0/core_tmp_MSS_CCC_0_MSS_CCC.v"
 add_file -verilog "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core/core.v"
+add_file -constraint "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core/mss_tshell_syn.sdc"
 
 
 

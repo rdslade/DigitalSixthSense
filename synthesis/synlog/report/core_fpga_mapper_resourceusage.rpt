@@ -16,14 +16,16 @@ Report for cell core.verilog
   IO Cell usage:
               cell count
    BIBUF_OPEND_MSS     4
+             INBUF     1
          INBUF_MSS     3
+            OUTBUF     1
         OUTBUF_MSS     2
                    -----
-             TOTAL     9
+             TOTAL    11
 
 
 Core Cells         : 0 of 4608 (0%)
-IO Cells           : 9
+IO Cells           : 11
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)
