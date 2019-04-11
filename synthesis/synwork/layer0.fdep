@@ -1,20 +1,20 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\sradha\\Desktop\\new373Proj\\DigitalSixthSense\\synthesis\\synwork\\core_comp.srs|-top|core|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\sradha\\Desktop\\new373Proj\\DigitalSixthSense\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\rdslade\\Desktop\\373final\\synthesis\\synwork\\core_comp.srs|-top|core|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\rdslade\\Desktop\\373final\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509358336
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v":1509027488
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1509029528
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1509029528
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1509029528
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1509029528
-#CUR:"C:\\Users\\sradha\\Desktop\\new373Proj\\DigitalSixthSense\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.v":1536348874
-#CUR:"C:\\Users\\sradha\\Desktop\\new373Proj\\DigitalSixthSense\\component\\work\\core\\mss_tshell.v":1554844442
-#CUR:"C:\\Users\\sradha\\Desktop\\new373Proj\\DigitalSixthSense\\component\\work\\core\\MSS_CCC_0\\core_tmp_MSS_CCC_0_MSS_CCC.v":1554844441
-#CUR:"C:\\Users\\sradha\\Desktop\\new373Proj\\DigitalSixthSense\\component\\work\\core\\core.v":1554844445
+#CUR:"C:\\Users\\rdslade\\Desktop\\373final\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.v":1536348874
+#CUR:"C:\\Users\\rdslade\\Desktop\\373final\\component\\work\\core\\mss_tshell.v":1555008251
+#CUR:"C:\\Users\\rdslade\\Desktop\\373final\\component\\work\\core\\MSS_CCC_0\\core_tmp_MSS_CCC_0_MSS_CCC.v":1555008250
+#CUR:"C:\\Users\\rdslade\\Desktop\\373final\\component\\work\\core\\core.v":1555008254
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" verilog
-1			"C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\component\work\core\mss_tshell.v" verilog
-2			"C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\component\work\core\MSS_CCC_0\core_tmp_MSS_CCC_0_MSS_CCC.v" verilog
-3			"C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\component\work\core\core.v" verilog
+0			"C:\Users\rdslade\Desktop\373final\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" verilog
+1			"C:\Users\rdslade\Desktop\373final\component\work\core\mss_tshell.v" verilog
+2			"C:\Users\rdslade\Desktop\373final\component\work\core\MSS_CCC_0\core_tmp_MSS_CCC_0_MSS_CCC.v" verilog
+3			"C:\Users\rdslade\Desktop\373final\component\work\core\core.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1

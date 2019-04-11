@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Apr 09 17:20:22 2019
+// Created by SmartDesign Thu Apr 11 14:51:12 2019
 // Version: v11.9 11.9.0.4
 //////////////////////////////////////////////////////////////////////
 
@@ -12,6 +12,7 @@ module toplevel(
     UART_0_RXD,
     UART_1_RXD,
     // Outputs
+    FAB_INT_OUT,
     UART_0_TXD,
     UART_1_TXD,
     // Inouts
@@ -30,6 +31,7 @@ input  UART_1_RXD;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
+output FAB_INT_OUT;
 output UART_0_TXD;
 output UART_1_TXD;
 //--------------------------------------------------------------------
@@ -43,25 +45,28 @@ inout  I2C_1_SDA;
 // Nets
 //--------------------------------------------------------------------
 wire   core_0_FAB_CLK;
+wire   FAB_INT_OUT_net_0;
 wire   I2C_0_SCL;
 wire   I2C_0_SDA;
 wire   I2C_1_SCL;
 wire   I2C_1_SDA;
 wire   MSS_RESET_N;
-wire   timer_0_FAB_INT_OUT;
 wire   UART_0_RXD;
 wire   UART_0_TXD_net_0;
 wire   UART_1_RXD;
 wire   UART_1_TXD_net_0;
 wire   UART_1_TXD_net_1;
 wire   UART_0_TXD_net_1;
+wire   FAB_INT_OUT_net_1;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
-assign UART_1_TXD_net_1 = UART_1_TXD_net_0;
-assign UART_1_TXD       = UART_1_TXD_net_1;
-assign UART_0_TXD_net_1 = UART_0_TXD_net_0;
-assign UART_0_TXD       = UART_0_TXD_net_1;
+assign UART_1_TXD_net_1  = UART_1_TXD_net_0;
+assign UART_1_TXD        = UART_1_TXD_net_1;
+assign UART_0_TXD_net_1  = UART_0_TXD_net_0;
+assign UART_0_TXD        = UART_0_TXD_net_1;
+assign FAB_INT_OUT_net_1 = FAB_INT_OUT_net_0;
+assign FAB_INT_OUT       = FAB_INT_OUT_net_1;
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -71,7 +76,7 @@ core core_0(
         .UART_0_RXD  ( UART_0_RXD ),
         .UART_1_RXD  ( UART_1_RXD ),
         .MSS_RESET_N ( MSS_RESET_N ),
-        .FABINT      ( timer_0_FAB_INT_OUT ),
+        .FABINT      ( FAB_INT_OUT_net_0 ),
         // Outputs
         .UART_0_TXD  ( UART_0_TXD_net_0 ),
         .UART_1_TXD  ( UART_1_TXD_net_0 ),
@@ -88,7 +93,7 @@ timer timer_0(
         // Inputs
         .clk         ( core_0_FAB_CLK ),
         // Outputs
-        .FAB_INT_OUT ( timer_0_FAB_INT_OUT ) 
+        .FAB_INT_OUT ( FAB_INT_OUT_net_0 ) 
         );
 
 

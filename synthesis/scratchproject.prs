@@ -1,18 +1,18 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis\scratchproject.prs
+#--  Project file C:\Users\rdslade\Desktop\373final\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
-add_file -verilog "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core/mss_tshell.v"
-add_file -verilog "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core/MSS_CCC_0/core_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core/core.v"
-add_file -constraint "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/core/mss_tshell_syn.sdc"
+add_file -verilog "C:/Users/rdslade/Desktop/373final/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
+add_file -verilog "C:/Users/rdslade/Desktop/373final/component/work/core/mss_tshell.v"
+add_file -verilog "C:/Users/rdslade/Desktop/373final/component/work/core/MSS_CCC_0/core_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/rdslade/Desktop/373final/component/work/core/core.v"
+add_file -constraint "C:/Users/rdslade/Desktop/373final/component/work/core/mss_tshell_syn.sdc"
 
 
 
 #implementation: "synthesis"
-impl -add C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense\synthesis -type fpga
+impl -add C:\Users\rdslade\Desktop\373final\synthesis -type fpga
 
 #
 #implementation attributes
@@ -74,5 +74,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/synthesis/core.edn"
+project -result_file "C:/Users/rdslade/Desktop/373final/synthesis/core.edn"
 impl -active "synthesis"

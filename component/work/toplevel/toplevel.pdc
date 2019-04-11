@@ -3,7 +3,7 @@
 
 # Version: v11.9 11.9.0.4
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Tue Apr 09 17:20:22 2019 
+# Date generated: Thu Apr 11 14:51:11 2019 
 
 
 # 
@@ -47,6 +47,51 @@ define_group -name I2C_1
 # the other listed attributes have been applied
 # 
 
+set_io I2C_0_SCL      \
+    -iostd LVTTL      \
+    -DIRECTION INOUT
+
+
+set_io I2C_0_SDA      \
+    -iostd LVTTL      \
+    -DIRECTION INOUT
+
+
+set_io I2C_1_SCL      \
+    -iostd LVTTL      \
+    -DIRECTION INOUT
+
+
+set_io I2C_1_SDA      \
+    -iostd LVTTL      \
+    -DIRECTION INOUT
+
+
+set_io MSS_RESET_N    \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io UART_0_RXD     \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io UART_0_TXD      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io UART_1_RXD     \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io UART_1_TXD      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
 
 #
 # Non IO constraints
@@ -57,12 +102,3 @@ define_group -name I2C_1
 # Old IO constraints, commented out for reference
 #
 
-# set_io MSS_RESET_N -iostd LVTTL -DIRECTION INPUT 
-# set_io I2C_0_SCL -iostd LVTTL -GROUP_NAME I2C_0 -DIRECTION INOUT 
-# set_io I2C_0_SDA -iostd LVTTL -GROUP_NAME I2C_0 -DIRECTION INOUT 
-# set_io I2C_1_SCL -iostd LVTTL -GROUP_NAME I2C_1 -DIRECTION INOUT 
-# set_io I2C_1_SDA -iostd LVTTL -GROUP_NAME I2C_1 -DIRECTION INOUT 
-# set_io UART_0_RXD -iostd LVTTL -GROUP_NAME UART_0 -DIRECTION INPUT 
-# set_io UART_0_TXD -iostd LVTTL -GROUP_NAME UART_0 -DIRECTION OUTPUT 
-# set_io UART_1_RXD -iostd LVTTL -GROUP_NAME UART_1 -DIRECTION INPUT 
-# set_io UART_1_TXD -iostd LVTTL -GROUP_NAME UART_1 -DIRECTION OUTPUT 

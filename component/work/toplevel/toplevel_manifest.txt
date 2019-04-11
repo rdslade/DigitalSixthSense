@@ -1,11 +1,11 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
 
-Date      :  Tue Apr 09 17:20:22 2019
-Project   :  C:\Users\sradha\Desktop\new373Proj\DigitalSixthSense
+Date      :  Thu Apr 11 14:51:12 2019
+Project   :  C:\Users\rdslade\Desktop\373final
 Component :  toplevel
 Family    :  SmartFusion
 
 
 HDL source files for all Synthesis and Simulation tools:
-    C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/component/work/toplevel/toplevel.v
+    C:/Users/rdslade/Desktop/373final/component/work/toplevel/toplevel.v
 

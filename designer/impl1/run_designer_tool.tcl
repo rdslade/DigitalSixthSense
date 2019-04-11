@@ -1,7 +1,4 @@
-# (OPEN DESIGN)
-
-open_design "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/designer/impl1/core.adb"
-export -format "FDB" {C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/designer/impl1/core.fdb}
-
-save_design "C:/Users/sradha/Desktop/new373Proj/DigitalSixthSense/designer/impl1/core.adb"
+set_defvar "IDE_DESIGNERVIEW_ROOTDIR" {C:\Users\rdslade\Desktop\373final\designer}
+open_design core.adb
+open_tool mvn_ioedit
 
